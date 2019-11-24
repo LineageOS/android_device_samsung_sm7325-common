@@ -1,0 +1,17 @@
+<<<<<<< PATCH SET (8e8011fe98bb1f059711387879ffa79ecdb78df2 sm7325-common: Add reboot to fastbootd)
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Defines the actions shown in advanced reboot submenu -->
+    <string-array name="config_restartActionsList">
+        <item>restart</item>
+        <item>restart_recovery</item>
+        <item>restart_fastboot</item>
+        <item>restart_download</item>
+     </string-array>
+</resources>
+=======
+>>>>>>> BASE      (b4ca745e492fa6e1b99a4a1bc4acedb2662cca80 sm7325-common: fastbootd is now enabled by default)
