@@ -259,6 +259,8 @@ Return<RequestStatus> BiometricsFingerprint::enroll(const hidl_array<uint8_t, 69
 
 #ifdef REQUEST_FORCE_CALIBRATE
     request(SEM_REQUEST_FORCE_CBGE, 1);
+    request(SEM_REQUEST_VENDOR_EGIS_CALIBRATION, 1);
+    request(SEM_REQUEST_OPTICAL_CALIBRATION, 1);
 #endif
 
     return ErrorFilter(ss_fingerprint_enroll(authToken, gid, timeoutSec));
