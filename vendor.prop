@@ -202,6 +202,10 @@ ro.telephony.default_cdma_sub=0
 ro.telephony.default_network=26,26
 ro.radio.noril=no
 
+# Surface Flinger
+ro.sf.blurs_are_expensive=1
+ro.surface_flinger.supports_background_blur=1
+
 # USB
 vendor.usb.diag.func.name=ffs
 vendor.usb.use_ffs_mtp=1
