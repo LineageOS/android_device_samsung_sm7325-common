@@ -34,3 +34,6 @@ set_prop(hal_fingerprint_default, vendor_fingerprint_prop)
 # /sys/devices/platform/samsung_mobile_device/samsung_mobile_device/
 allow hal_fingerprint_default sysfs_battery:dir search;
 allow hal_fingerprint_default sysfs_battery:file { open read };
+
+# /dev/uinput
+allow hal_fingerprint_default uhid_device:chr_file rw_file_perms;
