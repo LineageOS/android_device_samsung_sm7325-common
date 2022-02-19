@@ -1053,7 +1053,6 @@ vendor/etc/sensors/proto/sns_wake_up_motion.proto
 vendor/etc/sensors/proto/sns_wrist_tilt_gesture.proto
 vendor/etc/sensors/proto/std_ss_algo.proto
 vendor/etc/sensors/sns_reg_config
-vendor/etc/sensors/hals.conf
 vendor/lib/libsensorslog.so
 vendor/lib/libsns_fastRPC_util.so
 vendor/lib/libsnsapi.so
