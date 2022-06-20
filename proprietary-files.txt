@@ -886,7 +886,7 @@ vendor/lib64/libdsi_netctrl.so
 vendor/lib/libqcmaputils.so
 vendor/lib64/libqcmaputils.so
 vendor/lib64/libengmode_client.so
-vendor/lib64/libsec-ril.so
+vendor/lib64/libsec-ril.so|b184a495813888597ca64dcdb878d0cdb9ed1d6b
 vendor/lib/libsecril-client.so
 vendor/lib64/libsecril-client.so
 vendor/lib64/libril_sem.so
