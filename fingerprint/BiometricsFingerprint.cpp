@@ -125,6 +125,8 @@ Return<bool> BiometricsFingerprint::isUdfps(uint32_t) {
 }
 
 Return<void> BiometricsFingerprint::onFingerDown(uint32_t, uint32_t, float, float) {
+    property_set("vendor.finger.down", "1");
+
     std::thread([this]() {
         std::this_thread::sleep_for(std::chrono::milliseconds(35));
         set(HBM_PATH, "331");
