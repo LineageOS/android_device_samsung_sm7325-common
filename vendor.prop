@@ -140,6 +140,7 @@ vendor.display.disable_excl_rect_partial_fb=1
 vendor.display.comp_mask=0
 vendor.display.enable_optimize_refresh=1
 vendor.display.use_smooth_motion=1
+debug.sf.auto_latch_unsignaled=0
 debug.sf.enable_advanced_sf_phase_offset=1
 vendor.display.disable_ext_anim=1
 debug.sf.enable_gl_backpressure=1
