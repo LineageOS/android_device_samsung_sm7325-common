@@ -30,6 +30,7 @@ genfscon sysfs /devices/platform/samsung_mobile_device/samsung_mobile_device:sec
 genfscon sysfs /devices/platform/soc/98c000.i2c/i2c-21/21-0049/                                             u:object_r:sysfs_battery:s0
 genfscon sysfs /devices/platform/samsung_mobile_device/samsung_mobile_device:fixed_regulator@1/             u:object_r:sysfs_battery:s0
 genfscon sysfs /devices/platform/soc/soc:battery/power_supply/battery/lcd                                   u:object_r:sysfs_battery_writable:s0
+genfscon sysfs /devices/platform/samsung_mobile_device/samsung_mobile_device:battery/power_supply/battery/batt_slate_mode                       u:object_r:sysfs_battery_writable:s0
 genfscon sysfs /devices/platform/soc/soc:sec-direct-charger/power_supply/                                   u:object_r:sysfs_battery:s0
 genfscon sysfs /devices/platform/soc/890000.i2c/i2c-22/22-0049/                                             u:object_r:sysfs_battery:s0
 genfscon sysfs /devices/platform/soc/890000.i2c/i2c-22/22-0057/                                             u:object_r:sysfs_battery:s0
