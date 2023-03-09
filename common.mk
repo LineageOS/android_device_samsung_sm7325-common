@@ -268,7 +268,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libnfc-nci \
     libnfc_nci_jni \
-    NfcNci \
     Tag
 
 ifeq ($(TARGET_HAVE_SEC_NFC),true)
