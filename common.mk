@@ -37,7 +37,6 @@ PRODUCT_PACKAGES += \
     init.fingerprint.rc \
     init.nfc.samsung.rc \
     init.qcom.rc \
-    init.qcom.usb.rc \
     init.qti.kernel.rc \
     init.qti.media.rc \
     init.ramplus.rc \
@@ -66,8 +65,7 @@ PRODUCT_PACKAGES += \
     init.qti.media.sh \
     vendor_modprobe.sh \
     init.qti.chg_policy.sh \
-    init.qti.qcv.sh \
-    init.qcom.usb.sh
+    init.qti.qcv.sh
 
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom \
@@ -360,7 +358,11 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.3-service-qti
+    android.hardware.usb@1.3-service-qti \
+    init.qcom.usb.rc \
+    init.qcom.usb.sh
+
+PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/usb/etc
 
 # Tether
 PRODUCT_PACKAGES += \
