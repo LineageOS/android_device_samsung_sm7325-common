@@ -86,6 +86,7 @@ vendor/lib/libspatializerparamstorage.so
 vendor/lib64/libspatializerparamstorage.so
 vendor/lib/spatializer-aidl-V1-cpp.so
 vendor/lib64/spatializer-aidl-V1-cpp.so
+vendor/etc/audio_tuning_mixer.txt
 
 # Soundtrigger
 vendor/lib/hw/sound_trigger.primary.lahaina.so
