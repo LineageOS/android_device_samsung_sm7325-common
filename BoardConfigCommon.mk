@@ -162,6 +162,9 @@ BOARD_USES_ALSA_AUDIO := true
 # Keymaster
 TARGET_KEYMASTER_VARIANT := samsung
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):libinit_samsung_sm7325
+
 # HIDL manifests
 DEVICE_MANIFEST_SKUS := yupik
 DEVICE_MANIFEST_YUPIK_FILES += $(COMMON_PATH)/configs/manifest_yupik.xml
