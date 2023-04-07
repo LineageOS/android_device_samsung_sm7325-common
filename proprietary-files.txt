@@ -589,9 +589,7 @@ vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 # Graphics
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/etc/init/vendor.display.color@1.0-service.rc
-vendor/bin/qdcmss
 vendor/bin/ppd
-# vendor/etc/init/qdcmss.rc
 vendor/lib/libqrtrclient.so
 vendor/lib64/libqrtrclient.so
 vendor/lib/vendor.display.color@1.0.so
@@ -714,13 +712,6 @@ vendor/lib64/libqti-iopd-client.so
 
 # IPA
 vendor/etc/init/ipa_fws.rc
-vendor/firmware/ipa_fws.b00
-vendor/firmware/ipa_fws.b01
-vendor/firmware/ipa_fws.b02
-vendor/firmware/ipa_fws.b03
-vendor/firmware/ipa_fws.b04
-vendor/firmware/ipa_fws.elf
-vendor/firmware/ipa_fws.mdt
 vendor/firmware/yupik_ipa_fws.b00
 vendor/firmware/yupik_ipa_fws.b01
 vendor/firmware/yupik_ipa_fws.b02
@@ -1144,12 +1135,6 @@ vendor/lib64/libsecureui_svcsock.so
 vendor/lib64/libssd.so
 vendor/lib64/libspl.so
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
-
-# Trusted User Interface (TUI)
-vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
-# vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
-vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
 # Wifi
 vendor/bin/cnss-daemon
