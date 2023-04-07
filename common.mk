@@ -369,6 +369,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/usb/etc
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator-service.samsung-sm7325
+
 # Tether
 PRODUCT_PACKAGES += \
     ipacm \
