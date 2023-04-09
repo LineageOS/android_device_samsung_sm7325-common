@@ -872,7 +872,9 @@ vendor/bin/adpl
 vendor/bin/ipacm-diag
 vendor/bin/tftp_server
 vendor/bin/rmt_storage
+vendor/etc/init/netmgrd.rc
 vendor/etc/data/dsi_config.xml
+vendor/etc/data/netmgr_config.xml
 vendor/etc/locale/plmn_delta_eng.bin
 vendor/etc/plmn_delta_hktw.bin
 vendor/etc/plmn_se13.bin
