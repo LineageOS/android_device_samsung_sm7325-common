@@ -729,6 +729,31 @@ vendor/lib64/libreffeature.so
 vendor/lib64/liblearningmodule.so
 vendor/lib64/libmeters.so
 
+# Media
+vendor/bin/hw/vendor.qti.media.c2@1.0-service
+vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
+vendor/etc/video_system_specs.json
+vendor/etc/media/video_system_specs.json
+vendor/etc/media_yupik_iot/video_system_specs.json
+vendor/etc/media_yupik_v0/video_system_specs.json
+vendor/etc/media_yupik_v1/video_system_specs.json
+vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy
+vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy
+vendor/lib/libqcodec2_base.so
+vendor/lib64/libqcodec2_base.so
+vendor/lib/libqcodec2_basecodec.so
+vendor/lib64/libqcodec2_basecodec.so
+vendor/lib/libqcodec2_core.so
+vendor/lib64/libqcodec2_core.so
+vendor/lib/libqcodec2_hooks.so
+vendor/lib64/libqcodec2_hooks.so
+vendor/lib/libqcodec2_platform.so
+vendor/lib64/libqcodec2_platform.so
+vendor/lib/libqcodec2_utils.so
+vendor/lib64/libqcodec2_utils.so
+vendor/lib/libqcodec2_v4l2codec.so
+vendor/lib64/libqcodec2_v4l2codec.so
+
 # NFC
 vendor/etc/nfc/sec_s3nrn4v_hwreg.bin
 vendor/etc/nfc/sec_s3nrn4v_swreg.bin
