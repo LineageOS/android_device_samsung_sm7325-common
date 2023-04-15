@@ -654,6 +654,14 @@ vendor/lib/libllvm-qcom.so
 vendor/lib64/libllvm-qcom.so
 vendor/lib/libqseed3.so
 vendor/lib64/libqseed3.so
+vendor/lib/libsnapdragoncolor-manager.so
+vendor/lib64/libsnapdragoncolor-manager.so
+vendor/lib/libsnapdragoncolor-qdcm.so
+vendor/lib64/libsnapdragoncolor-qdcm.so
+vendor/lib/librcmask.so
+vendor/lib64/librcmask.so
+vendor/lib/libqdcm-mode-parser.so
+vendor/lib64/libqdcm-mode-parser.so
 vendor/etc/snapdragon_color_libs_config.xml
 vendor/etc/display/advanced_sf_offsets.xml
 vendor/etc/display/DPU7__.xml
