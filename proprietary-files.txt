@@ -595,7 +595,6 @@ vendor/bin/hw/vendor.display.color@1.0-service
 vendor/etc/init/vendor.display.color@1.0-service.rc
 vendor/bin/ppd
 vendor/lib/libqrtrclient.so
-vendor/lib64/libqrtrclient.so
 vendor/lib/vendor.display.color@1.0.so
 vendor/lib/vendor.display.color@1.1.so
 vendor/lib/vendor.display.color@1.2.so
@@ -626,11 +625,7 @@ vendor/lib/libsdmextension.so
 vendor/lib/libdisplayskuutils.so
 vendor/lib/libtinyxml2_1.so
 vendor/lib64/libdisplayqos.so
-vendor/lib64/libsdm-color.so
 vendor/lib64/libsdm-colormgr-algo.so
-vendor/lib64/libsdm-diag.so
-vendor/lib64/libsdmextension.so
-vendor/lib64/libdisplayskuutils.so
 vendor/lib64/libtinyxml2_1.so
 vendor/lib/libC2D2.so
 vendor/lib64/libC2D2.so
@@ -645,7 +640,6 @@ vendor/lib64/libc2d30_bltlib.so
 vendor/lib/libdisp-aba.so
 vendor/lib64/libdisp-aba.so
 vendor/lib/libdpps.so
-vendor/lib64/libdpps.so
 vendor/lib/libgpudataproducer.so
 vendor/lib64/libgpudataproducer.so
 vendor/lib/libllvm-qcom.so
@@ -657,7 +651,6 @@ vendor/lib64/libsnapdragoncolor-manager.so
 vendor/lib/libsnapdragoncolor-qdcm.so
 vendor/lib64/libsnapdragoncolor-qdcm.so
 vendor/lib/librcmask.so
-vendor/lib64/librcmask.so
 vendor/lib/libqdcm-mode-parser.so
 vendor/lib64/libqdcm-mode-parser.so
 vendor/etc/snapdragon_color_libs_config.xml
@@ -684,6 +677,15 @@ vendor/lib/egl/libGLESv2_adreno.so
 vendor/lib64/egl/libGLESv2_adreno.so
 vendor/lib/libadreno_utils.so
 vendor/lib64/libadreno_utils.so
+
+# Display - from XQ-BC72 61.2.A.0.410
+vendor/lib64/libdpps.so|9caf32a0d3636af579ea6e1a6c5638a16ed19444
+vendor/lib64/librcmask.so|8feb479fe590b6aec282ce3342574d9113f80516
+vendor/lib64/libsdm-diag.so|393c9ad3e3ad3210515900627f65bf6e3633226e
+vendor/lib64/libsdmextension.so|4c32026ff8cb1270081881d4def7a2ad05ad0b80
+vendor/lib64/libdisplayskuutils.so|37e4d543c696a5c9f0c1b44fd7299a0bc7dba5e8
+vendor/lib64/libsdm-color.so|a83576915a146492d430711e273b9af9a95d4fed
+vendor/lib64/libqrtrclient.so|2474a708487c269c04afffbf755fff1686c6011c
 
 # Graphics firmware
 vendor/firmware/a660_gmu.bin
