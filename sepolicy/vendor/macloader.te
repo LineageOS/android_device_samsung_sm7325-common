@@ -45,3 +45,5 @@ set_prop(macloader, vendor_wifi_prop)
 
 # Don't set ro.vendor.wifi.sap.interface
 dontaudit macloader vendor_default_prop:property_service set;
+
+allow macloader vendor_file:system module_load;

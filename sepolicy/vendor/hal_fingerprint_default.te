@@ -30,3 +30,7 @@ allow hal_fingerprint_default sysfs_touchscreen_writable:file { write open getat
 
 # vendor.finger.down
 set_prop(hal_fingerprint_default, vendor_fingerprint_prop)
+
+# /sys/devices/platform/samsung_mobile_device/samsung_mobile_device/
+allow hal_fingerprint_default sysfs_battery:dir search;
+allow hal_fingerprint_default sysfs_battery:file { open read };
