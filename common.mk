@@ -401,7 +401,7 @@ PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/usb/etc
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator-service.samsung-sm7325
+    android.hardware.vibrator-service.samsung
 
 # Tether
 PRODUCT_PACKAGES += \
