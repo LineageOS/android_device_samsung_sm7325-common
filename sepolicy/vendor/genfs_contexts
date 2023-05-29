@@ -15,6 +15,7 @@ genfscon sysfs /devices/virtual/tas25xx/                                        
 genfscon sysfs /devices/virtual/mdnie                                                                       u:object_r:sysfs_mdnie_writable:s0
 genfscon sysfs /devices/virtual/input/                                                                      u:object_r:sysfs_input:s0
 genfscon sysfs /devices/platform/soc/a84000.i2c/i2c-23/23-0049/input/                                       u:object_r:sysfs_power_writable:s0
+genfscon sysfs /devices/platform/soc/a94000.i2c/i2c-24/24-004b/input/                                       u:object_r:sysfs_power_writable:s0
 genfscon sysfs /devices/platform/soc/a94000.i2c/i2c-25/25-0049/input/                                       u:object_r:sysfs_power_writable:s0
 genfscon sysfs /module/qpnp_power_on/parameters/                                                            u:object_r:sysfs_power_writable:s0
 genfscon sysfs /module/lpm_levels/parameters/                                                               u:object_r:sysfs_power_writable:s0
@@ -46,6 +47,11 @@ genfscon sysfs /devices/platform/soc/soc:qcom,ipa_fws/subsys0/wakeup/           
 genfscon sysfs /devices/platform/samsung_mobile_device/samsung_mobile_device:hall_ic/wakeup/                u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/0.etspi,et7xx/wakeup/                                                  u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/soc:qcom,kgsl-hyp/subsys1/wakeup/                                      u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/samsung_mobile_device/samsung_mobile_device:etspi-spi@0/wakeup/            u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/a80000.i2c/i2c-22/22-0033/wakeup/                                      u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/soc:i2c@17/i2c-19/19-0021/wakeup/                                      u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/soc:i2c@17/i2c-19/19-0020/wakeup/                                      u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/a94000.i2c/i2c-24/24-004b/wakeup/                                      u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/sensors/                                                                    u:object_r:sysfs_sensors:s0
 genfscon sysfs /devices/virtual/fingerprint/fingerprint                                                     u:object_r:sysfs_fingerprint:s0
 genfscon sysfs /devices/virtual/sec/hall_ic/                                                                u:object_r:sysfs_sensors:s0

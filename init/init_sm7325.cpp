@@ -13,8 +13,7 @@
 #include "init_sm7325.h"
 
 #define MODEL_NAME_LEN 5
-#define BUILD_NAME_LEN 8
-#define CODENAME_LEN   9
+#define MODEL_NAME_LEN_M52 6
 
 static void property_override(char const prop[], char const value[]) {
     prop_info *pi;
@@ -37,8 +36,12 @@ void property_override_quad(char const system_prop[], char const vendor_prop[], 
 void vendor_load_properties()
 {
     const std::string bootloader = android::base::GetProperty("ro.bootloader", "");
-    const std::string bl_model = bootloader.substr(0, MODEL_NAME_LEN);
-    const std::string bl_build = bootloader.substr(MODEL_NAME_LEN);
+    std::string bl_model;
+    if (bootloader.substr(0, MODEL_NAME_LEN_M52) == "M526BR") {
+        bl_model = bootloader.substr(0, MODEL_NAME_LEN_M52);
+    } else {
+        bl_model = bootloader.substr(0, MODEL_NAME_LEN);
+    }
 
     std::string model;
     std::string device;

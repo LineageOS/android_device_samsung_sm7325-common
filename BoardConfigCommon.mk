@@ -86,7 +86,6 @@ BOARD_MKBOOTIMG_ARGS += --board $(BOARD_NAME)
 BOARD_MKBOOTIMG_ARGS += --kernel_offset $(BOARD_KERNEL_OFFSET)
 
 # Kernel modules
-BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(COMMON_PATH)/modules.load))
 TARGET_MODULE_ALIASES += wlan.ko:qca_cld3_wlan.ko
 
 # Additional root folders
@@ -160,11 +159,6 @@ BOARD_USES_ALSA_AUDIO := true
 # Keymaster
 TARGET_KEYMASTER_VARIANT := samsung
 
-# UDFPS
-TARGET_SURFACEFLINGER_UDFPS_LIB := //$(COMMON_PATH):libudfps_extension.samsung-sm7325
-TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x2000U | 0x400000000LL
-SOONG_CONFIG_qtidisplay_udfps := true
-
 # Init
 TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):libinit_samsung_sm7325
 
@@ -193,9 +187,6 @@ TARGET_USES_GRALLOC4 := true
 TARGET_USES_HWC2 := true
 TARGET_USES_ION := true
 
-# Security patch
-VENDOR_SECURITY_PATCH := 2023-03-01
-
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
@@ -207,7 +198,6 @@ BOARD_RECOVERY_MKBOOTIMG_ARGS += --header_version 2
 TARGET_USES_MKE2FS := true
 BOARD_USES_FULL_RECOVERY_IMAGE := true
 TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/recovery/root/fstab.qcom
-TARGET_BOARD_INFO_FILE := $(COMMON_PATH)/board-info.txt
 
 # Releasetools
 TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_samsung_sm7325

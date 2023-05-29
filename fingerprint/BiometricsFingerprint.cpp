@@ -125,22 +125,26 @@ Return<bool> BiometricsFingerprint::isUdfps(uint32_t) {
 }
 
 Return<void> BiometricsFingerprint::onFingerDown(uint32_t, uint32_t, float, float) {
-    property_set("vendor.finger.down", "1");
+    if (mIsUdfps) {
+        property_set("vendor.finger.down", "1");
 
-    std::thread([this]() {
-        std::this_thread::sleep_for(std::chrono::milliseconds(35));
-        set(HBM_PATH, "331");
-    }).detach();
+        std::thread([this]() {
+            std::this_thread::sleep_for(std::chrono::milliseconds(35));
+            set(HBM_PATH, "331");
+        }).detach();
 
-    request(SEM_REQUEST_TOUCH_EVENT, FINGERPRINT_REQUEST_SESSION_OPEN);
+        request(SEM_REQUEST_TOUCH_EVENT, FINGERPRINT_REQUEST_SESSION_OPEN);
+    }
 
     return Void();
 }
 
 Return<void> BiometricsFingerprint::onFingerUp() {
-    request(SEM_REQUEST_TOUCH_EVENT, FINGERPRINT_REQUEST_RESUME);
+    if (mIsUdfps) {
+        request(SEM_REQUEST_TOUCH_EVENT, FINGERPRINT_REQUEST_RESUME);
 
-    set(HBM_PATH, "0");
+        set(HBM_PATH, "0");
+    }
 
     return Void();
 }
@@ -261,7 +265,9 @@ Return<RequestStatus> BiometricsFingerprint::enroll(const hidl_array<uint8_t, 69
 }
 
 Return<RequestStatus> BiometricsFingerprint::postEnroll() {
-    getInstance()->onFingerUp();
+    if (mIsUdfps) {
+        getInstance()->onFingerUp();
+    }
     return ErrorFilter(ss_fingerprint_post_enroll());
 }
 
@@ -271,7 +277,9 @@ Return<uint64_t> BiometricsFingerprint::getAuthenticatorId() {
 
 Return<RequestStatus> BiometricsFingerprint::cancel() {
     int32_t ret = ss_fingerprint_cancel();
-    getInstance()->onFingerUp();
+    if (mIsUdfps) {
+        getInstance()->onFingerUp();
+    }
 
 #ifdef CALL_NOTIFY_ON_CANCEL
     if (ret == 0) {
@@ -388,7 +396,9 @@ void BiometricsFingerprint::notify(const fingerprint_msg_t* msg) {
             if (!thisPtr->mClientCallback->onError(devId, result, vendorCode).isOk()) {
                 LOG(ERROR) << "failed to invoke fingerprint onError callback";
             }
-            getInstance()->onFingerUp();
+            if (getBootloader().find("A528") != std::string::npos) {
+                getInstance()->onFingerUp();
+            }
         } break;
         case FINGERPRINT_ACQUIRED: {
             if (msg->data.acquired.acquired_info > SEM_FINGERPRINT_EVENT_BASE) {
@@ -409,7 +419,9 @@ void BiometricsFingerprint::notify(const fingerprint_msg_t* msg) {
                 100 - msg->data.enroll.samples_remaining;
 #endif
             if(msg->data.enroll.samples_remaining == 0) {
-                set(HBM_PATH, "0");
+                if (getBootloader().find("A528") != std::string::npos) {
+                    set(HBM_PATH, "0");
+                }
 #ifdef CALL_CANCEL_ON_ENROLL_COMPLETION
                 thisPtr->ss_fingerprint_cancel();
 #endif
@@ -448,7 +460,9 @@ void BiometricsFingerprint::notify(const fingerprint_msg_t* msg) {
                          .isOk()) {
                     LOG(ERROR) << "failed to invoke fingerprint onAuthenticated callback";
                 }
-                getInstance()->onFingerUp();
+                if (getBootloader().find("A528") != std::string::npos) {
+                    getInstance()->onFingerUp();
+                }
             } else {
                 // Not a recognized fingerprint
                 if (!thisPtr->mClientCallback
