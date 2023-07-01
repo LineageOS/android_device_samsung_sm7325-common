@@ -141,8 +141,6 @@ vendor/firmware/msbtfw11.mbn
 vendor/firmware/msnv11.bin
 
 # Camera
-vendor/bin/hw/vendor.samsung.hardware.camera.provider@4.0-service_64
-vendor/etc/init/vendor.samsung.hardware.camera.provider@4.0-service_64.rc
 vendor/lib/camera.device@1.0-impl.so
 vendor/lib/camera.device@3.2-impl.so
 vendor/lib64/camera.device@1.0-impl.so
