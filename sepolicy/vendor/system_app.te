@@ -17,10 +17,6 @@ allow system_app sysfs_mdnie_writable:file { open write getattr };
 # Sensors
 binder_call(system_app, hal_sensors_default)
 
-# UDFPS
-set_prop(system_app, vendor_fingerprint_prop)
-get_prop(system_app, vendor_fingerprint_prop)
-
 # Wifi
 binder_call(system_app, hal_wifi_supplicant_default)
 
