@@ -230,3 +230,9 @@ service fan_control_turn_off /vendor/bin/fan_control 0
 on property:persist.vendor.radio.port_index=""
     setprop sys.usb.config adb
 
+# light sensor
+on property:vendor.post_boot.parsed=1 && property:ro.product.device=m52xq
+    write /sys/class/sensors/light_sensor/lcd_onoff 0
+
+on property:vendor.post_boot.parsed=1 && property:ro.product.device=a52sxq
+    write /sys/class/sensors/light_sensor/lcd_onoff 1
