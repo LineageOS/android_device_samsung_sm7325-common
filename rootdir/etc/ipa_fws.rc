@@ -2,17 +2,11 @@ on early-init
 
 # bootloader revision 1, A528N (asia)
 on fs && property:ro.boot.rp=1 && property:ro.boot.em.model=SM-A528N
-    mount none /vendor/firmware/ipa/a528n/rev1/yupik_ipa_fws.b01 /vendor/firmware/yupik_ipa_fws.b01 bind
-    mount none /vendor/firmware/ipa/a528n/rev1/yupik_ipa_fws.elf /vendor/firmware/yupik_ipa_fws.elf bind
-    mount none /vendor/firmware/ipa/a528n/rev1/yupik_ipa_fws.mdt /vendor/firmware/yupik_ipa_fws.mdt bind
     mount none /vendor/firmware/ipa/a528n/rev1/wpss.b01 /vendor/firmware/wpss.b01 bind
     mount none /vendor/firmware/ipa/a528n/rev1/wpss.mdt /vendor/firmware/wpss.mdt bind
 
 # bootloader revision 2, A528B (international)
 on fs && property:ro.boot.rp=2 && property:ro.boot.em.model=SM-A528B
-    mount none /vendor/firmware/ipa/a528b/rev2/yupik_ipa_fws.b01 /vendor/firmware/yupik_ipa_fws.b01 bind
-    mount none /vendor/firmware/ipa/a528b/rev2/yupik_ipa_fws.elf /vendor/firmware/yupik_ipa_fws.elf bind
-    mount none /vendor/firmware/ipa/a528b/rev2/yupik_ipa_fws.mdt /vendor/firmware/yupik_ipa_fws.mdt bind
     mount none /vendor/firmware/ipa/a528b/rev2/wpss.b01 /vendor/firmware/wpss.b01 bind
     mount none /vendor/firmware/ipa/a528b/rev2/wpss.mdt /vendor/firmware/wpss.mdt bind
     # BL rev 2 firmware works on all rev2, rev3 and rev4 devices
@@ -26,9 +20,6 @@ on fs && property:ro.boot.rp=2 && property:ro.boot.em.model=SM-A528B
 
 # bootloader revision 2, A528N (asia)
 on fs && property:ro.boot.rp=2 && property:ro.boot.em.model=SM-A528N
-    mount none /vendor/firmware/ipa/a528n/rev2/yupik_ipa_fws.b01 /vendor/firmware/yupik_ipa_fws.b01 bind
-    mount none /vendor/firmware/ipa/a528n/rev2/yupik_ipa_fws.elf /vendor/firmware/yupik_ipa_fws.elf bind
-    mount none /vendor/firmware/ipa/a528n/rev2/yupik_ipa_fws.mdt /vendor/firmware/yupik_ipa_fws.mdt bind
     mount none /vendor/firmware/ipa/a528n/rev2/wpss.b01 /vendor/firmware/wpss.b01 bind
     mount none /vendor/firmware/ipa/a528n/rev2/wpss.mdt /vendor/firmware/wpss.mdt bind
     # BL rev 2 firmware works on all rev2, rev3 and rev4 devices
@@ -42,9 +33,6 @@ on fs && property:ro.boot.rp=2 && property:ro.boot.em.model=SM-A528N
 
 # bootloader revision 3, A528B (international)
 on fs && property:ro.boot.rp=3 && property:ro.boot.em.model=SM-A528B
-    mount none /vendor/firmware/ipa/a528b/rev3/yupik_ipa_fws.b01 /vendor/firmware/yupik_ipa_fws.b01 bind
-    mount none /vendor/firmware/ipa/a528b/rev3/yupik_ipa_fws.elf /vendor/firmware/yupik_ipa_fws.elf bind
-    mount none /vendor/firmware/ipa/a528b/rev3/yupik_ipa_fws.mdt /vendor/firmware/yupik_ipa_fws.mdt bind
     mount none /vendor/firmware/ipa/a528b/rev3/wpss.b01 /vendor/firmware/wpss.b01 bind
     mount none /vendor/firmware/ipa/a528b/rev3/wpss.mdt /vendor/firmware/wpss.mdt bind
     # BL rev 2 firmware works on all rev2, rev3 and rev4 devices
@@ -58,9 +46,6 @@ on fs && property:ro.boot.rp=3 && property:ro.boot.em.model=SM-A528B
 
 # bootloader revision 4, A528B (international)
 on fs && property:ro.boot.rp=4 && property:ro.boot.em.model=SM-A528B
-    mount none /vendor/firmware/ipa/a528b/rev4/yupik_ipa_fws.b01 /vendor/firmware/yupik_ipa_fws.b01 bind
-    mount none /vendor/firmware/ipa/a528b/rev4/yupik_ipa_fws.elf /vendor/firmware/yupik_ipa_fws.elf bind
-    mount none /vendor/firmware/ipa/a528b/rev4/yupik_ipa_fws.mdt /vendor/firmware/yupik_ipa_fws.mdt bind
     mount none /vendor/firmware/ipa/a528b/rev4/wpss.b01 /vendor/firmware/wpss.b01 bind
     mount none /vendor/firmware/ipa/a528b/rev4/wpss.mdt /vendor/firmware/wpss.mdt bind
     # BL rev 2 firmware works on all rev2, rev3 and rev4 devices
@@ -74,9 +59,6 @@ on fs && property:ro.boot.rp=4 && property:ro.boot.em.model=SM-A528B
 
 # bootloader revision 5, A528B (international)
 on fs && property:ro.boot.rp=5 && property:ro.boot.em.model=SM-A528B
-    mount none /vendor/firmware/ipa/a528b/rev5/yupik_ipa_fws.b01 /vendor/firmware/yupik_ipa_fws.b01 bind
-    mount none /vendor/firmware/ipa/a528b/rev5/yupik_ipa_fws.elf /vendor/firmware/yupik_ipa_fws.elf bind
-    mount none /vendor/firmware/ipa/a528b/rev5/yupik_ipa_fws.mdt /vendor/firmware/yupik_ipa_fws.mdt bind
     mount none /vendor/firmware/ipa/a528b/rev5/wpss.b00 /vendor/firmware/wpss.b00 bind
     mount none /vendor/firmware/ipa/a528b/rev5/wpss.b01 /vendor/firmware/wpss.b01 bind
     mount none /vendor/firmware/ipa/a528b/rev5/wpss.b02 /vendor/firmware/wpss.b02 bind
@@ -89,17 +71,11 @@ on fs && property:ro.boot.rp=5 && property:ro.boot.em.model=SM-A528B
 
 # bootloader revision 1, M526BR (international)
 on fs && property:ro.boot.rp=1 && property:ro.boot.em.model=SM-M526BR
-    mount none /vendor/firmware/ipa/m526br/rev1/yupik_ipa_fws.b01 /vendor/firmware/yupik_ipa_fws.b01 bind
-    mount none /vendor/firmware/ipa/m526br/rev1/yupik_ipa_fws.elf /vendor/firmware/yupik_ipa_fws.elf bind
-    mount none /vendor/firmware/ipa/m526br/rev1/yupik_ipa_fws.mdt /vendor/firmware/yupik_ipa_fws.mdt bind
     mount none /vendor/firmware/ipa/m526br/rev1/wpss.b01 /vendor/firmware/wpss.b01 bind
     mount none /vendor/firmware/ipa/m526br/rev1/wpss.mdt /vendor/firmware/wpss.mdt bind
 
 # bootloader revision 2, M526B (america)
 on fs && property:ro.boot.rp=2 && property:ro.boot.em.model=SM-M526B
-    mount none /vendor/firmware/ipa/m526b/rev2/yupik_ipa_fws.b01 /vendor/firmware/yupik_ipa_fws.b01 bind
-    mount none /vendor/firmware/ipa/m526b/rev2/yupik_ipa_fws.elf /vendor/firmware/yupik_ipa_fws.elf bind
-    mount none /vendor/firmware/ipa/m526b/rev2/yupik_ipa_fws.mdt /vendor/firmware/yupik_ipa_fws.mdt bind
     mount none /vendor/firmware/ipa/m526b/rev2/wpss.b00 /vendor/firmware/wpss.b00 bind
     mount none /vendor/firmware/ipa/m526b/rev2/wpss.b01 /vendor/firmware/wpss.b01 bind
     mount none /vendor/firmware/ipa/m526b/rev2/wpss.b02 /vendor/firmware/wpss.b02 bind
@@ -112,9 +88,6 @@ on fs && property:ro.boot.rp=2 && property:ro.boot.em.model=SM-M526B
 
 # bootloader revision 2, M526BR (international)
 on fs && property:ro.boot.rp=2 && property:ro.boot.em.model=SM-M526BR
-    mount none /vendor/firmware/ipa/m526br/rev2/yupik_ipa_fws.b01 /vendor/firmware/yupik_ipa_fws.b01 bind
-    mount none /vendor/firmware/ipa/m526br/rev2/yupik_ipa_fws.elf /vendor/firmware/yupik_ipa_fws.elf bind
-    mount none /vendor/firmware/ipa/m526br/rev2/yupik_ipa_fws.mdt /vendor/firmware/yupik_ipa_fws.mdt bind
     mount none /vendor/firmware/ipa/m526br/rev2/wpss.b01 /vendor/firmware/wpss.b01 bind
     mount none /vendor/firmware/ipa/m526br/rev2/wpss.mdt /vendor/firmware/wpss.mdt bind
     # M526B rev 2 firmware
@@ -128,9 +101,6 @@ on fs && property:ro.boot.rp=2 && property:ro.boot.em.model=SM-M526BR
 
 # bootloader revision 3, M526B (america)
 on fs && property:ro.boot.rp=3 && property:ro.boot.em.model=SM-M526B
-    mount none /vendor/firmware/ipa/m526b/rev3/yupik_ipa_fws.b01 /vendor/firmware/yupik_ipa_fws.b01 bind
-    mount none /vendor/firmware/ipa/m526b/rev3/yupik_ipa_fws.elf /vendor/firmware/yupik_ipa_fws.elf bind
-    mount none /vendor/firmware/ipa/m526b/rev3/yupik_ipa_fws.mdt /vendor/firmware/yupik_ipa_fws.mdt bind
     mount none /vendor/firmware/ipa/m526b/rev3/wpss.b00 /vendor/firmware/wpss.b00 bind
     mount none /vendor/firmware/ipa/m526b/rev3/wpss.b01 /vendor/firmware/wpss.b01 bind
     mount none /vendor/firmware/ipa/m526b/rev3/wpss.b02 /vendor/firmware/wpss.b02 bind
@@ -143,9 +113,6 @@ on fs && property:ro.boot.rp=3 && property:ro.boot.em.model=SM-M526B
 
 # bootloader revision 3, M526BR (international)
 on fs && property:ro.boot.rp=3 && property:ro.boot.em.model=SM-M526BR
-    mount none /vendor/firmware/ipa/m526br/rev3/yupik_ipa_fws.b01 /vendor/firmware/yupik_ipa_fws.b01 bind
-    mount none /vendor/firmware/ipa/m526br/rev3/yupik_ipa_fws.elf /vendor/firmware/yupik_ipa_fws.elf bind
-    mount none /vendor/firmware/ipa/m526br/rev3/yupik_ipa_fws.mdt /vendor/firmware/yupik_ipa_fws.mdt bind
     mount none /vendor/firmware/ipa/m526br/rev3/wpss.b01 /vendor/firmware/wpss.b01 bind
     mount none /vendor/firmware/ipa/m526br/rev3/wpss.mdt /vendor/firmware/wpss.mdt bind
     # M526B rev 3 firmware
