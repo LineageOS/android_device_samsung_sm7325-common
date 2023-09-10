@@ -48,7 +48,7 @@ PRODUCT_PACKAGES += \
     init.vendor.rilchip.rc \
     init.vendor.rilcommon.rc \
     init.vendor.sensors.rc \
-    ipa_fws.rc \
+    wifi_firmware.rc \
     ueventd.qcom.rc \
     wifi_qcom_wcn6750.rc \
     wifi_sec.rc

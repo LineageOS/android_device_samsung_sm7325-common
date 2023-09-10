@@ -665,6 +665,9 @@ vendor/lib64/vendor.qti.hardware.iop@1.0.so
 vendor/lib64/vendor.qti.hardware.iop@2.0.so
 vendor/lib64/libqti-iopd-client.so
 
+# IPA
+vendor/etc/init/ipa_fws.rc
+
 # Keymaster
 vendor/lib64/libkeymaster_helper.so
 -vendor/lib64/libskeymaster4device.so
