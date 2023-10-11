@@ -23,6 +23,7 @@
 
 # NFC
 /dev/sec-nfc                                 u:object_r:nfc_device:s0
+/dev/pn547                                   u:object_r:nfc_device:s0
 
 # qos
 /dev/network_throughput                      u:object_r:radio_qos_device:s0
@@ -39,6 +40,7 @@
 /efs/nfc(/.*)?                               u:object_r:nfc_efs_file:s0
 /efs/pfw_data(/.*)?                          u:object_r:pfw_efs_file:s0
 /efs/tas25xx(/.*)?                           u:object_r:audio_efs_file:s0
+/efs/cirrus(/.*)?                            u:object_r:audio_efs_file:s0
 
 /mnt/vendor/efs(/.*)?                        u:object_r:efs_file:s0
 /mnt/vendor/efs/bluetooth(/.*)?              u:object_r:bluetooth_efs_file:s0
@@ -55,6 +57,7 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.keymaster@[0-9]\.[0-9]-service\.samsung                   u:object_r:hal_keymaster_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.power(@[0-9]\.[0-9])?-service\.samsung-libperfmgr         u:object_r:hal_power_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.nfc@[0-9]\.[0-9]-service\.samsung                         u:object_r:hal_nfc_default_exec:s0
+/(vendor|system/vendor)/bin/hw/nxp\.android\.hardware\.nfc@[0-9]\.[0-9]-service                             u:object_r:hal_nfc_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.fastcharge@[0-9]\.[0-9]-service\.samsung                    u:object_r:hal_lineage_fastcharge_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.touch\@[0-9]\.[0-9]-service.samsung_sm7325                  u:object_r:hal_lineage_touch_default_exec:s0
 /(vendor|system/vendor)/bin/secril_config_svc                                                               u:object_r:secril_config_svc_exec:s0

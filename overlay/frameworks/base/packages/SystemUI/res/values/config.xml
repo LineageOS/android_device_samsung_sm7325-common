@@ -24,5 +24,5 @@
     <bool name="doze_display_state_supported">true</bool>
 
     <!-- the padding on the top of the statusbar (usually 0) -->
-    <dimen name="status_bar_padding_top">8dp</dimen>
+    <dimen name="status_bar_padding_top">6dp</dimen>
 </resources>
