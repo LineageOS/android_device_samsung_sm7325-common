@@ -26,3 +26,6 @@ allow hal_fingerprint_default sysfs_battery:file { open read };
 
 # /dev/uinput
 allow hal_fingerprint_default uhid_device:chr_file rw_file_perms;
+
+# /sys/devices/virtual/lcd/panel/
+allow hal_fingerprint_default sysfs_lcd_writable:file r_file_perms;

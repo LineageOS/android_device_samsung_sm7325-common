@@ -20,4 +20,5 @@ allow kernel efs_file:dir search;
 allow kernel app_efs_file:dir search;
 allow kernel app_efs_file:file { read open getattr };
 
-allow kernel sysfs_lcd_writable:file open;
+# /sys/devices/virtual/lcd/panel/
+allow kernel sysfs_lcd_writable:file r_file_perms;

@@ -236,3 +236,6 @@ on property:vendor.post_boot.parsed=1 && property:ro.product.device=m52xq
 
 on property:vendor.post_boot.parsed=1 && property:ro.product.device=a52sxq
     write /sys/class/sensors/light_sensor/lcd_onoff 1
+
+on property:vendor.post_boot.parsed=1 && property:ro.product.device=a73xq
+    write /sys/class/sensors/light_sensor/lcd_onoff 0
