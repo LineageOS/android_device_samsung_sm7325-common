@@ -672,7 +672,7 @@ vendor/etc/init/ipa_fws.rc
 
 # Keymaster
 vendor/lib64/libkeymaster_helper.so
--vendor/lib64/libskeymaster4device.so
+-vendor/lib64/libskeymaster4device.so|cd47e049e0c70cb383d1ca5bd486fcdd47670d19
 
 # Machine learning
 vendor/lib64/libreffeature.so
