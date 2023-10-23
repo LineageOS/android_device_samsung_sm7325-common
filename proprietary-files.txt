@@ -443,7 +443,7 @@ vendor/lib/libsecnativefeature.so
 vendor/lib64/libsecnativefeature.so
 
 # Gatekeeper
-vendor/lib64/hw/gatekeeper.mdfpp.so
+vendor/lib64/hw/gatekeeper.mdfpp.so|c557d589500581aa44abc70504cdd21f5bbbc0cc
 
 # GPS
 -vendor/app/CACertService/CACertService.apk
