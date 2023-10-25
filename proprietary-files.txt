@@ -1125,4 +1125,3 @@ vendor/lib64/libqsap_sdk.so
 vendor/firmware/Data.msc
 vendor/firmware/qca6750/qdss_trace_config.cfg
 vendor/firmware/qca6750/regdb.bin
-vendor/firmware/wlan/qca_cld/qca6750/WCNSS_qcom_cfg.ini
