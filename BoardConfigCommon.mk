@@ -156,6 +156,12 @@ BOARD_SUPPORTS_OPENSOURCE_STHAL := true
 BOARD_SUPPORTS_SOUND_TRIGGER := true
 BOARD_USES_ALSA_AUDIO := true
 
+# Camera
+SOONG_CONFIG_NAMESPACES += samsungCameraVars
+SOONG_CONFIG_samsungCameraVars += extra_ids
+# ID=54 is macro
+SOONG_CONFIG_samsungCameraVars_extra_ids := 54
+
 # Keymaster
 TARGET_KEYMASTER_VARIANT := samsung
 

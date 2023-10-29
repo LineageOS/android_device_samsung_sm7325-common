@@ -110,18 +110,9 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.6-service_64.samsung-sm7325 \
-    android.hardware.camera.provider@2.4-legacy \
-    android.hardware.camera.provider@2.5-legacy \
-    camera.device@1.0-impl \
-    camera.device@3.2-impl \
-    camera.device@3.3-impl \
-    camera.device@3.4-impl \
-    camera.device@3.5-impl \
+    android.hardware.camera.provider@2.5-service_64.samsung \
     libgrallocusage.vendor \
     vendor.qti.hardware.camera.device@1.0.vendor \
-    android.hardware.camera.device@3.6.vendor \
-    android.hardware.camera.provider@2.6.vendor
 
 # CAS
 PRODUCT_PACKAGES += \
