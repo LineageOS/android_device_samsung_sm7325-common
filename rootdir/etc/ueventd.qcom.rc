@@ -654,8 +654,8 @@ firmware_directories /vendor/firmware_mnt/image/ /vendor/firmware-modem/image/ /
 # Camera::Front End
 
 # Camera::Flash
-/sys/class/camera/flash                                 rear_flash                      0664    system  system
-/sys/class/camera/flash                                 rear_flash2                     0664    system  system
+/sys/class/camera/flash                                 rear_flash                      0664    system  camera
+/sys/class/camera/flash                                 rear_flash2                     0664    system  camera
 /sys/class/leds/led:switch_0                            brightness                      0664    system  system
 /sys/class/leds/led:torch_0                             brightness                      0664    system  system
 
