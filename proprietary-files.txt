@@ -878,8 +878,8 @@ vendor/lib64/libdsi_netctrl.so|c8188daa708bf3b177392b39d3e78889cb23df0b
 vendor/lib/libqcmaputils.so|3992dfc8c4a93b3c1206ccc30862334be196047e
 vendor/lib64/libqcmaputils.so|e9c2f1dfe54fa20a76b2cca648faa75a57cc3e81
 vendor/lib64/libengmode_client.so|654d042efdecd0605a0ef5ce129b4083b4f244e7
-vendor/lib64/libsec-ril.so|ea07eb316653596dd92b5f36b1a664114fe80230
-vendor/lib64/libsec-ril-dsds.so|b04b5500e1196d81cda86ea60593e50e37f77629
+vendor/lib64/libsec-ril.so|b3b9e10229594355d177a8255eed4e9479de82c9
+vendor/lib64/libsec-ril-dsds.so|7e7f2a7dceeae2ae1ab407e9a70beb0cfe41ef72
 vendor/lib/libsecril-client.so|6ef35be531c37c5b989e74da63b785c6166ecd7c
 vendor/lib64/libsecril-client.so|73aa52d0fa229afac41118ba944c03730439c55e
 vendor/lib/libril.so|2c4a35af898eebdb22498bb559c2731fa8b0fb0f
