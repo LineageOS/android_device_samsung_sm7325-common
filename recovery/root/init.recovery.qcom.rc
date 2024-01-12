@@ -26,15 +26,6 @@
 #
 
 on init
-    exec u:r:su:s0 -- /system/bin/insmod /vendor/lib/modules/sec_tsp_log.ko
-    exec u:r:su:s0 -- /system/bin/insmod /vendor/lib/modules/sec_tclm_v2.ko
-    exec u:r:su:s0 -- /system/bin/insmod /vendor/lib/modules/sec_secure_touch.ko
-    exec u:r:su:s0 -- /system/bin/insmod /vendor/lib/modules/sec_common_fn.ko
-    exec u:r:su:s0 -- /system/bin/insmod /vendor/lib/modules/sec_tsp_dumpkey.ko
-    exec u:r:su:s0 -- /system/bin/insmod /vendor/lib/modules/sec_cmd.ko
-    exec u:r:su:s0 -- /system/bin/insmod /vendor/lib/modules/stm_ts.ko
-    exec u:r:su:s0 -- /system/bin/insmod /vendor/lib/modules/synaptics_ts.ko
-
     write /sys/class/backlight/panel0-backlight/brightness 200
     setprop sys.usb.configfs 1
 

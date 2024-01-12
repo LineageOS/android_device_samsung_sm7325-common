@@ -25,6 +25,7 @@ vendor.audio.dolby.ds2.enabled=false
 vendor.audio.dolby.ds2.hardbypass=false
 vendor.audio.offload.multiple.enabled=false
 vendor.audio.offload.passthrough=false
+vendor.voice.path.for.pcm.voip=true
 ro.vendor.audio.sdk.ssr=false
 vendor.audio.offload.gapless.enabled=true
 vendor.audio.safx.pbe.enabled=false
