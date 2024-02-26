@@ -97,6 +97,9 @@ on init
     chmod 0664 /dev/cpuctl/midground/cpu.uclamp.min
     write /dev/cpuctl/midground/cpu.uclamp.max 20
 
+on early-init && property:ro.baseband=apq
+    setprop ro.radio.noril yes
+
 on early-fs
     start vold
 
