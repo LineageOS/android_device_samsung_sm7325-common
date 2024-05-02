@@ -73,7 +73,6 @@ ro.config.vc_call_vol_steps=8
 # Bluetooth
 ro.bluetooth.a2dp_offload.supported=true
 persist.bluetooth.a2dp_offload.disabled=false
-persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac-lc3
 vendor.qcom.bluetooth.soc=moselle
 persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
 persist.vendor.bt.aac_frm_ctl.enabled=true
