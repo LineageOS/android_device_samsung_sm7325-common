@@ -188,6 +188,9 @@ debug.stagefright.ccodec=4
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 
+# Power HAL
+vendor.powerhal.disp.idle_support=false
+
 # RIL
 vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so
 persist.vendor.radio.atfwd.start=true
