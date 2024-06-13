@@ -30,6 +30,9 @@ PRODUCT_TARGET_VNDK_VERSION := 30
 # No A/B
 AB_OTA_UPDATER := false
 
+# Kernel
+PRODUCT_ENABLE_UFFD_GC := false
+
 # Init files and fstab
 PRODUCT_PACKAGES += \
     fstab.ramplus \
