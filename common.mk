@@ -111,7 +111,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5-service_64.samsung \
     libgrallocusage.vendor \
-    vendor.qti.hardware.camera.device@1.0.vendor \
+    vendor.qti.hardware.camera.device@1.0.vendor
 
 # CAS
 PRODUCT_PACKAGES += \
@@ -351,10 +351,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
-# QMI
+# QCOM
 PRODUCT_PACKAGES += \
     libjson \
-    libprotobuf-cpp-lite-3.9.1-vendorcompat
+    libprotobuf-cpp-lite-3.9.1-vendorcompat \
+    libsqlite.vendor
 
 # Recovery
 PRODUCT_COPY_FILES += \
@@ -369,7 +370,8 @@ PRODUCT_PACKAGES += \
     librilutils \
     librmnetctl \
     secril_config_svc \
-    sehradiomanager
+    sehradiomanager \
+    libjsoncpp.vendor
 
 # Sensors
 PRODUCT_PACKAGES += \
@@ -380,7 +382,8 @@ PRODUCT_PACKAGES += \
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0.vendor \
-    android.frameworks.cameraservice.service@2.1.vendor
+    android.frameworks.cameraservice.service@2.1.vendor \
+    libcamera_metadata.vendor
 
 # Touch features
 PRODUCT_PACKAGES += \
