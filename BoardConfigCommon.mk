@@ -208,6 +208,9 @@ TARGET_USES_ION := true
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
+# RFS symlinks
+$(call soong_config_set,rfs,mpss_firmware_symlink_target,firmware_modem)
+
 # Recovery
 BOARD_HAS_DOWNLOAD_MODE := true
 BOARD_INCLUDE_RECOVERY_DTBO := true
