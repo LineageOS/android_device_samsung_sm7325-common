@@ -16,6 +16,9 @@
 
 COMMON_PATH := device/samsung/sm7325-common
 
+# RFS Symlinks
+$(call inherit-product, $(COMMON_PATH)/symlinks.mk)
+
 DEVICE_PACKAGE_OVERLAYS += $(COMMON_PATH)/overlay
 
 # Partitions
