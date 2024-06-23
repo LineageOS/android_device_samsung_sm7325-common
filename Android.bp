@@ -7,3 +7,16 @@ install_symlink {
     installed_location: "rfs/msm/mpss/readonly/firmware",
     symlink_target: "/vendor/firmware-modem",
 }
+
+install_symlink {
+    name: "firmware_wlan_WCNSS_qcom_cfg.ini_symlink",
+    vendor: true,
+    installed_location: "firmware/wlan/qca_cld/wlan/WCNSS_qcom_cfg.ini",
+    symlink_target: "/vendor/etc/wifi/WCNSS_qcom_cfg.ini",
+}
+install_symlink {
+    name: "firmware_qca6750_WCNSS_qcom_cfg.ini_symlink",
+    vendor: true,
+    installed_location: "firmware/wlan/qca_cld/qca6750/WCNSS_qcom_cfg.ini",
+    symlink_target: "/vendor/etc/wifi/WCNSS_qcom_cfg.ini",
+}
