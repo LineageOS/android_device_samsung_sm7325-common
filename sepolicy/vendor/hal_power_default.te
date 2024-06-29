@@ -42,3 +42,5 @@ set_prop(hal_power_default, vendor_power_prop)
 # for lcd_onoff node
 allow hal_power_default { sysfs_sensors vendor_sysfs_sensors }:dir search;
 allow hal_power_default sysfs_sensors:file { open write };
+
+allow hal_power_default vendor_pps_socket:sock_file rw_file_perms;

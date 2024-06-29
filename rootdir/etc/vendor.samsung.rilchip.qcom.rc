@@ -37,7 +37,11 @@ service vendor.embmsslServer /vendor/bin/embmsslServer
 on property:init.svc.vendor.netmgrd=running && property:ro.vendor.use_data_netmgrd=false
     stop vendor.netmgrd
 
+# To enable QMS logs
 on post-fs-data
-    mkdir /data/vendor/qms/logs 0774 radio radio
-    copy /vendor/etc/qms_log_config /data/vendor/qms/logs/qms_log_config
-    chmod 0644 /data/vendor/qms/logs/qms_log_config
+    mkdir /data/vendor/qms_logs 0775 radio system
+    mkdir /data/vendor/qms_logs/main 0775 radio system
+    mkdir /data/vendor/qms_logs/other 0775 radio system
+    mkdir /data/vendor/qms_logs/config 0775 radio system
+    copy /vendor/etc/qms_log_config /data/vendor/qms_logs/config/qms_log_config
+    chmod 0666 /data/vendor/qms_logs/config/qms_log_config

@@ -76,6 +76,7 @@ genfscon sysfs /devices/platform/soc/a80000.i2c/i2c-34/34-003b/wakeup/          
 genfscon sysfs /devices/platform/soc/soc:i2c@17/i2c-19/19-0021/wakeup/                                      u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/soc:i2c@17/i2c-19/19-0020/wakeup/                                      u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/a94000.i2c/i2c-24/24-004b/wakeup/                                      u:object_r:sysfs_wakeup:s0
+genfscon sysfs "/devices/platform/soc/soc:qcom,msm-audio-apr/soc:qcom,msm-audio-apr:qcom,q6core-audio/soc:qcom,msm-audio-apr:qcom,q6core-audio:sound/Listen 1 Audio Service/wakeup/"	u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/sensors/                                                                    u:object_r:sysfs_sensors:s0
 genfscon sysfs /devices/virtual/fingerprint/fingerprint                                                     u:object_r:sysfs_fingerprint:s0
 genfscon sysfs /devices/virtual/sec/hall_ic/                                                                u:object_r:sysfs_sensors:s0

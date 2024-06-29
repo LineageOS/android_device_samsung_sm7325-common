@@ -1,4 +1,4 @@
-# All blobs are from A528BXXS5FWL4 (U), unless pinned
+# All blobs are from A736BXXS8EXE5 (U), unless pinned
 
 # ACDB
 vendor/lib/libacdb-fts.so
@@ -430,7 +430,7 @@ vendor/lib/libsecnativefeature.so
 vendor/lib64/libsecnativefeature.so
 
 # Gatekeeper
-vendor/lib64/hw/gatekeeper.mdfpp.so|fc74f75b74c307e4508b42e210dcec8175876203
+vendor/lib64/hw/gatekeeper.mdfpp.so|7b185aca7ae62e2b7104d36740587a351cc4867e
 
 # GPS
 -vendor/app/CACertService/CACertService.apk
@@ -632,7 +632,7 @@ vendor/bin/hw/android.hardware.health@2.1-service-samsung
 vendor/etc/init/android.hardware.health@2.1-service-samsung.rc
 -vendor/etc/vintf/manifest/android.hardware.health@2.1-samsung.xml
 vendor/lib/hw/android.hardware.health@2.0-impl-2.1-samsung.so
-vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so|013425bf3bae272facfe0089de93f0c1556278a4
+vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so|5a07c2b5878f4bb96d8b37c8b46b4aa86d7c7268
 vendor/lib/vendor.samsung.hardware.health@2.0.so
 vendor/lib64/vendor.samsung.hardware.health@2.0.so
 
@@ -659,7 +659,7 @@ vendor/etc/init/ipa_fws.rc
 
 # Keymaster
 vendor/lib64/libkeymaster_helper.so
--vendor/lib64/libskeymaster4device.so|212916a4c8d6bded714fbf1ac8ec1fff5161de3c
+-vendor/lib64/libskeymaster4device.so|de98a294927f45b84e41b88a2145c7771377715c
 
 # Machine learning
 vendor/lib64/libreffeature.so
@@ -690,11 +690,6 @@ vendor/lib/libqcodec2_utils.so
 vendor/lib64/libqcodec2_utils.so
 vendor/lib/libqcodec2_v4l2codec.so
 vendor/lib64/libqcodec2_v4l2codec.so
-
-# NFC
-vendor/etc/nfc/sec_s3nrn4v_hwreg.bin
-vendor/etc/nfc/sec_s3nrn4v_swreg.bin
-vendor/firmware/nfc/sec_s3nrn4v_firmware.bin
 
 # OMX
 vendor/lib/libdsd2pcm.so
@@ -821,8 +816,6 @@ vendor/lib64/libmdmdetect.so
 vendor/lib64/libpdnotifier.so
 vendor/lib64/libqcci_legacy.so
 vendor/lib64/libqsocket.so
-vendor/lib64/libqmiservices-ext.so
-vendor/lib64/libqmiservices-sem-ext.so
 vendor/etc/sec_config
 
 # QTI
@@ -848,7 +841,7 @@ vendor/lib64/libdsi_netctrl.so
 vendor/lib/libqcmaputils.so
 vendor/lib64/libqcmaputils.so
 vendor/lib64/libengmode_client.so
-vendor/lib64/libsec-ril.so|4d34b6794f3ab721baecc9e7ad2e5ed0f703aee5
+vendor/lib64/libsec-ril.so|46d38d55ae2d050f4ee91d3f2fa809a970142ae7
 vendor/lib/libsecril-client.so
 vendor/lib64/libsecril-client.so
 vendor/lib64/libril_sem.so
@@ -1099,3 +1092,7 @@ vendor/lib64/libqsap_sdk.so
 vendor/firmware/Data.msc
 vendor/firmware/qca6750/qdss_trace_config.cfg
 vendor/firmware/qca6750/regdb.bin
+vendor/firmware/qca6750/bdwlan.elf1
+vendor/firmware/qca6750/bdwlan.elf2
+vendor/firmware/qca6750/bdwlan.elf
+vendor/firmware/qca6750/bdwlan.elf10

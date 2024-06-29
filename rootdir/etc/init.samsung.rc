@@ -265,6 +265,8 @@ on boot
 # Video call Virtual Background
     mkdir /data/vendor/segbackground 0771 system system
 
+    chown system system /sys/class/power_supply/battery/gps
+
 service factory_ssc /vendor/bin/factory.ssc
     class core
     user system
