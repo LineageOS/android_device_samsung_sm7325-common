@@ -93,12 +93,11 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.3-impl \
     audio.r_submix.default \
     audio.usb.default \
-    libtinycompress \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libqcompostprocbundle \
     libvolumelistener \
-    libqti_vndfwk_detect.vendor_32
+    libqti_vndfwk_detect.vendor:32
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/configs/a2dpsink_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dpsink_audio_policy_configuration.xml \
@@ -118,18 +117,12 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     audio.bluetooth.default \
-    android.hardware.bluetooth.audio-impl \
-    android.hardware.bluetooth@1.0.vendor
+    android.hardware.bluetooth.audio-impl
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider-service.samsung \
-    libgrallocusage.vendor \
-    libutilscallstack.vendor \
-    vendor.qti.hardware.camera.device@1.0.vendor \
-    libui_shim.vendor
+    android.hardware.camera.provider-service.samsung
 
 $(call soong_config_set_bool,samsungCameraVars,needs_sec_reserved_field,true)
 $(call soong_config_set,samsungCameraVars,extra_ids,54)
@@ -141,14 +134,6 @@ PRODUCT_PACKAGES += \
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images_vendor
-
-# Configstore
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.capabilityconfigstore@1.0.vendor
-
-# GNSS
-PRODUCT_PACKAGES += \
-    android.hardware.gnss@2.1.vendor
 
 # Graphics
 PRODUCT_AAPT_CONFIG := normal
@@ -165,16 +150,7 @@ PRODUCT_PACKAGES += \
     init.qti.display_boot.rc \
     init.qti.display_boot.sh \
     gralloc.default \
-    libtinyxml \
-    libtinyxml2 \
-    libqdMetaData \
-    libdisplayconfig.qti \
-    vendor.qti.hardware.display.mapper@1.1.vendor \
-    vendor.qti.hardware.display.mapper@2.0.vendor \
-    vendor.qti.hardware.display.mapper@3.0.vendor \
-    vendor.qti.hardware.display.mapper@4.0.vendor \
     vendor.qti.hardware.memtrack-service \
-    vendor.display.config@2.0.vendor \
     AdvancedDisplay
 
 # Doze
@@ -183,10 +159,7 @@ PRODUCT_PACKAGES += \
 
 # DRM
 PRODUCT_PACKAGES += \
-    android.hardware.drm-service.clearkey \
-    libdrmclearkeyplugin \
-    libcrypto_shim.vendor \
-    android.hardware.drm@1.3.vendor
+    android.hardware.drm-service.clearkey
 
 # fastbootd
 PRODUCT_PACKAGES += \
@@ -220,17 +193,7 @@ PRODUCT_PACKAGES += \
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-service.samsung \
-    android.hardware.health-service.samsung-recovery \
-    android.hardware.health@2.1.vendor
-
-# HIDL
-PRODUCT_PACKAGES += \
-    android.hidl.manager@1.0 \
-    android.hidl.manager@1.0.vendor \
-    libhidltransport \
-    libhidltransport.vendor \
-    libhwbinder \
-    libhwbinder.vendor
+    android.hardware.health-service.samsung-recovery
 
 # HotwordEnrollement app permissions
 PRODUCT_COPY_FILES += \
@@ -242,21 +205,13 @@ PRODUCT_COPY_FILES += \
 
 # Keymaster
 PRODUCT_PACKAGES += \
-    android.hardware.keymaster@4.0-service.samsung \
-    libkeymaster4_1support.vendor
+    android.hardware.keymaster@4.0-service.samsung
 
 $(call soong_config_set,samsungVars,target_keymaster4_library,//vendor/samsung/sm7325-common:libskeymaster4device)
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay-service.samsung-qcom
-
-# Media
-PRODUCT_PACKAGES += \
-    android.hardware.media.c2@1.0.vendor \
-    libcodec2_hidl@1.0.vendor \
-    libcodec2_vndk.vendor \
-    libstagefright_bufferpool@2.0.1.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_codecs_performance_yupik_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_yupik_v0.xml \
@@ -278,11 +233,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_profiles_lahaina_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_lahaina_vendor.xml \
     $(LOCAL_PATH)/configs/media/media_profiles_yupik_iot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_yupik_iot.xml
 
-# Minijail
-PRODUCT_PACKAGES += \
-    libavservices_minijail \
-    libavservices_minijail.vendor
-
 # NFC
 PRODUCT_PACKAGES += \
     libnfc-nci \
@@ -301,9 +251,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf
 
 # Perf
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.perf@2.2.vendor
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
 
@@ -353,18 +300,10 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.pixel-libperfmgr \
-    android.hardware.power@1.2.vendor
+    android.hardware.power-service.pixel-libperfmgr
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
-
-# QCOM
-PRODUCT_PACKAGES += \
-    libjson \
-    libprotobuf-cpp-lite-3.9.1-vendorcompat \
-    libprotobuf-cpp-full-3.9.1-vendorcompat \
-    libsqlite.vendor
 
 # Recovery
 PRODUCT_COPY_FILES += \
@@ -372,27 +311,12 @@ PRODUCT_COPY_FILES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    android.hardware.radio@1.5.vendor \
-    android.hardware.radio.config@1.2.vendor \
-    android.hardware.radio.deprecated@1.0.vendor \
-    libxml2 \
-    librilutils \
-    librmnetctl \
     secril_config_svc \
-    sehradiomanager \
-    libjsoncpp.vendor
+    sehradiomanager
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors-service.samsung-multihal \
-    android.hardware.sensors@2.0-ScopedWakelock.vendor \
-    android.frameworks.sensorservice@1.0.vendor
-
-# Thermal
-PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0.vendor \
-    android.frameworks.cameraservice.service@2.1.vendor \
-    libcamera_metadata.vendor
+    android.hardware.sensors-service.samsung-multihal
 
 # Touch features
 PRODUCT_PACKAGES += \
@@ -422,22 +346,13 @@ $(call soong_config_set_bool,samsungVibratorVars,duration_amplitude,true)
 # Tether
 PRODUCT_PACKAGES += \
     ipacm \
-    IPACM_cfg.xml \
-    libipanat \
-    android.hardware.tetheroffload.config@1.0.vendor  \
-    android.hardware.tetheroffload.control@1.0.vendor
-
-# VNDK
-PRODUCT_PACKAGES += \
-    libcrypto-v33
+    IPACM_cfg.xml
 
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
     hostapd \
-    libwifi-hal \
     libwifi-hal-qcom \
-    libwpa_client \
     wpa_cli \
     wpa_supplicant \
     wpa_supplicant.conf \
@@ -454,10 +369,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     firmware_qca6750_WCNSS_qcom_cfg.ini_symlink \
     firmware_wlan_WCNSS_qcom_cfg.ini_symlink
-
-# WiFi Display
-PRODUCT_PACKAGES += \
-    libnl
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
