@@ -155,17 +155,6 @@ AUDIO_FEATURE_ENABLED_SSR := false
 AUDIO_FEATURE_ENABLED_SVA_MULTI_STAGE := true
 BOARD_SUPPORTS_SOUND_TRIGGER := true
 
-# Camera
-SOONG_CONFIG_NAMESPACES += samsungCameraVars
-SOONG_CONFIG_samsungCameraVars += \
-    extra_ids \
-    needs_sec_reserved_field
-
-# ID=54 is macro
-SOONG_CONFIG_samsungCameraVars_extra_ids := 54
-
-SOONG_CONFIG_samsungCameraVars_needs_sec_reserved_field := true
-
 # HIDL manifests
 DEVICE_MANIFEST_SKUS := yupik
 DEVICE_MANIFEST_YUPIK_FILES += $(COMMON_PATH)/configs/manifest_yupik.xml
