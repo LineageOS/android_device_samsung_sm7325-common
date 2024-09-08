@@ -93,12 +93,6 @@
         <MediaCodec name="c2.android.mpeg4.decoder" type="video/mp4v-es" update="true">
             <Limit name="measured-frame-rate-176x144" range="730-1470" />
         </MediaCodec>
-        <MediaCodec name="OMX.SEC.mpeg4.sw.dec" type="video/mp4v-es" update="true">
-            <!-- measured [3525-3529] lower-upper [891-9484] median * 1.5 [5290] -->
-            <Limit name="measured-frame-rate-176x144" range="1960-4311" />
-            <!-- measured [2364-2376] lower-upper [599-6374] median * 1.5 [3555] -->
-            <Limit name="measured-frame-rate-480x360" range="1317-2897" />
-        </MediaCodec>
         <MediaCodec name="c2.sec.mpeg4.decoder" type="video/mp4v-es" update="true">
             <!-- measured [2206-2222] lower-upper [559-5954] median * 1.5 [3321] -->
             <Limit name="measured-frame-rate-176x144" range="1230-2706" />
