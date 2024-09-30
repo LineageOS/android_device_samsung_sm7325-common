@@ -126,7 +126,6 @@ vendor/firmware/msbtfw11.mbn
 vendor/firmware/msnv11.bin
 
 # Camera
-vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libcamera_nn_stub.so
 vendor/lib64/libscveCommon.so
 vendor/lib64/libuniplugin.so
