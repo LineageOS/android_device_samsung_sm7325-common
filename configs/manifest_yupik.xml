@@ -7,7 +7,6 @@
             <name>IDevicesFactory</name>
             <instance>default</instance>
         </interface>
-        <fqname>@7.0::IDevicesFactory/default</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.audio.effect</name>
@@ -17,7 +16,6 @@
             <name>IEffectsFactory</name>
             <instance>default</instance>
         </interface>
-        <fqname>@7.0::IEffectsFactory/default</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.bluetooth</name>
@@ -27,7 +25,6 @@
             <name>IBluetoothHci</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.0::IBluetoothHci/default</fqname>
     </hal>
     <hal format="hidl" override="true">
         <name>android.hardware.gatekeeper</name>
@@ -37,7 +34,6 @@
             <name>IGatekeeper</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.0::IGatekeeper/default</fqname>
     </hal>
     <hal format="hidl" override="true">
         <name>android.hardware.keymaster</name>
@@ -47,7 +43,6 @@
             <name>IKeymasterDevice</name>
             <instance>default</instance>
         </interface>
-        <fqname>@4.0::IKeymasterDevice/default</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.media.c2</name>
@@ -78,11 +73,6 @@
             <name>IRadioConfig</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.1::IRadioConfig/default</fqname>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>android.hardware.radio.deprecated</name>
-        <transport>hwbinder</transport>
     </hal>
     <hal format="hidl">
         <name>android.hardware.soundtrigger</name>
@@ -92,7 +82,6 @@
             <name>ISoundTriggerHw</name>
             <instance>default</instance>
         </interface>
-        <fqname>@2.3::ISoundTriggerHw/default</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.tetheroffload.config</name>
@@ -102,7 +91,6 @@
             <name>IOffloadConfig</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.0::IOffloadConfig/default</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.tetheroffload.control</name>
@@ -112,19 +100,6 @@
             <name>IOffloadControl</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.1::IOffloadControl/default</fqname>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>com.qualcomm.qti.dpm.api</name>
-        <transport>hwbinder</transport>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>com.qualcomm.qti.imscmservice</name>
-        <transport>hwbinder</transport>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>com.qualcomm.qti.uceservice</name>
-        <transport>hwbinder</transport>
     </hal>
     <hal format="aidl">
         <name>vendor.lineage.livedisplay</name>
@@ -162,10 +137,6 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.qti.data.factory</name>
-        <transport>hwbinder</transport>
-    </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.cacert</name>
         <transport>hwbinder</transport>
@@ -174,7 +145,6 @@
             <name>IService</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.0::IService/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.capabilityconfigstore</name>
@@ -184,15 +154,6 @@
             <name>ICapabilityConfigStore</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.0::ICapabilityConfigStore/default</fqname>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.qti.hardware.data.connection</name>
-        <transport>hwbinder</transport>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.qti.hardware.data.latency</name>
-        <transport>hwbinder</transport>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.dsp</name>
@@ -202,16 +163,6 @@
             <name>IDspService</name>
             <instance>dspservice</instance>
         </interface>
-        <fqname>@1.0::IDspService/dspservice</fqname>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.qti.hardware.embmssl</name>
-        <transport>hwbinder</transport>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.qti.hardware.factory</name>
-        <transport>hwbinder</transport>
-        <version>1.1</version>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.iop</name>
@@ -221,21 +172,6 @@
             <name>IIop</name>
             <instance>default</instance>
         </interface>
-        <fqname>@2.0::IIop/default</fqname>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.qti.hardware.mwqemadapter</name>
-        <transport>hwbinder</transport>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.perf</name>
-        <transport>hwbinder</transport>
-        <version>2.2</version>
-        <interface>
-            <name>IPerf</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@2.2::IPerf/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.qseecom</name>
@@ -245,51 +181,10 @@
             <name>IQSEECom</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.0::IQSEECom/default</fqname>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.qti.hardware.radio.am</name>
-        <transport>hwbinder</transport>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.qti.hardware.radio.ims</name>
-        <transport>hwbinder</transport>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.qti.hardware.radio.internal.deviceinfo</name>
-        <transport>hwbinder</transport>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.qti.hardware.radio.lpa</name>
-        <transport>hwbinder</transport>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.qti.hardware.radio.qcrilhook</name>
-        <transport>hwbinder</transport>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.qti.hardware.radio.qtiradio</name>
-        <transport>hwbinder</transport>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.qti.hardware.radio.uim</name>
-        <transport>hwbinder</transport>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.qti.hardware.radio.uim_remote_client</name>
-        <transport>hwbinder</transport>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.qti.hardware.radio.uim_remote_server</name>
-        <transport>hwbinder</transport>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.trustedui</name>
         <transport>hwbinder</transport>
-        <fqname>@1.1::ITrustedInput/default</fqname>
-        <fqname>@1.1::ITrustedInput/qtee-vm</fqname>
-        <fqname>@1.2::ITrustedUI/default</fqname>
-        <fqname>@1.2::ITrustedUI/qtee-vm</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.wifi.wifilearner</name>
@@ -299,20 +194,6 @@
             <name>IWifiStats</name>
             <instance>wifiStats</instance>
         </interface>
-        <fqname>@1.0::IWifiStats/wifiStats</fqname>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.qti.ims.callinfo</name>
-        <transport>hwbinder</transport>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.qti.imsrtpservice</name>
-        <transport>hwbinder</transport>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.qti.power.pasrmanager</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
     </hal>
     <hal format="hidl">
         <name>vendor.samsung.hardware.bluetooth</name>
@@ -322,7 +203,6 @@
             <name>ISehBluetooth</name>
             <instance>default</instance>
         </interface>
-        <fqname>@2.0::ISehBluetooth/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.samsung.hardware.bluetooth.a2dp</name>
@@ -332,7 +212,6 @@
             <name>ISehBluetoothAudioOffload</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.0::ISehBluetoothAudioOffload/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.samsung.hardware.gnss</name>
@@ -342,7 +221,6 @@
             <name>ISehGnss</name>
             <instance>default</instance>
         </interface>
-        <fqname>@2.0::ISehGnss/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.samsung.hardware.radio</name>
@@ -353,8 +231,6 @@
             <instance>slot1</instance>
             <instance>slot2</instance>
         </interface>
-        <fqname>@2.2::ISehRadio/slot1</fqname>
-        <fqname>@2.2::ISehRadio/slot2</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.samsung.hardware.radio.bridge</name>
@@ -365,8 +241,6 @@
             <instance>slot1</instance>
             <instance>slot2</instance>
         </interface>
-        <fqname>@2.0::ISehBridge/slot1</fqname>
-        <fqname>@2.0::ISehBridge/slot2</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.samsung.hardware.radio.channel</name>
@@ -379,10 +253,6 @@
             <instance>imsd</instance>
             <instance>imsd2</instance>
         </interface>
-        <fqname>@2.0::ISehChannel/epdgd</fqname>
-        <fqname>@2.0::ISehChannel/epdgd2</fqname>
-        <fqname>@2.0::ISehChannel/imsd</fqname>
-        <fqname>@2.0::ISehChannel/imsd2</fqname>
     </hal>
     <kernel target-level="5"/>
 </manifest>
