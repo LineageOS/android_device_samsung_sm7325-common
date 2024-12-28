@@ -37,6 +37,8 @@ PRODUCT_ENABLE_UFFD_GC := false
 
 # Init files and fstab
 PRODUCT_PACKAGES += \
+    fstab.qcom \
+    fstab.qcom.vendor_ramdisk \
     fstab.ramplus \
     init.audio.samsung.rc \
     init.fingerprint.rc \
@@ -74,10 +76,6 @@ PRODUCT_PACKAGES += \
     vendor_modprobe.sh \
     init.qti.chg_policy.sh \
     init.qti.qcv.sh
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom \
-    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.qcom
 
 # Audio
 PRODUCT_PACKAGES += \
