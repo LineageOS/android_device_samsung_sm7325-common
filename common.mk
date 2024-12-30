@@ -49,6 +49,7 @@ PRODUCT_PACKAGES += \
     init.fingerprint.rc \
     init.nfc.samsung.rc \
     init.qcom.rc \
+    init.qcom.recovery.rc \
     init.qti.kernel.rc \
     init.qti.media.rc \
     init.ramplus.rc \
@@ -303,10 +304,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
-
-# Recovery
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/root/init.recovery.qcom.rc:root/init.recovery.qcom.rc
 
 # RIL
 PRODUCT_PACKAGES += \
