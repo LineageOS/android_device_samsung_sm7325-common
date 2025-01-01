@@ -142,16 +142,11 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     hardware/samsung/vintf/samsung_framework_compatibility_matrix.xml \
     hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml
 
+# Media
+TARGET_USES_ION := true
+
 # QCOM
 BOARD_USES_QCOM_HARDWARE := true
-
-# Display
-TARGET_USES_COLOR_METADATA := true
-TARGET_USES_DISPLAY_RENDER_INTENTS := true
-TARGET_USES_GRALLOC1 := true
-TARGET_USES_GRALLOC4 := true
-TARGET_USES_HWC2 := true
-TARGET_USES_ION := true
 
 # Prop files
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
