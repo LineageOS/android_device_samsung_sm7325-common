@@ -16,6 +16,24 @@
       "message": "Tested, works correctly after adding both props in vendor.prop",
       "revId": "3cf12ebbf9d445680c43359cb4481d99a6e9d471",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5fa6347e_4d24e67c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-01-05T18:26:33Z",
+      "side": 1,
+      "message": "vendor.media.omx\u003d0 is not needed if you pick the device side commits, and the other prop should be this commit https://review.lineageos.org/q/I8783a7de4a4fdf7ff2eac6697c71f6592c9a9e06",
+      "parentUuid": "054d3d5b_e564d386",
+      "revId": "3cf12ebbf9d445680c43359cb4481d99a6e9d471",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
