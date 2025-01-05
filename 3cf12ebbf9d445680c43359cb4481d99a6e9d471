@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "054d3d5b_e564d386",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-01-05T11:46:40Z",
+      "side": 1,
+      "message": "Tested, works correctly after adding both props in vendor.prop",
+      "revId": "3cf12ebbf9d445680c43359cb4481d99a6e9d471",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
