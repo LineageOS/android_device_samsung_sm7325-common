@@ -34,6 +34,24 @@
       "parentUuid": "054d3d5b_e564d386",
       "revId": "3cf12ebbf9d445680c43359cb4481d99a6e9d471",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "12b664a6_492ad17e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-01-11T10:48:20Z",
+      "side": 1,
+      "message": "Thanks for the hint, done: https://review.lineageos.org/c/LineageOS/android_device_samsung_sm7325-common/+/415024/1",
+      "parentUuid": "5fa6347e_4d24e67c",
+      "revId": "3cf12ebbf9d445680c43359cb4481d99a6e9d471",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
