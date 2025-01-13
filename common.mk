@@ -21,6 +21,12 @@ $(call soong_config_set,rfs,mpss_firmware_symlink_target,firmware_modem)
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
 # Partitions
+PRODUCT_PACKAGES += \
+    vendor_bt_firmware_mountpoint \
+    vendor_dsp_mountpoint \
+    vendor_firmware_mnt_mountpoint \
+    vendor_firmware-modem_mountpoint
+
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
