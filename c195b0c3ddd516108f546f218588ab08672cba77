@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f2afbb5_08c59343",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-01-18T11:32:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cfc5202b_9254f62a",
+      "revId": "c195b0c3ddd516108f546f218588ab08672cba77",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "61d11845_029dc1ce",
@@ -31,6 +49,30 @@
       "writtenOn": "2025-01-18T11:26:09Z",
       "side": 1,
       "message": "Unrelated, but you can also pick https://review.lineageos.org/c/LineageOS/android_device_samsung_sm8250-common/+/415234",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 11
+      },
+      "revId": "c195b0c3ddd516108f546f218588ab08672cba77",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eb492ced_8c3aeca9",
+        "filename": "common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-01-18T11:32:50Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_device_samsung_sm7325-common/+/415943/1",
+      "parentUuid": "61d11845_029dc1ce",
       "range": {
         "startLine": 17,
         "startChar": 0,
