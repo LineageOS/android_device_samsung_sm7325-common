@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "24b615dc_4bf1a87d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-01-18T11:16:25Z",
+      "side": 1,
+      "message": "https://github.com/LineageOS/android_device_samsung_sm8250-common/commit/6f0971a14b6d095d8e396d8b8bafacb326f22ffc",
+      "revId": "374d857c426b1a877903a7e9cc147e4f86e86f5f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
