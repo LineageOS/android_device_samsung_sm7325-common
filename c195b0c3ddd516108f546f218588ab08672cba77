@@ -16,6 +16,29 @@
       "message": "Can you change the order of this change in the chain, tho? IIRC, you can only remove BUILD_BROKEN flag after the wifi symlink convertion.",
       "revId": "c195b0c3ddd516108f546f218588ab08672cba77",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "61d11845_029dc1ce",
+        "filename": "common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-01-18T11:26:09Z",
+      "side": 1,
+      "message": "Unrelated, but you can also pick https://review.lineageos.org/c/LineageOS/android_device_samsung_sm8250-common/+/415234",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 11
+      },
+      "revId": "c195b0c3ddd516108f546f218588ab08672cba77",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
