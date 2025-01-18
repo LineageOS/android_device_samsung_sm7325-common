@@ -16,6 +16,24 @@
       "message": "https://github.com/LineageOS/android_device_samsung_sm8250-common/commit/6f0971a14b6d095d8e396d8b8bafacb326f22ffc",
       "revId": "374d857c426b1a877903a7e9cc147e4f86e86f5f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "32827f5a_da622631",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-01-18T11:20:28Z",
+      "side": 1,
+      "message": "Better now? https://review.lineageos.org/c/LineageOS/android_device_samsung_sm7325-common/+/415939",
+      "parentUuid": "24b615dc_4bf1a87d",
+      "revId": "374d857c426b1a877903a7e9cc147e4f86e86f5f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
