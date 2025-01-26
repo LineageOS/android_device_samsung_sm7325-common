@@ -301,9 +301,6 @@
     -->
     <bool name="config_wifiDisplaySupportsProtectedBuffers">true</bool>
 
-    <!-- Flag indicating if the speed up audio on mt call code should be executed -->
-    <bool name="config_speed_up_audio_on_mt_calls">true</bool>
-
     <!-- Flag indicating whether the current device allows stk sms send service via framework.
          If true,this means that the device supports sending of stk triggered sms via the telephony.
          This can be overridden to false for devices which can't send stk sms message via
