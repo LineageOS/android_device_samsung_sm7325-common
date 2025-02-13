@@ -383,6 +383,10 @@ PRODUCT_PACKAGES += \
     android.frameworks.cameraservice.service@2.1.vendor \
     libcamera_metadata.vendor
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal-service.qti
+
 # Touch features
 PRODUCT_PACKAGES += \
     vendor.lineage.touch-service.samsung
