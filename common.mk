@@ -314,6 +314,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.sensors-service.samsung-multihal
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal-service.qti
+
 # Touch features
 PRODUCT_PACKAGES += \
     vendor.lineage.touch-service.samsung
