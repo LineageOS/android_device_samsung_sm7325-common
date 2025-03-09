@@ -166,9 +166,6 @@ SOONG_CONFIG_samsungCameraVars_extra_ids := 54
 
 SOONG_CONFIG_samsungCameraVars_needs_sec_reserved_field := true
 
-# Keymaster
-TARGET_KEYMASTER_VARIANT := samsung
-
 # Init
 TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):libinit_samsung_sm7325
 
