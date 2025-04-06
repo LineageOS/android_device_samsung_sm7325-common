@@ -126,30 +126,7 @@ vendor/firmware/msbtfw11.mbn
 vendor/firmware/msnv11.bin
 
 # Camera
-vendor/lib/libsensorndkbridge.so
 vendor/lib64/libsensorndkbridge.so
-vendor/lib/libcamera_nn_stub.so
-vendor/lib/libscveCommon.so
-vendor/lib/libuniplugin.so
-vendor/lib/libcamxswprocessalgo.so
-vendor/lib/libscveObjectTracker.so
-vendor/lib/libcamxstatscore.so
-vendor/lib/libcamxfdengine.so
-vendor/lib/libcamxqsatalgo.so
-vendor/lib/hw/camera.unihal.default.so
-vendor/lib/libscveCommon_stub.so
-vendor/lib/libqcwrappercommon.so
-vendor/lib/libscveObjectSegmentation_stub.so
-vendor/lib/libscveObjectTracker_stub.so
-vendor/lib/libsensorlistener.so
-vendor/lib/libscveObjectSegmentation.so
-vendor/lib/libswregistrationalgo.so
-vendor/lib/libcom.qti.chinodeutils.so
-vendor/lib/libcamxtintlessalgo.so
-vendor/lib/libmpbase.so
-vendor/lib/unihal_main@2.15.so
-vendor/lib/unihal_cutils@2.15.so
-vendor/lib/unihal_uniplugin@1.0.so
 vendor/lib64/libcamera_nn_stub.so
 vendor/lib64/libscveCommon.so
 vendor/lib64/libuniplugin.so
@@ -173,64 +150,35 @@ vendor/lib64/libmpbase.so
 vendor/lib64/unihal_main@2.15.so
 vendor/lib64/unihal_cutils@2.15.so
 vendor/lib64/unihal_uniplugin@1.0.so
-vendor/lib/libofflinelog.so
 vendor/lib64/libofflinelog.so
-vendor/lib/libofflinedump.so
 vendor/lib64/libofflinedump.so
-vendor/lib/libcamximageformatutils.so
 vendor/lib64/libcamximageformatutils.so
-vendor/lib/libsynx.so
 vendor/lib64/libsynx.so
-vendor/lib/libbitmlenginev2.so
 vendor/lib64/libbitmlenginev2.so
-vendor/lib/libcamxfdalgo.so
 vendor/lib64/libcamxfdalgo.so
-vendor/lib/libcamxfacialfeatures.so
 vendor/lib64/libcamxfacialfeatures.so
-vendor/lib/libos.so
 vendor/lib64/libos.so
-vendor/lib/libthreadutils.so
 vendor/lib64/libthreadutils.so
-vendor/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
-vendor/lib/libchilog.so
 vendor/lib64/libchilog.so
-vendor/lib/com.qti.settings.kodiak.so
 vendor/lib64/com.qti.settings.kodiak.so
-vendor/lib/com.qti.settings.mannar.so
 vendor/lib64/com.qti.settings.mannar.so
-vendor/lib/com.qti.settings.sdm865.so
 vendor/lib64/com.qti.settings.sdm865.so
-vendor/lib/com.qti.settings.sm8350.so
 vendor/lib64/com.qti.settings.sm8350.so
-vendor/lib/com.qti.settings.kamorta.so
 vendor/lib64/com.qti.settings.kamorta.so
-vendor/lib/libtriplecam_image_optical_zoom.so
 vendor/lib64/libtriplecam_image_optical_zoom.so
-vendor/lib/libcamxswispiqmodule.so
 vendor/lib64/libcamxswispiqmodule.so
-vendor/lib/libmmcamera_mfnr.so
 vendor/lib64/libmmcamera_mfnr.so
-vendor/lib/com.qti.stats.common.so
 vendor/lib64/com.qti.stats.common.so
-vendor/lib/libopencv.so
 vendor/lib64/libopencv.so
-vendor/lib/libbitmlengine.so
 vendor/lib64/libbitmlengine.so
-vendor/lib/libbitmlenginev2.so
 vendor/lib64/libbitmlenginev2.so
 # Need com.qti.feature2.generic and com.qti.chi.override from device-specific trees
-vendor/lib/com.qti.chiusecaseselector.so;DISABLE_DEPS
 vendor/lib64/com.qti.chiusecaseselector.so;DISABLE_DEPS
-vendor/lib/libcamerapostproc.so;DISABLE_DEPS
 vendor/lib64/libcamerapostproc.so;DISABLE_DEPS
-vendor/lib/libcamxexternalformatutils.so
 vendor/lib64/libcamxexternalformatutils.so
-vendor/lib/libipebpsstriping170.so
 vendor/lib64/libipebpsstriping170.so
-vendor/lib/libipebpsstriping.so
 vendor/lib64/libipebpsstriping.so
-vendor/lib/libcamxifestriping.so
 vendor/lib64/libcamxifestriping.so
 
 # Camera Firmware
@@ -611,12 +559,6 @@ vendor/bin/pm-proxy
 vendor/bin/pm-service
 vendor/lib/libperipheral_client.so
 vendor/lib64/libperipheral_client.so
-
-# Protobuf
-vendor/lib/libprotobuf-cpp-full-3.9.1.so
-vendor/lib/libprotobuf-cpp-lite-3.9.1.so
-vendor/lib64/libprotobuf-cpp-full-3.9.1.so
-vendor/lib64/libprotobuf-cpp-lite-3.9.1.so
 
 # Public libraries
 vendor/etc/public.libraries.txt
