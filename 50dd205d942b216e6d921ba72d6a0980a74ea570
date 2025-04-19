@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "70face2b_0b563587",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-04-19T11:58:41Z",
+      "side": 0,
+      "message": "Not sure why you missed removing this twice, but make sure not to push your local branch to refs/heads/lineage-22.2 without it.",
+      "range": {
+        "startLine": 170,
+        "startChar": 0,
+        "endLine": 170,
+        "endChar": 24
+      },
+      "revId": "50dd205d942b216e6d921ba72d6a0980a74ea570",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
