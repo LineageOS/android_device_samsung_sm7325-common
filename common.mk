@@ -14,8 +14,6 @@
 # limitations under the License.
 #
 
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-
 # Add common definitions for Qualcomm
 $(call soong_config_set,rfs,mpss_firmware_symlink_target,firmware_modem)
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
@@ -29,7 +27,21 @@ PRODUCT_PACKAGES += \
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
+
+PRODUCT_PACKAGES += \
+ApertureOverlayCommon \
+FlipFlapOverlayCommon \
+FrameworksResCommon \
+Launcher3OverlayCommon \
+LineagePartsOverlayCommon \
+LineageSDKResCommon \
+LineageSettingsProviderOverlayCommon \
+SettingsLibOverlayCommon \
+SettingsResCommon \
+SystemUIResCommon \
+WifiResCommon
 
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 30
@@ -352,8 +364,7 @@ PRODUCT_PACKAGES += \
     libwpa_client \
     wpa_cli \
     wpa_supplicant \
-    wpa_supplicant.conf \
-    WifiOverlay
+    wpa_supplicant.conf
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/icm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/icm.conf \
