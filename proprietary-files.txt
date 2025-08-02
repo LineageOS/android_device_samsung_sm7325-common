@@ -813,6 +813,7 @@ vendor/lib64/libsns_device_mode_stub.so
 vendor/lib64/libnanopb.so
 
 # Thermal
+vendor/etc/btcon.json
 vendor/bin/thermal-engine
 vendor/etc/init/init_thermal-engine.rc
 vendor/etc/thermal-engine.conf
