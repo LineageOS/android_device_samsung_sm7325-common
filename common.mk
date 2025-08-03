@@ -15,6 +15,7 @@
 #
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+COMMON_PATH := device/samsung/sm7325-common
 
 # Add common definitions for Qualcomm
 $(call soong_config_set,rfs,mpss_firmware_symlink_target,firmware_modem)
@@ -57,6 +58,8 @@ PRODUCT_PACKAGES += \
     ueventd.qcom.rc \
     wifi_qcom_wcn6750.rc \
     wifi_sec.rc
+
+$(call soong_config_set,libinit,vendor_init_lib,//$(COMMON_PATH):libinit_samsung_sm7325)
 
 # Vendor scripts
 PRODUCT_PACKAGES += \
