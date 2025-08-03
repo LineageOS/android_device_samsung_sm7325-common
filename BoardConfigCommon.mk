@@ -166,9 +166,6 @@ SOONG_CONFIG_samsungCameraVars_extra_ids := 54
 
 SOONG_CONFIG_samsungCameraVars_needs_sec_reserved_field := true
 
-# Init
-TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):libinit_samsung_sm7325
-
 # HIDL manifests
 DEVICE_MANIFEST_SKUS := yupik
 DEVICE_MANIFEST_YUPIK_FILES += $(COMMON_PATH)/configs/manifest_yupik.xml

@@ -58,6 +58,8 @@ PRODUCT_PACKAGES += \
     wifi_qcom_wcn6750.rc \
     wifi_sec.rc
 
+$(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_samsung_sm7325)
+
 # Vendor scripts
 PRODUCT_PACKAGES += \
     init.class_main.sh \
