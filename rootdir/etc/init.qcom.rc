@@ -66,6 +66,9 @@ on early-init
 
 on init
 
+    # AFC permissions for fast charge
+    chown system radio /sys/class/sec/switch/afc_disable
+
     # Support legacy paths
     symlink /sdcard /mnt/sdcard
     symlink /sdcard /storage/sdcard0
