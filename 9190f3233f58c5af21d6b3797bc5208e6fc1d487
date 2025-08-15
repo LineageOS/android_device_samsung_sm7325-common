@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a9e49c0_64892f8d",
+        "filename": "sepolicy/vendor/hal_lineage_health_default.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-08-15T08:17:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b958d12d_6c125817",
+      "range": {
+        "startLine": 1,
+        "startChar": 33,
+        "endLine": 1,
+        "endChar": 53
+      },
+      "revId": "9190f3233f58c5af21d6b3797bc5208e6fc1d487",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "92c054c8_3dc021b8",
@@ -61,6 +85,30 @@
       "side": 1,
       "message": "*sysfs_sec_switch_writable",
       "parentUuid": "92c054c8_3dc021b8",
+      "range": {
+        "startLine": 2,
+        "startChar": 33,
+        "endLine": 2,
+        "endChar": 62
+      },
+      "revId": "9190f3233f58c5af21d6b3797bc5208e6fc1d487",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "46de06e0_50dae4a1",
+        "filename": "sepolicy/vendor/hal_lineage_health_default.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-08-15T08:17:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "283d7b69_3ce52d6c",
       "range": {
         "startLine": 2,
         "startChar": 33,
