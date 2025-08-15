@@ -45,6 +45,30 @@
       },
       "revId": "9190f3233f58c5af21d6b3797bc5208e6fc1d487",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "283d7b69_3ce52d6c",
+        "filename": "sepolicy/vendor/hal_lineage_health_default.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-08-15T06:56:12Z",
+      "side": 1,
+      "message": "*sysfs_sec_switch_writable",
+      "parentUuid": "92c054c8_3dc021b8",
+      "range": {
+        "startLine": 2,
+        "startChar": 33,
+        "endLine": 2,
+        "endChar": 62
+      },
+      "revId": "9190f3233f58c5af21d6b3797bc5208e6fc1d487",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
