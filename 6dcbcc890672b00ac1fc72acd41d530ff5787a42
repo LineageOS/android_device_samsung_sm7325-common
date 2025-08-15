@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "17ad1ed2_6944d8f2",
+        "filename": "sepolicy/vendor/hal_lineage_health_default.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-08-15T08:53:39Z",
+      "side": 1,
+      "message": "sysfs_sec_switch_writable",
+      "range": {
+        "startLine": 2,
+        "startChar": 33,
+        "endLine": 2,
+        "endChar": 49
+      },
+      "revId": "6dcbcc890672b00ac1fc72acd41d530ff5787a42",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
