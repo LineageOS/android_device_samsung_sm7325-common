@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fcd76b73_d5122f0e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-02T08:46:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "587de589_0666a5e8",
+      "revId": "950d39a1a1dd3ccb8e508a11ab184e100b09ed7e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "49e9bda7_2e38a5f0",
@@ -31,6 +49,24 @@
       "writtenOn": "2025-09-02T08:27:53Z",
       "side": 1,
       "message": "The point of doing this was to drop these vendor_data rules",
+      "revId": "950d39a1a1dd3ccb8e508a11ab184e100b09ed7e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d4118043_297af1d9",
+        "filename": "sepolicy/vendor/hal_lineage_livedisplay_qti.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-02T08:46:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "49e9bda7_2e38a5f0",
       "revId": "950d39a1a1dd3ccb8e508a11ab184e100b09ed7e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
