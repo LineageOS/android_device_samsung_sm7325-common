@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "027ab14b_1dde1b5d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-02T10:10:45Z",
+      "side": 1,
+      "message": "Better stack this small chain onto the other big chain you have to keep full history.",
+      "revId": "c25495a1ad23f857f646b7cd43650091868bd7ed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
