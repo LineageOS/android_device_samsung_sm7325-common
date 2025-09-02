@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e8cebacc_a23d0043",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-02T10:57:28Z",
+      "side": 1,
+      "message": "I am going to remove this one out of the chain. It doesn\u0027t make too much sense in this tree. I only did this on sm8250 because differente targets needed to declare different supported interfaces.",
+      "revId": "9c237cc43d36ccdf6a0ab3796ec3685c647694c1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
