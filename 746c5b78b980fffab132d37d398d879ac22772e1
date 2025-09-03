@@ -70,6 +70,24 @@
       "parentUuid": "9073a61e_962d68e1",
       "revId": "746c5b78b980fffab132d37d398d879ac22772e1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "52f656fa_0f26b4b8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-03T13:58:39Z",
+      "side": 1,
+      "message": "Can you also confirm that switching color modes in settings from natural to vivid or vice-versa produces visual changes in colors?",
+      "parentUuid": "48eae5dc_303fd885",
+      "revId": "746c5b78b980fffab132d37d398d879ac22772e1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
