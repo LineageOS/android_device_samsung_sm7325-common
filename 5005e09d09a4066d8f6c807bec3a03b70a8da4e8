@@ -16,6 +16,24 @@
       "message": "@tadat1024@gmail.com can you confirm that HTPR is supported on sm7325?",
       "revId": "5005e09d09a4066d8f6c807bec3a03b70a8da4e8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b42586f2_391d2dfd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35721
+      },
+      "writtenOn": "2025-09-03T15:57:20Z",
+      "side": 1,
+      "message": "I tested it, it works without any problem",
+      "parentUuid": "ff877671_f181c0f7",
+      "revId": "5005e09d09a4066d8f6c807bec3a03b70a8da4e8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
