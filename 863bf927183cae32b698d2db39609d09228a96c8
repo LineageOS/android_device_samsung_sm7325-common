@@ -34,6 +34,24 @@
       "parentUuid": "68c4c5c0_ab3f1fc3",
       "revId": "863bf927183cae32b698d2db39609d09228a96c8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "320451d2_bac5e7b2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-03T19:19:29Z",
+      "side": 1,
+      "message": "Sure, please verify also sm7125",
+      "parentUuid": "abd7a4ba_b7b93d0a",
+      "revId": "863bf927183cae32b698d2db39609d09228a96c8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
