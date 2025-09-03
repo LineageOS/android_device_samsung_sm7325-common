@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aed43f44_4b1d1c2a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-03T16:02:04Z",
+      "side": 1,
+      "message": "@tadat1024@gmail.com are you able to validate and +v the entire chain if everything works fine?",
+      "revId": "4a71a905c044b844bdfeddad0d2d65e079db38dd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
