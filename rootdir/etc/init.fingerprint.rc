@@ -1,7 +1,3 @@
-on early-init
-    chmod 0660 /dev/goodix_fp
-    chown system system /dev/goodix_fp
-
 on init
     write /sys/class/sec/tsp/cmd "fod_enable,1,1,0"
     write /sys/class/sec/tsp/cmd "set_fod_rect,421,2018,659,2256"
@@ -10,6 +6,9 @@ on boot
 # Fingerprint sensor
     chmod 0660 /dev/esfp0
     chown system system /dev/esfp0
+
+    chmod 0660 /dev/goodix_fp
+    chown system system /dev/goodix_fp
 
     chmod 0660 /dev/qbt2000_fd
     chmod 0660 /dev/qbt2000_ipc
