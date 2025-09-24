@@ -16,6 +16,24 @@
       "message": "```suggestion\nDEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE +\u003d \\\n```",
       "revId": "6325e9f7eebb6d1a2a008d126305a2eb8b582f36",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "87d47d50_07c0f904",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 35721
+      },
+      "writtenOn": "2025-09-24T11:08:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ff02f09a_a3beaccb",
+      "revId": "6325e9f7eebb6d1a2a008d126305a2eb8b582f36",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
