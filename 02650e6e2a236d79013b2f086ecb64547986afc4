@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "344298d7_16565bda",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35721
+      },
+      "writtenOn": "2025-09-24T15:49:56Z",
+      "side": 1,
+      "message": "It may probably only be necessary with kernel 4.x, sm7325 uses kernel 5.4",
+      "revId": "02650e6e2a236d79013b2f086ecb64547986afc4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
