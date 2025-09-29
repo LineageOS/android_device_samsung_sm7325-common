@@ -16,6 +16,24 @@
       "message": "It may probably only be necessary with kernel 4.x, sm7325 uses kernel 5.4",
       "revId": "02650e6e2a236d79013b2f086ecb64547986afc4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "63701b9b_ef45ab0b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2025-09-29T20:09:23Z",
+      "side": 1,
+      "message": "I\u0027m using 5 as well on sm6375, which is 5.4 too. toohttps://github.com/Haky86Builds/android_device_samsung_sm6375-common/blob/lineage-22.2/vintf/manifest.xml#L1",
+      "parentUuid": "344298d7_16565bda",
+      "revId": "02650e6e2a236d79013b2f086ecb64547986afc4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
