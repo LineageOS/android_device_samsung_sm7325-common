@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dbd9165a_402f41f5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-09-29T16:45:56Z",
+      "side": 1,
+      "message": "This doesn\u0027t fix the actual issue (which is a sepolicy thing) and might brick devices if I remember correctly.",
+      "revId": "54f8cf9899f295ac6bbdd1202a15192326e62b79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
