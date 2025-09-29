@@ -16,6 +16,24 @@
       "message": "I belive this is irrelevant. And I also believe that I forgot to set TARGET_INIT_VENDOR_LIB",
       "revId": "7d74603fba3dd8fd4405d49f176dd0f31b601164",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "664e079f_d36aa646",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35721
+      },
+      "writtenOn": "2025-09-29T17:03:52Z",
+      "side": 1,
+      "message": "Now it is $(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_samsung_sm7325) in common.mk file (line 61)",
+      "parentUuid": "53fdc82b_a9fb5782",
+      "revId": "7d74603fba3dd8fd4405d49f176dd0f31b601164",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
