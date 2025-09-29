@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "53fdc82b_a9fb5782",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-09-29T16:49:53Z",
+      "side": 1,
+      "message": "I belive this is irrelevant. And I also believe that I forgot to set TARGET_INIT_VENDOR_LIB",
+      "revId": "7d74603fba3dd8fd4405d49f176dd0f31b601164",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
