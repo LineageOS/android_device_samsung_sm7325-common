@@ -167,8 +167,7 @@ SOONG_CONFIG_samsungCameraVars_extra_ids := 54
 SOONG_CONFIG_samsungCameraVars_needs_sec_reserved_field := true
 
 # HIDL manifests
-DEVICE_MANIFEST_SKUS := yupik
-DEVICE_MANIFEST_YUPIK_FILES += $(COMMON_PATH)/configs/manifest_yupik.xml
+DEVICE_MANIFEST_FILE += $(COMMON_PATH)/configs/manifest.xml
 DEVICE_MATRIX_FILE := hardware/qcom-caf/common/compatibility_matrix.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(COMMON_PATH)/configs/framework_compatibility_matrix.xml \
