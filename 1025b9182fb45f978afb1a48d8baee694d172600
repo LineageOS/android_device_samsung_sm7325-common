@@ -22,6 +22,30 @@
       },
       "revId": "1025b9182fb45f978afb1a48d8baee694d172600",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c66ee664_b6d94bb1",
+        "filename": "common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 35721
+      },
+      "writtenOn": "2025-11-30T10:44:21Z",
+      "side": 1,
+      "message": "Done, can this be merged into lineage-23.0? Or this only for lineage-23.1?",
+      "parentUuid": "2f08626d_134098f9",
+      "range": {
+        "startLine": 127,
+        "startChar": 57,
+        "endLine": 127,
+        "endChar": 59
+      },
+      "revId": "1025b9182fb45f978afb1a48d8baee694d172600",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
