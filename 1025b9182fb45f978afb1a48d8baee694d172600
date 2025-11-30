@@ -70,6 +70,30 @@
       },
       "revId": "1025b9182fb45f978afb1a48d8baee694d172600",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "226f8cee_8e530629",
+        "filename": "common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-11-30T10:47:32Z",
+      "side": 1,
+      "message": "We\u0027re merging all these type of changes in 23.1, but this one in particular doesn\u0027t depend on hw/samsung change. In other words, it also works in 23.0.",
+      "parentUuid": "c66ee664_b6d94bb1",
+      "range": {
+        "startLine": 127,
+        "startChar": 57,
+        "endLine": 127,
+        "endChar": 59
+      },
+      "revId": "1025b9182fb45f978afb1a48d8baee694d172600",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
