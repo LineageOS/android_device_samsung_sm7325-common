@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9bb146c0_0d50e266",
+        "filename": "releasetools/releasetools.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-12-05T22:37:53Z",
+      "side": 1,
+      "message": "NameError: name \u0027input_zip\u0027 is not defined",
+      "range": {
+        "startLine": 38,
+        "startChar": 2,
+        "endLine": 38,
+        "endChar": 55
+      },
+      "revId": "3df6014c085053d1b6a66c4177f4581a63c2ecfb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
