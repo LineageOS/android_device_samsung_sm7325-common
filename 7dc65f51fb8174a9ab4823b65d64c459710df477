@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "369ecfa5_f0a4a096",
+        "filename": "common.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2025-12-06T16:51:59Z",
+      "side": 1,
+      "message": "```suggestion\n    fstab.qcom \\\n    fstab.qcom.vendor_ramdisk \\\n```",
+      "revId": "7dc65f51fb8174a9ab4823b65d64c459710df477",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "75e63c67_e8bc28a0",
         "filename": "init/Android.bp",
         "patchSetId": 3
