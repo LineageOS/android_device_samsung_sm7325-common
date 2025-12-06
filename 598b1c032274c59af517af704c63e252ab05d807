@@ -34,6 +34,24 @@
       "parentUuid": "ca370fb2_856877a2",
       "revId": "598b1c032274c59af517af704c63e252ab05d807",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb8b417b_41f7510a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-06T14:56:45Z",
+      "side": 1,
+      "message": "If is applies to 23.0 it likely applies to 23.1. I am just implying that you\u0027re leaving 23.0 behind when it\u0027s still the active branch.",
+      "parentUuid": "23c6541f_cfc21d56",
+      "revId": "598b1c032274c59af517af704c63e252ab05d807",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
