@@ -158,6 +158,24 @@
       "parentUuid": "73722156_53b67571",
       "revId": "7dc65f51fb8174a9ab4823b65d64c459710df477",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6a774877_1ae6dba4",
+        "filename": "init/Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-06T17:14:35Z",
+      "side": 1,
+      "message": "This just works:\n\nbgcngm@analog:~/android/lineage-23.1$ find $OUT/ | grep fstab.default\n/home/bgcngm/android/lineage-23.1/out/target/product/erhai/vendor/etc/fstab.default\n/home/bgcngm/android/lineage-23.1/out/target/product/erhai/vendor_ramdisk/system/etc/fstab.default",
+      "parentUuid": "18dbb76c_79ce5070",
+      "revId": "7dc65f51fb8174a9ab4823b65d64c459710df477",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
