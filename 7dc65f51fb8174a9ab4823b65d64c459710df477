@@ -122,6 +122,24 @@
       "parentUuid": "e53b4b7c_5b05d1f3",
       "revId": "7dc65f51fb8174a9ab4823b65d64c459710df477",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "73722156_53b67571",
+        "filename": "init/Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-12-06T17:13:26Z",
+      "side": 1,
+      "message": "Keep in mind I\u0027m doing this on 23.1, not on 23.0. Could be an issue on 23.1 only.",
+      "parentUuid": "18dbb76c_79ce5070",
+      "revId": "7dc65f51fb8174a9ab4823b65d64c459710df477",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
