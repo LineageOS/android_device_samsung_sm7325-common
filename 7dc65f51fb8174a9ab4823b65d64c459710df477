@@ -50,6 +50,24 @@
       "message": "```suggestion\n    vendor: true,\n    vendor_ramdisk_available: true,```",
       "revId": "7dc65f51fb8174a9ab4823b65d64c459710df477",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "53bfb70a_3363a4e2",
+        "filename": "init/Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-12-06T17:00:55Z",
+      "side": 1,
+      "message": "Check the previous patch sets, I already tried this exact approach before. It builds into vendor_ramdisk correctly, but as mentioned in my previous comment it\u0027ll still build to vendor_ramdisk/system/etc/ intead of vendor_ramdisk/first_stage_init. And the sytem/etc/ path wont boot at all.",
+      "parentUuid": "75e63c67_e8bc28a0",
+      "revId": "7dc65f51fb8174a9ab4823b65d64c459710df477",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
