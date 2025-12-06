@@ -22,6 +22,30 @@
       },
       "revId": "3df6014c085053d1b6a66c4177f4581a63c2ecfb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0f9926ab_2ed5e351",
+        "filename": "releasetools/releasetools.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-12-06T11:48:31Z",
+      "side": 1,
+      "message": "This is what you need:\n\nhttps://github.com/LineageOS/android_device_samsung_sm8250-common/commit/d755aaf13a2a0f5956013e2874bdb157deeccaee",
+      "parentUuid": "9bb146c0_0d50e266",
+      "range": {
+        "startLine": 38,
+        "startChar": 2,
+        "endLine": 38,
+        "endChar": 55
+      },
+      "revId": "3df6014c085053d1b6a66c4177f4581a63c2ecfb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
