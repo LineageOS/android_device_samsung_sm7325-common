@@ -16,6 +16,24 @@
       "message": "Why are you moving stuff to 23.1 branch when it applies to 23.0 and should be merged there? Like this for example.",
       "revId": "598b1c032274c59af517af704c63e252ab05d807",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "23c6541f_cfc21d56",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-12-06T14:53:24Z",
+      "side": 1,
+      "message": "Why does it need to be merged into 23.0 when it applies to 23.1 too?",
+      "parentUuid": "ca370fb2_856877a2",
+      "revId": "598b1c032274c59af517af704c63e252ab05d807",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
