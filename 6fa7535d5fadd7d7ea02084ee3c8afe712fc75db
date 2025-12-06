@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ae2bf70_20cb7a43",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-12-06T13:17:03Z",
+      "side": 1,
+      "message": "This still results in the fstab being copied to vendor_ramdisk/system/etc/ instead of vendor_ramdisk/first_stage_init/, which breaks booting completely",
+      "revId": "6fa7535d5fadd7d7ea02084ee3c8afe712fc75db",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

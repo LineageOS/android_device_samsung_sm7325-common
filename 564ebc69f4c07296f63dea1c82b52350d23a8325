@@ -59,6 +59,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "923e67b3_b3d57b75",
+        "filename": "common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-12-06T13:17:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e2410978_32d0168f",
+      "range": {
+        "startLine": 41,
+        "startChar": 4,
+        "endLine": 41,
+        "endChar": 24
+      },
+      "revId": "564ebc69f4c07296f63dea1c82b52350d23a8325",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2106b899_d1b310b2",
