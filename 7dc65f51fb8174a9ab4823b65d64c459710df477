@@ -176,6 +176,24 @@
       "parentUuid": "18dbb76c_79ce5070",
       "revId": "7dc65f51fb8174a9ab4823b65d64c459710df477",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6340ab49_24ecdbf3",
+        "filename": "init/Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-12-06T17:26:29Z",
+      "side": 1,
+      "message": "I\u0027m getting the exact same behaviour. Just that my devices won\u0027t boot with the fstab in vendor_ramdisk/system/etc/ for some reason",
+      "parentUuid": "6a774877_1ae6dba4",
+      "revId": "7dc65f51fb8174a9ab4823b65d64c459710df477",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
