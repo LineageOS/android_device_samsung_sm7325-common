@@ -140,6 +140,24 @@
       "parentUuid": "18dbb76c_79ce5070",
       "revId": "7dc65f51fb8174a9ab4823b65d64c459710df477",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eaf9b842_e4b8b8ce",
+        "filename": "init/Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2025-12-06T17:14:26Z",
+      "side": 1,
+      "message": "Not likely as I\u0027m building on 23.0 and 23.1",
+      "parentUuid": "73722156_53b67571",
+      "revId": "7dc65f51fb8174a9ab4823b65d64c459710df477",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
