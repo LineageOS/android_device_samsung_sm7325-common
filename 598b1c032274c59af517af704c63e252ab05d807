@@ -52,6 +52,24 @@
       "parentUuid": "23c6541f_cfc21d56",
       "revId": "598b1c032274c59af517af704c63e252ab05d807",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c39c534b_d77723d8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-12-06T14:59:36Z",
+      "side": 1,
+      "message": "I\u0027m not even shipping 23.0 at the moment and I also wasn\u0027t going to imemdiately merge any of this. I\u0027m fine with just keeping it as-is and waiting for 23.1 to become the active branch.",
+      "parentUuid": "fb8b417b_41f7510a",
+      "revId": "598b1c032274c59af517af704c63e252ab05d807",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
