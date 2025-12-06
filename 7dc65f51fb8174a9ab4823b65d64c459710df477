@@ -20,6 +20,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "e52db5a4_4f375147",
+        "filename": "common.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2025-12-06T16:52:44Z",
+      "side": 1,
+      "message": "You can remove this if you apply the suggested edits",
+      "revId": "7dc65f51fb8174a9ab4823b65d64c459710df477",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "75e63c67_e8bc28a0",
         "filename": "init/Android.bp",
         "patchSetId": 3
