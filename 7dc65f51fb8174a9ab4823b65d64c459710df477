@@ -68,6 +68,24 @@
       "parentUuid": "75e63c67_e8bc28a0",
       "revId": "7dc65f51fb8174a9ab4823b65d64c459710df477",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b904ed3e_4c73e5a7",
+        "filename": "init/Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2025-12-06T17:04:52Z",
+      "side": 1,
+      "message": "Odd, I use the same setup I suggested for dre (sm4350|holi) and everything is placed in the proper locations",
+      "parentUuid": "53bfb70a_3363a4e2",
+      "revId": "7dc65f51fb8174a9ab4823b65d64c459710df477",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
