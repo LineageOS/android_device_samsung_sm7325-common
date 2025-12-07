@@ -217,6 +217,30 @@
       },
       "revId": "7dc65f51fb8174a9ab4823b65d64c459710df477",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cc60e297_3634eec3",
+        "filename": "init/Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 35721
+      },
+      "writtenOn": "2025-12-07T05:08:06Z",
+      "side": 1,
+      "message": "```suggestion\nprebuilt_etc {\n    name: \"fstab.qcom\",\n    src: \"init/fstab.qcom\",\n    install_base: \"vendor_ramdisk\",\n    relative_install_path: \"first_stage_ramdisk\",\n    vendor: true,\n    required: [\"first_stage_ramdisk_files\"],\n}\n```",
+      "parentUuid": "ad025ddb_862c4039",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 23
+      },
+      "revId": "7dc65f51fb8174a9ab4823b65d64c459710df477",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
