@@ -16,6 +16,24 @@
       "message": "These should be vendor, not soc_specific.",
       "revId": "5259388764eda463cc1c3c5329f2c64521bf3c5f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5cea47b2_2a57ad1d",
+        "filename": "init/Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-12-07T12:30:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "282215a5_1ac60610",
+      "revId": "5259388764eda463cc1c3c5329f2c64521bf3c5f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
