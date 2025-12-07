@@ -265,6 +265,30 @@
       },
       "revId": "7dc65f51fb8174a9ab4823b65d64c459710df477",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2f0a0fd9_cf9154c0",
+        "filename": "init/Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-07T12:07:45Z",
+      "side": 1,
+      "message": "I wouldn\u0027t do that anyway. I would rather investigate why it doesn\u0027t boot.",
+      "parentUuid": "80d299ef_37d5cd63",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 23
+      },
+      "revId": "7dc65f51fb8174a9ab4823b65d64c459710df477",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
