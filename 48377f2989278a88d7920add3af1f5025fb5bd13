@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f5af71d0_7078b4df",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 35721
+      },
+      "writtenOn": "2025-12-07T10:36:34Z",
+      "side": 1,
+      "message": "I think this line should be moved to common.mk",
+      "range": {
+        "startLine": 210,
+        "startChar": 0,
+        "endLine": 210,
+        "endChar": 73
+      },
+      "revId": "48377f2989278a88d7920add3af1f5025fb5bd13",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
