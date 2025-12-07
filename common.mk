@@ -409,6 +409,8 @@ PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/usb/etc
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.samsung
 
+$(call soong_config_set_bool,samsungVibratorVars,duration_amplitude,true)
+
 # Tether
 PRODUCT_PACKAGES += \
     ipacm \
