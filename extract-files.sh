@@ -84,6 +84,10 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --add-needed "libui_shim.so" "${2}"
             ;;
+        vendor/lib/libdpps.so|vendor/lib64/libdpps.so|vendor/lib/libsnapdragoncolor-manager.so|vendor/lib64/libsnapdragoncolor-manager.so)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --replace-needed "libtinyxml2.so" "libtinyxml2-v34.so" "${2}"
+            ;;
         *)
             return 1
             ;;
