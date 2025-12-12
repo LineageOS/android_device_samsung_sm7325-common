@@ -253,7 +253,7 @@ vendor/lib64/libcvp2_1.so
 # DRM
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
--vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
 vendor/lib/libcpion.so
 vendor/lib64/libcpion.so
 vendor/lib/libminksocket.so
@@ -262,8 +262,8 @@ vendor/lib/liboemcrypto.so
 vendor/lib64/liboemcrypto.so
 vendor/lib/libtrustedapploader.so
 vendor/lib64/libtrustedapploader.so
-vendor/lib/libwvhidl.so|36990dbac5c87ccb351071a2758b0786b532f0f1
-vendor/lib/mediadrm/libwvdrmengine.so|78b645e57df4c57c9406619afd345916f7705f27
+vendor/lib/libwvhidl.so|2f717b37bf5111a111a6f7b7d0e3f9a12216d502|36990dbac5c87ccb351071a2758b0786b532f0f1
+vendor/lib/mediadrm/libwvdrmengine.so|7a4fe696df211d699263734c62564223f240ae80|78b645e57df4c57c9406619afd345916f7705f27
 
 # Feature
 vendor/lib/libsemnativecarrierfeature.so
@@ -274,10 +274,10 @@ vendor/lib/libsecnativefeature.so
 vendor/lib64/libsecnativefeature.so
 
 # Gatekeeper
-vendor/lib64/hw/gatekeeper.mdfpp.so|7b185aca7ae62e2b7104d36740587a351cc4867e
+vendor/lib64/hw/gatekeeper.mdfpp.so|f4dcf5f338f40ae39fa62e79ce4ff37e5761ec33|7b185aca7ae62e2b7104d36740587a351cc4867e
 
 # GPS
--vendor/app/CACertService/CACertService.apk
+vendor/app/CACertService/CACertService.apk
 vendor/lib/libjnihelper.so
 vendor/lib64/libjnihelper.so
 vendor/bin/lowi-server;DISABLE_DEPS
@@ -286,7 +286,7 @@ vendor/etc/seccomp_policy/gnss@2.0-xtra-daemon.policy
 vendor/bin/loc_launcher
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti
 vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc
--vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml
+vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml
 vendor/lib/hw/android.hardware.gnss@2.1-impl-qti.so
 vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so
 vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so
@@ -455,7 +455,7 @@ vendor/lib/libadreno_utils.so
 vendor/lib64/libadreno_utils.so
 
 # Display - from XQ-BC72 61.2.A.0.410
-vendor/lib64/libdpps.so|9caf32a0d3636af579ea6e1a6c5638a16ed19444
+vendor/lib64/libdpps.so|9caf32a0d3636af579ea6e1a6c5638a16ed19444|42c8b6f9d85288037bde81dd996994231d420a09
 vendor/lib64/librcmask.so|8feb479fe590b6aec282ce3342574d9113f80516
 vendor/lib64/libsdm-diag.so|393c9ad3e3ad3210515900627f65bf6e3633226e
 vendor/lib64/libsdmextension.so|4c32026ff8cb1270081881d4def7a2ad05ad0b80
@@ -472,8 +472,8 @@ vendor/gpu/kbc/unified_kbcs_64.bin
 vendor/gpu/kbc/unified_ksqs.bin
 
 # HotwordEnrollment
--product/priv-app/HotwordEnrollmentOKGoogleEx3HEXAGON/HotwordEnrollmentOKGoogleEx3HEXAGON.apk
--product/priv-app/HotwordEnrollmentXGoogleEx3HEXAGON/HotwordEnrollmentXGoogleEx3HEXAGON.apk
+product/priv-app/HotwordEnrollmentOKGoogleEx3HEXAGON/HotwordEnrollmentOKGoogleEx3HEXAGON.apk
+product/priv-app/HotwordEnrollmentXGoogleEx3HEXAGON/HotwordEnrollmentXGoogleEx3HEXAGON.apk
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
@@ -494,7 +494,7 @@ vendor/etc/init/ipa_fws.rc
 
 # Keymaster
 vendor/lib64/libkeymaster_helper.so
--vendor/lib64/libskeymaster4device.so|de98a294927f45b84e41b88a2145c7771377715c
+vendor/lib64/libskeymaster4device.so|0f7c1dededa386cd2d9edfdd33c52d5587fd33ea|de98a294927f45b84e41b88a2145c7771377715c
 
 # Machine learning
 vendor/lib64/libreffeature.so
@@ -631,8 +631,8 @@ vendor/lib/libqcmaputils.so
 vendor/lib64/libqcmaputils.so
 vendor/lib64/libengmode_client.so
 vendor/lib64/libsec-ril.so|432c63636ba7beb9f713178bb587cc1db5343880
-vendor/lib/libsecril-client.so;MODULE_SUFFIX=_vendor
-vendor/lib64/libsecril-client.so;MODULE_SUFFIX=_vendor
+vendor/lib/libsecril-client.so
+vendor/lib64/libsecril-client.so
 vendor/lib64/libril_sem.so
 vendor/lib64/libSemTelephonyProps.so
 vendor/lib64/libSemDataProps.so
@@ -820,14 +820,14 @@ vendor/lib/libthermalclient.so
 vendor/lib64/libthermalclient.so
 vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service
 vendor/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc
--vendor/etc/vintf/manifest/vendor.samsung.hardware.thermal@1.0-manifest.xml
+vendor/etc/vintf/manifest/vendor.samsung.hardware.thermal@1.0-manifest.xml
 vendor/lib/vendor.samsung.hardware.thermal@1.0.so
 vendor/lib64/vendor.samsung.hardware.thermal@1.0.so
 vendor/lib64/libhypervintf.so
 vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so
 
 # Time services
--vendor/app/TimeService/TimeService.apk
+vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib/libtime_genoff.so
