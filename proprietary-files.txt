@@ -154,7 +154,6 @@ vendor/lib64/libofflinelog.so
 vendor/lib64/libofflinedump.so
 vendor/lib64/libcamximageformatutils.so
 vendor/lib64/libsynx.so
-vendor/lib64/libbitmlenginev2.so
 vendor/lib64/libcamxfdalgo.so
 vendor/lib64/libcamxfacialfeatures.so
 vendor/lib64/libos.so
