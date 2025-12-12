@@ -16,6 +16,24 @@
       "message": "To avoid collisions with namespaces that might be added in the future like for\nhttps://review.lineageos.org/c/LineageOS/android_device_samsung_sm7325-common/+/464913\n\nI would keep the suffix for these blobs\n```\nvendor/lib/libbatterylistener.so;MODULE_SUFFIX\u003d_vendor\nvendor/lib/libhdmiedid.so;MODULE_SUFFIX\u003d_vendor\nvendor/lib/libhfp.so;MODULE_SUFFIX\u003d_vendor\nvendor/lib/libspkrprot.so;MODULE_SUFFIX\u003d_vendor\n```",
       "revId": "34b1e916db7b05cab08b7ca9ec5f0731805f7fb2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f8037584_493eafd0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-12T21:55:11Z",
+      "side": 1,
+      "message": "Does this tree still have bash extraction scripts?!? Great stuff...",
+      "parentUuid": "b869f1b5_e62e6d76",
+      "revId": "34b1e916db7b05cab08b7ca9ec5f0731805f7fb2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
