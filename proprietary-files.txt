@@ -264,8 +264,8 @@ vendor/lib/liboemcrypto.so
 vendor/lib64/liboemcrypto.so
 vendor/lib/libtrustedapploader.so
 vendor/lib64/libtrustedapploader.so
-vendor/lib/libwvhidl.so|36990dbac5c87ccb351071a2758b0786b532f0f1
-vendor/lib/mediadrm/libwvdrmengine.so|78b645e57df4c57c9406619afd345916f7705f27
+vendor/lib/libwvhidl.so|2f717b37bf5111a111a6f7b7d0e3f9a12216d502|36990dbac5c87ccb351071a2758b0786b532f0f1
+vendor/lib/mediadrm/libwvdrmengine.so|7a4fe696df211d699263734c62564223f240ae80|78b645e57df4c57c9406619afd345916f7705f27
 
 # Feature
 vendor/lib/libsemnativecarrierfeature.so
@@ -276,7 +276,7 @@ vendor/lib/libsecnativefeature.so
 vendor/lib64/libsecnativefeature.so
 
 # Gatekeeper
-vendor/lib64/hw/gatekeeper.mdfpp.so|7b185aca7ae62e2b7104d36740587a351cc4867e
+vendor/lib64/hw/gatekeeper.mdfpp.so|f4dcf5f338f40ae39fa62e79ce4ff37e5761ec33|7b185aca7ae62e2b7104d36740587a351cc4867e
 
 # GPS
 vendor/app/CACertService/CACertService.apk
@@ -457,7 +457,7 @@ vendor/lib/libadreno_utils.so
 vendor/lib64/libadreno_utils.so
 
 # Display - from XQ-BC72 61.2.A.0.410
-vendor/lib64/libdpps.so|9caf32a0d3636af579ea6e1a6c5638a16ed19444
+vendor/lib64/libdpps.so|9caf32a0d3636af579ea6e1a6c5638a16ed19444|42c8b6f9d85288037bde81dd996994231d420a09
 vendor/lib64/librcmask.so|8feb479fe590b6aec282ce3342574d9113f80516
 vendor/lib64/libsdm-diag.so|393c9ad3e3ad3210515900627f65bf6e3633226e
 vendor/lib64/libsdmextension.so|4c32026ff8cb1270081881d4def7a2ad05ad0b80
@@ -496,7 +496,7 @@ vendor/etc/init/ipa_fws.rc
 
 # Keymaster
 vendor/lib64/libkeymaster_helper.so
-vendor/lib64/libskeymaster4device.so|de98a294927f45b84e41b88a2145c7771377715c
+vendor/lib64/libskeymaster4device.so|0f7c1dededa386cd2d9edfdd33c52d5587fd33ea|de98a294927f45b84e41b88a2145c7771377715c
 
 # Machine learning
 vendor/lib64/libreffeature.so
