@@ -5,6 +5,8 @@
 #
 
 from extract_utils.fixups_blob import (
+    BlobFixupCtx,
+    File,
     blob_fixup,
     blob_fixups_user_type,
 )
@@ -16,7 +18,12 @@ from extract_utils.main import (
     ExtractUtils,
     ExtractUtilsModule,
 )
-
+from extract_utils.tools import (
+    llvm_objdump_path,
+)
+from extract_utils.utils import (
+    run_cmd,
+)
 
 namespace_imports = [
     'device/samsung/sm7325-common',
@@ -27,6 +34,48 @@ namespace_imports = [
     'vendor/qcom/opensource/display',
 ]
 
+
+def blob_fixup_ril_smsc(
+    ctx: BlobFixupCtx,
+    file: File,
+    file_path: str,
+    *args,
+    **kwargs,
+):
+    func_offset = None
+    func_size = None
+
+    output = run_cmd([llvm_objdump_path, '-T', file_path])
+    for line in output.splitlines():
+        if 'OnGetSmscAddressDone' in line:
+            parts = line.split()
+            if len(parts) >= 5:
+                func_offset = int(parts[0], 16)
+                func_size = int(parts[-2], 16)
+                break
+
+    if func_offset is None or func_size is None:
+        return
+
+    with open(file_path, 'rb+') as f:
+        f.seek(func_offset)
+        func_data = f.read(func_size)
+        anchor_pos = func_data.find(b'\x82\x0c\x80\x52')
+
+        if anchor_pos != -1:
+            for i in range(4, 32, 4):
+                if anchor_pos + i + 4 > func_size:
+                    break
+
+                instr = func_data[anchor_pos + i : anchor_pos + i + 4]
+
+                if (instr[3] == 0xaa and instr[1] == 0x03 and (instr[0] & 0x1f) == 3):
+                    patch_offset = func_offset + anchor_pos + i
+                    f.seek(patch_offset)
+                    f.write(b'\x03\x00\x80\xd2') # mov x3, #0
+                    break
+
+
 lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
 }
@@ -34,10 +83,7 @@ lib_fixups: lib_fixups_user_type = {
 blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/libsec-ril.so': blob_fixup()
         .binary_regex_replace(b'ril.dds.call.ongoing', b'vendor.calls.slot_id')
-        .sig_replace(
-            '60 0e 40 f9 82 0c 80 52 24 00 80 52 e1 03 15 aa 08 00 40 f9 e3 03 14 aa',
-            '60 0e 40 f9 82 0c 80 52 24 00 80 52 e1 03 15 aa 08 00 40 f9 03 00 80 d2'
-        )
+        .call(blob_fixup_ril_smsc),
     ('vendor/lib64/hw/gatekeeper.mdfpp.so', 'vendor/lib64/libkeymaster_helper.so', 'vendor/lib64/libskeymaster4device.so'): blob_fixup()
         .replace_needed('libcrypto.so', 'libcrypto-v33.so'),
     ('vendor/lib/libdpps.so', 'vendor/lib64/libdpps.so', 'vendor/lib/libsnapdragoncolor-manager.so', 'vendor/lib64/libsnapdragoncolor-manager.so'): blob_fixup()
