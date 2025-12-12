@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f681819_1b4b1800",
+        "filename": "extract-files.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-12-12T18:55:52Z",
+      "side": 1,
+      "message": "This isnt for patching the slot ID but rather SMSC. Please rename to something like \"blob_fixup_ril_smsc\" or similar",
+      "range": {
+        "startLine": 40,
+        "startChar": 0,
+        "endLine": 40,
+        "endChar": 27
+      },
+      "revId": "a9793b006db9b00392498b02b2ea320a5d4f358c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
