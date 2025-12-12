@@ -630,7 +630,7 @@ vendor/lib64/libconfigdb.so
 vendor/lib/libqcmaputils.so
 vendor/lib64/libqcmaputils.so
 vendor/lib64/libengmode_client.so
-vendor/lib64/libsec-ril.so|432c63636ba7beb9f713178bb587cc1db5343880
+vendor/lib64/libsec-ril.so
 vendor/lib/libsecril-client.so;MODULE_SUFFIX=_vendor
 vendor/lib64/libsecril-client.so;MODULE_SUFFIX=_vendor
 vendor/lib64/libril_sem.so
