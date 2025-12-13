@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1e170305_cbae9cf4",
+        "filename": "configs/manifest_yupik.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 292,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2025-12-13T17:07:04Z",
+      "side": 0,
+      "message": "Build breaks if we remove this.\n```\ngetDeviceHalManifest: status from fetching VINTF information: -22\ngetDeviceHalManifest: -22 VINTF parse error: Illformed file: /vendor/etc/vintf/manifest_yupik.xml: Could not parse element with name \u003chal\u003e in element \u003cmanifest\u003e: \u003chal\u003e vendor.qti.hardware.trustedui has no instance. Fix by adding \u003cfqname\u003e.\nERROR: Cannot fetch vendor manifest.\n```",
+      "range": {
+        "startLine": 289,
+        "startChar": 0,
+        "endLine": 292,
+        "endChar": 49
+      },
+      "revId": "7ca2747760a36bc2a7935c67c40abd44b1574d61",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
