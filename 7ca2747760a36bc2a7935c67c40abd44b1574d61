@@ -22,6 +22,30 @@
       },
       "revId": "7ca2747760a36bc2a7935c67c40abd44b1574d61",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "18387e69_a941123d",
+        "filename": "configs/manifest_yupik.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 292,
+      "author": {
+        "id": 35721
+      },
+      "writtenOn": "2025-12-13T17:16:30Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "1e170305_cbae9cf4",
+      "range": {
+        "startLine": 289,
+        "startChar": 0,
+        "endLine": 292,
+        "endChar": 49
+      },
+      "revId": "7ca2747760a36bc2a7935c67c40abd44b1574d61",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
