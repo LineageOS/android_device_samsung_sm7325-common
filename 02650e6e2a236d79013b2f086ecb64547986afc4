@@ -34,6 +34,23 @@
       "parentUuid": "344298d7_16565bda",
       "revId": "02650e6e2a236d79013b2f086ecb64547986afc4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "82350d02_48c285b9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35721
+      },
+      "writtenOn": "2025-12-20T13:35:09Z",
+      "side": 1,
+      "message": "This will probably be needed on 23.2 since Google has dropped support for kernel 5.4.",
+      "revId": "02650e6e2a236d79013b2f086ecb64547986afc4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
