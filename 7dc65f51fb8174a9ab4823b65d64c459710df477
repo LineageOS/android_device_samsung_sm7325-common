@@ -289,6 +289,30 @@
       },
       "revId": "7dc65f51fb8174a9ab4823b65d64c459710df477",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "21d88127_ee0904a4",
+        "filename": "init/Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-12-20T12:59:01Z",
+      "side": 1,
+      "message": "I figured that out now. Look at this: https://github.com/LineageOS/android_build_soong/blob/lineage-23.1/android/paths.go#L2086-L2095\n\nAccording to this, targets with \".vendor_ramdisk\" will only be copied to \"vendor_ramdisk/first_stage_ramdisk/\" directory if the device has \"BoardMoveRecoveryResourcesToVendorBoot\" to true - which is not the case for my devices as those still have a traditional recovery partition. As of now I see no real solution to this issue apart from keeping the old PRODUCT_COPY_FILES approach",
+      "parentUuid": "2f0a0fd9_cf9154c0",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 23
+      },
+      "revId": "7dc65f51fb8174a9ab4823b65d64c459710df477",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
