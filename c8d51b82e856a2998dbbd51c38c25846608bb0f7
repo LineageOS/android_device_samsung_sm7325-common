@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5c0ea801_9cc2551c",
+        "filename": "init/init.target.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 35721
+      },
+      "writtenOn": "2025-12-28T17:03:40Z",
+      "side": 1,
+      "message": "```suggestion\n    # midground set\n```",
+      "range": {
+        "startLine": 42,
+        "startChar": 0,
+        "endLine": 42,
+        "endChar": 16
+      },
+      "revId": "c8d51b82e856a2998dbbd51c38c25846608bb0f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9a145acb_7207c1ab",
+        "filename": "init/init.target.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 35721
+      },
+      "writtenOn": "2025-12-28T17:03:40Z",
+      "side": 1,
+      "message": "```suggestion\n    # midground cpuctl\n```",
+      "range": {
+        "startLine": 90,
+        "startChar": 16,
+        "endLine": 90,
+        "endChar": 23
+      },
+      "revId": "c8d51b82e856a2998dbbd51c38c25846608bb0f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
