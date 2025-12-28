@@ -108,6 +108,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "vendor.samsung.rild.rc",
+    src: "vendor.samsung.rild.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "init.vendor.rilcommon.rc",
     src: "init.vendor.rilcommon.rc",
     sub_dir: "init",

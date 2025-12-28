@@ -39,6 +39,16 @@ on early-init
     write /proc/sys/kernel/sched_boost 1
     wait /sys/devices/soc0/soc_id
 
+    # midground set
+    mkdir /dev/cpuset/midground
+    copy /dev/cpuset/cpus /dev/cpuset/midground/cpus
+    copy /dev/cpuset/mems /dev/cpuset/midground/mems
+    chown root system /dev/cpuset/midground/cgroup.procs
+    chmod 0664 /dev/cpuset/midground/cgroup.procs
+    chown root system /dev/cpuset/midground/cpus
+    chmod 0664 /dev/cpuset/midground/cpus
+    write /dev/cpuset/midground/cpus 0-3
+
 on init
     # Scheduler uclamp
     mkdir /dev/cpuctl/foreground
@@ -76,6 +86,16 @@ on init
 
     # System Performance 0-7 to 0-2,4-7
     write /dev/cpuset/foreground/cpus 0-2,4-7
+
+    # midground cpuctl
+    mkdir /dev/cpuctl/midground
+    chown root system /dev/cpuctl/midground/cgroup.procs
+    chown root system /dev/cpuctl/midground/cpu.uclamp.max
+    chown root system /dev/cpuctl/midground/cpu.uclamp.min
+    chmod 0664 /dev/cpuctl/midground/cgroup.procs
+    chmod 0664 /dev/cpuctl/midground/cpu.uclamp.max
+    chmod 0664 /dev/cpuctl/midground/cpu.uclamp.min
+    write /dev/cpuctl/midground/cpu.uclamp.max 20
 
 on early-fs
     start vold

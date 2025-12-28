@@ -71,15 +71,25 @@
             <!-- measured [104-105] lower-upper [27-283] median * 1.5 [157] -->
             <Limit name="measured-frame-rate-1280x720" range="58-128" />
         </MediaCodec>
+        <MediaCodec name="c2.android.av1-dav1d.decoder" type="video/av01" update="true">
+            <!-- measured [1118-1156] lower-upper [287-3059] median * 1.5 [1706] -->
+            <Limit name="measured-frame-rate-352x288" range="632-1390" />
+            <!-- measured [707-716] lower-upper [180-1915] median * 1.5 [1068] -->
+            <Limit name="measured-frame-rate-640x360" range="396-870" />
+            <!-- measured [576-576] lower-upper [146-1550] median * 1.5 [864] -->
+            <Limit name="measured-frame-rate-720x480" range="320-705" />
+            <!-- measured [270-272] lower-upper [69-730] median * 1.5 [407] -->
+            <Limit name="measured-frame-rate-1280x720" range="151-332" />
+        </MediaCodec>
         <MediaCodec name="c2.android.avc.decoder" type="video/avc" update="true">
-            <!-- measured [268-278] lower-upper [69-735] median * 1.5 [410] -->
-            <Limit name="measured-frame-rate-320x240" range="152-334" />
-            <!-- measured [101-101] lower-upper [26-274] median * 1.5 [152] -->
-            <Limit name="measured-frame-rate-720x480" range="57-124" />
-            <!-- measured [45-45] lower-upper [11-122] median * 1.5 [68] -->
-            <Limit name="measured-frame-rate-1280x720" range="25-56" />
-            <!-- measured [37-37] lower-upper [10-101] median * 1.5 [56] -->
-            <Limit name="measured-frame-rate-1920x1080" range="21-46" />
+            <!-- measured [399-1106] lower-upper [190-2025] median * 1.5 [1129] -->
+            <Limit name="measured-frame-rate-320x240" range="418-920" />
+            <!-- measured [506-539] lower-upper [132-1406] median * 1.5 [784] -->
+            <Limit name="measured-frame-rate-720x480" range="290-639" />
+            <!-- measured [199-201] lower-upper [51-539] median * 1.5 [300] -->
+            <Limit name="measured-frame-rate-1280x720" range="111-245" />
+            <!-- measured [88-88] lower-upper [22-239] median * 1.5 [133] -->
+            <Limit name="measured-frame-rate-1920x1080" range="49-109" />
         </MediaCodec>
         <MediaCodec name="c2.android.hevc.decoder" type="video/hevc" update="true">
             <!-- measured [379-421] lower-upper [101-1077] median * 1.5 [600] -->
@@ -94,14 +104,14 @@
             <Limit name="measured-frame-rate-1920x1080" range="31-69" />
         </MediaCodec>
         <MediaCodec name="c2.android.vp8.decoder" type="video/x-vnd.on2.vp8" update="true">
-            <!-- measured [894-939] lower-upper [232-2466] median * 1.5 [1375] -->
-            <Limit name="measured-frame-rate-320x180" range="510-1121" />
-            <!-- measured [408-417] lower-upper [104-1112] median * 1.5 [620] -->
-            <Limit name="measured-frame-rate-640x360" range="230-505" />
-            <!-- measured [107-108] lower-upper [27-291] median * 1.5 [162] -->
-            <Limit name="measured-frame-rate-1280x720" range="60-132" />
-            <!-- measured [43-43] lower-upper [11-118] median * 1.5 [65] -->
-            <Limit name="measured-frame-rate-1920x1080" range="24-54" />
+            <!-- measured [1227-1249] lower-upper [313-3329] median * 1.5 [1857] -->
+            <Limit name="measured-frame-rate-320x180" range="688-1513" />
+            <!-- measured [540-541] lower-upper [137-1455] median * 1.5 [811] -->
+            <Limit name="measured-frame-rate-640x360" range="301-661" />
+            <!-- measured [152-152] lower-upper [39-411] median * 1.5 [229] -->
+            <Limit name="measured-frame-rate-1280x720" range="85-187" />
+            <!-- measured [60-60] lower-upper [15-164] median * 1.5 [91] -->
+            <Limit name="measured-frame-rate-1920x1080" range="34-74" />
         </MediaCodec>
         <MediaCodec name="c2.android.vp9.decoder" type="video/x-vnd.on2.vp9" update="true">
             <!-- measured [675-754] lower-upper [181-1922] median * 1.5 [1072] -->
