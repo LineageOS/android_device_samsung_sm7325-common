@@ -27,8 +27,6 @@ on post-fs-data
     # for WIFI hotspot
     chown wifi wifi /data/vendor/conn/.softap.info
     chmod 0644 /data/vendor/conn/.softap.info
-    chown system wifi /vendor/etc/wifi/indoorchannel.info
-    chmod 0664 /vendor/etc/wifi/indoorchannel.info
 
     # for updating the supported feature
     chown wifi wifi /data/vendor/conn/.feature.info

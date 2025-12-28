@@ -74,6 +74,9 @@ firmware_directories /vendor/firmware_mnt/image/ /vendor/firmware-modem/image/ /
 /sys/class/android_usb/android0  f_rndis/ethaddr      0660  system   system
 /sys/class/android_usb/android0  terminal_version     0660  system   system
 
+#permissions secure_lock
+/sys/class/usb_notify/usb_control   usb_sl      0664     system        usb
+
 #permissions for CSVT
 /dev/smd11                0660   radio      radio
 
