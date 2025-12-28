@@ -554,6 +554,37 @@
         }
       ]
     },
+	{
+      "Name": "MidgroundProcess",
+      "Actions": [
+        {
+          "Name": "JoinCgroup",
+          "Params":
+          {
+            "Controller": "cpuset",
+            "Path": "midground"
+          }
+        },
+        {
+          "Name": "JoinCgroup",
+          "Params":
+          {
+            "Controller": "cpu",
+            "Path": "midground"
+          }
+        },
+        {
+          "Name": "WriteFile",
+          "Params":
+          {
+            "FilePath": "/dev/cpuset/midground/task",
+            "ProcFilePath": "/dev/cpuset/midground/cgroup.procs",
+            "Value": "<pid>",
+            "LogFailures": "false"
+          }
+        }
+      ]
+    },
     {
       "Name": "BackgroundUsage",
       "Actions": [
