@@ -1,4 +1,4 @@
-# All blobs are from A736BXXUAEXK4 (U), unless pinned
+# All blobs are from A736BXXSAGYJ3 (B), unless pinned
 
 # ACDB
 vendor/lib/libacdb-fts.so
@@ -262,8 +262,8 @@ vendor/lib/liboemcrypto.so
 vendor/lib64/liboemcrypto.so
 vendor/lib/libtrustedapploader.so
 vendor/lib64/libtrustedapploader.so
-vendor/lib/libwvhidl.so|2f717b37bf5111a111a6f7b7d0e3f9a12216d502|36990dbac5c87ccb351071a2758b0786b532f0f1
-vendor/lib/mediadrm/libwvdrmengine.so|7a4fe696df211d699263734c62564223f240ae80|78b645e57df4c57c9406619afd345916f7705f27
+vendor/lib/libwvhidl.so|d69cee919bc507a6d0ea743e138c19291396ab45|22008c46f4edb2c1ec75fa01dd28a85fceb5d2f4
+vendor/lib/mediadrm/libwvdrmengine.so|ab690db4ff629c3692285e5ef4db66cf18121d38|c27725af95ee2bf85704a45deded180fb4f20e08
 
 # Feature
 vendor/lib/libsemnativecarrierfeature.so
@@ -274,7 +274,7 @@ vendor/lib/libsecnativefeature.so
 vendor/lib64/libsecnativefeature.so
 
 # Gatekeeper
-vendor/lib64/hw/gatekeeper.mdfpp.so|f4dcf5f338f40ae39fa62e79ce4ff37e5761ec33|7b185aca7ae62e2b7104d36740587a351cc4867e
+vendor/lib64/hw/gatekeeper.mdfpp.so|ed00865a1a89ad11d8ba004d9ed287ae4312089d|01f3d07493ccf3a50cac51f99bf7842463fbc02f
 
 # GPS
 vendor/app/CACertService/CACertService.apk
@@ -494,7 +494,7 @@ vendor/etc/init/ipa_fws.rc
 
 # Keymaster
 vendor/lib64/libkeymaster_helper.so
-vendor/lib64/libskeymaster4device.so|0f7c1dededa386cd2d9edfdd33c52d5587fd33ea|de98a294927f45b84e41b88a2145c7771377715c
+vendor/lib64/libskeymaster4device.so|f064309e645bc15751a667913180da087d941046|8d97142acfad5be882c84abba4162ce9c5b6b76e
 
 # Machine learning
 vendor/lib64/libreffeature.so
@@ -623,7 +623,7 @@ vendor/etc/data/dsi_config.xml
 vendor/etc/data/netmgr_config.xml
 vendor/etc/locale/plmn_delta_eng.bin
 vendor/etc/plmn_delta_hktw.bin
-vendor/etc/plmn_se13.bin
+vendor/etc/plmn_se13_prebuilt.bin
 vendor/etc/mtu-conf.xml
 vendor/lib/libconfigdb.so
 vendor/lib64/libconfigdb.so
@@ -634,8 +634,8 @@ vendor/lib64/libsec-ril.so
 vendor/lib/libsecril-client.so
 vendor/lib64/libsecril-client.so
 vendor/lib64/libril_sem.so
-vendor/lib64/libSemTelephonyProps.so
-vendor/lib64/libSemDataProps.so
+vendor/lib64/libVendorSemTelephonyProps.so
+vendor/lib64/libVendorSemDataProps.so
 vendor/etc/init/dataadpl.rc
 vendor/etc/init/ipacm-diag.rc
 vendor/etc/init/vendor.qti.tftp.rc
