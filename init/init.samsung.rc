@@ -83,7 +83,7 @@ on post-fs-data
     chown system system /spu
     chmod 0771 /spu
     restorecon /spu
-    
+
 # sensors
     mkdir /efs/FactoryApp/sensors/ 0775 root root
     chown system system /mnt/vendor/persist/sensors/registry/registry/sns_cm
@@ -251,7 +251,7 @@ on boot
     chown radio system /sys/module/qpnp_power_on/parameters/reset_enabled
     chmod 664 /sys/module/qpnp_power_on/parameters/reset_enabled
     chown radio system /sys/module/qpnp_power_on/parameters/wake_enabled
-    chmod 664 /sys/module/qpnp_power_on/parameters/wake_enabled	
+    chmod 664 /sys/module/qpnp_power_on/parameters/wake_enabled
 
 # Add permission for Display PMIC
     chown system system /sys/class/sec/disp_pmic/enable_fd
@@ -267,8 +267,6 @@ on boot
 
 # Video call Virtual Background
     mkdir /data/vendor/segbackground 0771 system system
-
-    chown system system /sys/class/power_supply/battery/gps
 
 service factory_ssc /vendor/bin/factory.ssc
     class core
