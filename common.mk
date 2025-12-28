@@ -52,6 +52,7 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     init.vendor.onebinary.rc \
     vendor.samsung.rilchip.qcom.rc \
+    vendor.samsung.rild.rc \
     init.vendor.rilcommon.rc \
     init.vendor.sensors.rc \
     wifi_firmware.rc \
