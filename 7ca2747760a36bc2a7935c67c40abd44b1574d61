@@ -46,6 +46,29 @@
       },
       "revId": "7ca2747760a36bc2a7935c67c40abd44b1574d61",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c92e8536_f70676d7",
+        "filename": "configs/manifest_yupik.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2025-12-29T21:00:50Z",
+      "side": 0,
+      "message": "I think we should use the fqnames and remove the old entries instead.\nSee https://review.lineageos.org/c/LineageOS/android_device_motorola_sm7325-common/+/420278",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 20
+      },
+      "revId": "7ca2747760a36bc2a7935c67c40abd44b1574d61",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
