@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "eaf4543b_786bf6cd",
+        "filename": "init/init.target.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2025-12-29T19:40:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5c0ea801_9cc2551c",
+      "range": {
+        "startLine": 42,
+        "startChar": 0,
+        "endLine": 42,
+        "endChar": 16
+      },
+      "revId": "c8d51b82e856a2998dbbd51c38c25846608bb0f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9a145acb_7207c1ab",
@@ -37,6 +61,30 @@
       "writtenOn": "2025-12-28T17:03:40Z",
       "side": 1,
       "message": "```suggestion\n    # midground cpuctl\n```",
+      "range": {
+        "startLine": 90,
+        "startChar": 16,
+        "endLine": 90,
+        "endChar": 23
+      },
+      "revId": "c8d51b82e856a2998dbbd51c38c25846608bb0f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6f18cf86_9afa99c8",
+        "filename": "init/init.target.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2025-12-29T19:40:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a145acb_7207c1ab",
       "range": {
         "startLine": 90,
         "startChar": 16,
