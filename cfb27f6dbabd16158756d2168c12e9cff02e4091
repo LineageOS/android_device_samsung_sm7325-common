@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4a84fbc4_68d0ea3f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-12-29T20:49:22Z",
+      "side": 1,
+      "message": "Please use the audio policy from frameworks_av as that is the same one as what you imported into the tree",
+      "parentUuid": "17cc9e58_676c5145",
+      "revId": "cfb27f6dbabd16158756d2168c12e9cff02e4091",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f59cc921_28e9abd1",
         "filename": "audio/configs/audio_policy_configuration.xml",
         "patchSetId": 4
@@ -73,6 +91,30 @@
       "side": 1,
       "message": "A528BXXSBGYI3 audio policy is identical to A736BXXSAGYJ3. This tagName also matches upstream audio_policy_configuration_7_0.xml",
       "parentUuid": "f59cc921_28e9abd1",
+      "range": {
+        "startLine": 150,
+        "startChar": 28,
+        "endLine": 150,
+        "endChar": 43
+      },
+      "revId": "cfb27f6dbabd16158756d2168c12e9cff02e4091",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "492600ff_2707754c",
+        "filename": "audio/configs/audio_policy_configuration.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-12-29T20:49:22Z",
+      "side": 1,
+      "message": "Okay, fine by me then.",
+      "parentUuid": "dfecc449_cd96a569",
       "range": {
         "startLine": 150,
         "startChar": 28,
