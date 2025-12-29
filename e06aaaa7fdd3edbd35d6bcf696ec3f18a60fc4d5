@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4c924114_4f3dc692",
+        "filename": "init/vendor.samsung.rilchip.qcom.rc",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-12-29T20:10:41Z",
+      "side": 0,
+      "message": "Does RIL still work without this?",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 57
+      },
+      "revId": "e06aaaa7fdd3edbd35d6bcf696ec3f18a60fc4d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

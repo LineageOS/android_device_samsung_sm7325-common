@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9c4e1893_c59e0677",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-12-29T20:10:41Z",
+      "side": 1,
+      "message": "What about the A2DP changes? What do these fix or improve?",
+      "revId": "cfb27f6dbabd16158756d2168c12e9cff02e4091",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f59cc921_28e9abd1",
+        "filename": "audio/configs/audio_policy_configuration.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-12-29T20:10:41Z",
+      "side": 1,
+      "message": "Keep this named \"Aux Device Out\" as a52sxq and m52xq both have a physical 3.5mm jack",
+      "range": {
+        "startLine": 150,
+        "startChar": 28,
+        "endLine": 150,
+        "endChar": 43
+      },
+      "revId": "cfb27f6dbabd16158756d2168c12e9cff02e4091",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0a9bc09c_773a9b3f",
+        "filename": "audio/configs/audio_policy_configuration.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 274,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-12-29T20:10:41Z",
+      "side": 1,
+      "message": "Move this to 466447",
+      "range": {
+        "startLine": 274,
+        "startChar": 26,
+        "endLine": 274,
+        "endChar": 38
+      },
+      "revId": "cfb27f6dbabd16158756d2168c12e9cff02e4091",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "62b28c12_28ba9352",
+        "filename": "init/ueventd.qcom.rc",
+        "patchSetId": 4
+      },
+      "lineNbr": 507,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-12-29T20:10:41Z",
+      "side": 1,
+      "message": "Can leave that out as PROCA is disabled in the kernel",
+      "range": {
+        "startLine": 507,
+        "startChar": 0,
+        "endLine": 507,
+        "endChar": 50
+      },
+      "revId": "cfb27f6dbabd16158756d2168c12e9cff02e4091",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
