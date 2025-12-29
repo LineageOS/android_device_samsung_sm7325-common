@@ -22,6 +22,30 @@
       },
       "revId": "e06aaaa7fdd3edbd35d6bcf696ec3f18a60fc4d5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f993a37_155e4803",
+        "filename": "init/vendor.samsung.rilchip.qcom.rc",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2025-12-29T20:39:31Z",
+      "side": 0,
+      "message": "missed it, samsung moved it into a new file",
+      "parentUuid": "4c924114_4f3dc692",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 57
+      },
+      "revId": "e06aaaa7fdd3edbd35d6bcf696ec3f18a60fc4d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

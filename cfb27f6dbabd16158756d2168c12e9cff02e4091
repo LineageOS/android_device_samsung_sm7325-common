@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "17cc9e58_676c5145",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2025-12-29T20:39:31Z",
+      "side": 1,
+      "message": "This is to align with stock and upstream audio_policy_configuration_7_0.xml",
+      "parentUuid": "9c4e1893_c59e0677",
+      "revId": "cfb27f6dbabd16158756d2168c12e9cff02e4091",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f59cc921_28e9abd1",
         "filename": "audio/configs/audio_policy_configuration.xml",
         "patchSetId": 4
@@ -31,6 +49,30 @@
       "writtenOn": "2025-12-29T20:10:41Z",
       "side": 1,
       "message": "Keep this named \"Aux Device Out\" as a52sxq and m52xq both have a physical 3.5mm jack",
+      "range": {
+        "startLine": 150,
+        "startChar": 28,
+        "endLine": 150,
+        "endChar": 43
+      },
+      "revId": "cfb27f6dbabd16158756d2168c12e9cff02e4091",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dfecc449_cd96a569",
+        "filename": "audio/configs/audio_policy_configuration.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2025-12-29T20:39:31Z",
+      "side": 1,
+      "message": "A528BXXSBGYI3 audio policy is identical to A736BXXSAGYJ3. This tagName also matches upstream audio_policy_configuration_7_0.xml",
+      "parentUuid": "f59cc921_28e9abd1",
       "range": {
         "startLine": 150,
         "startChar": 28,
@@ -64,6 +106,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "986128af_1f74ada9",
+        "filename": "audio/configs/audio_policy_configuration.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 274,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2025-12-29T20:39:31Z",
+      "side": 1,
+      "message": "This was already in samsungs changes. I moved it to the other commit.",
+      "parentUuid": "0a9bc09c_773a9b3f",
+      "range": {
+        "startLine": 274,
+        "startChar": 26,
+        "endLine": 274,
+        "endChar": 38
+      },
+      "revId": "cfb27f6dbabd16158756d2168c12e9cff02e4091",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "62b28c12_28ba9352",
@@ -77,6 +143,30 @@
       "writtenOn": "2025-12-29T20:10:41Z",
       "side": 1,
       "message": "Can leave that out as PROCA is disabled in the kernel",
+      "range": {
+        "startLine": 507,
+        "startChar": 0,
+        "endLine": 507,
+        "endChar": 50
+      },
+      "revId": "cfb27f6dbabd16158756d2168c12e9cff02e4091",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4e05ca79_3b649f2d",
+        "filename": "init/ueventd.qcom.rc",
+        "patchSetId": 4
+      },
+      "lineNbr": 507,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2025-12-29T20:39:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "62b28c12_28ba9352",
       "range": {
         "startLine": 507,
         "startChar": 0,
