@@ -22,6 +22,30 @@
       },
       "revId": "d2b5013c5749f0002111b4a45da4639f8b6a9794",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "57a7cabd_6b13c5c8",
+        "filename": "init/vendor.samsung.rild.rc",
+        "patchSetId": 5
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 35721
+      },
+      "writtenOn": "2025-12-30T04:29:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0e1b03cd_a67cc70d",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 12
+      },
+      "revId": "d2b5013c5749f0002111b4a45da4639f8b6a9794",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
