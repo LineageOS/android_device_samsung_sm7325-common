@@ -16,6 +16,24 @@
       "message": "Duplicate of https://review.lineageos.org/c/LineageOS/android_device_samsung_sm7325-common/+/463123",
       "revId": "753cbbdae90de8e2d0813da5532569c2d06c3d1e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "21d9ca8d_0e766dfe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2025-12-30T17:42:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bce14acc_95cdd61e",
+      "revId": "753cbbdae90de8e2d0813da5532569c2d06c3d1e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
