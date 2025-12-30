@@ -16,6 +16,24 @@
       "message": "With the new vendor, the build will fail because we will have two audio.primary.lahaina.so packages. The vendor blob is not in common but the devices propriatery-files. To fix the conflict I would prefer to switch to oss audio HAL and remove it from proprietary-files. I am working on fixing audio with oss audio HALs.",
       "revId": "c0dcd8f034b74f1002d63a49bc9ccd2d91dc36f0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eeca2a95_2908517c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2025-12-30T22:59:52Z",
+      "side": 1,
+      "message": "Solved in https://review.lineageos.org/c/LineageOS/android_device_samsung_a52sxq/+/466886",
+      "parentUuid": "3e13198e_11d5aae9",
+      "revId": "c0dcd8f034b74f1002d63a49bc9ccd2d91dc36f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
