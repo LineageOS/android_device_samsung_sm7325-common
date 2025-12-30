@@ -16,6 +16,24 @@
       "message": "Why?",
       "revId": "cf577af55cd9092ec24aa5bb3cc36e0f38f73c73",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "19f6e396_5241b182",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2025-12-30T17:14:17Z",
+      "side": 1,
+      "message": "makes a cleaner device tree, DEVICE_MANIFEST_SKUS isn\u0027t used often anymore.",
+      "parentUuid": "5acaa1d9_f62b7059",
+      "revId": "cf577af55cd9092ec24aa5bb3cc36e0f38f73c73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
