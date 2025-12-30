@@ -74,6 +74,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "3cab40a0_d10a2e38",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-12-30T13:48:15Z",
+      "side": 1,
+      "message": "I meant the a2dpsink policy, not the Aux thing. The a2dpsink one you imported is identical to this: https://github.com/LineageOS/android_frameworks_av/blob/lineage-23.0/services/audiopolicy/config/a2dp_in_audio_policy_configuration_7_0.xml",
+      "parentUuid": "19a4c645_1103b89d",
+      "revId": "cfb27f6dbabd16158756d2168c12e9cff02e4091",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f59cc921_28e9abd1",
         "filename": "audio/configs/audio_policy_configuration.xml",
         "patchSetId": 4
