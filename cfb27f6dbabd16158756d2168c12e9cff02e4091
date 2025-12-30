@@ -92,6 +92,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0fae45a4_29178ede",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-12-30T14:31:04Z",
+      "side": 1,
+      "message": "A2DP sink is not supported on phones anyway, so you should just remove it and its import in audio_policy_configuration.xml",
+      "parentUuid": "3cab40a0_d10a2e38",
+      "revId": "cfb27f6dbabd16158756d2168c12e9cff02e4091",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f59cc921_28e9abd1",
         "filename": "audio/configs/audio_policy_configuration.xml",
         "patchSetId": 4
