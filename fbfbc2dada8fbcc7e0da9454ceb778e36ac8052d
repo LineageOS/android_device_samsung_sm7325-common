@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "786448a6_3bb2a08b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-01-04T13:34:38Z",
+      "side": 1,
+      "message": "probably sm8250 specific, yupik has a higher limit and I never heard of issues coming from it on our device.\n`\u003cLimit name\u003d\"size\" min\u003d\"512x512\" max\u003d\"16384x16384\" /\u003e`",
+      "revId": "fbfbc2dada8fbcc7e0da9454ceb778e36ac8052d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
