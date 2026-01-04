@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "29aa35d6_1c027ad0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-01-04T13:35:45Z",
+      "side": 1,
+      "message": "sm8250 config, ours has higher `max\u003d\"16\"`",
+      "revId": "86d1f3c4d8b434cb0e42843ce12b76846be0ff72",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
