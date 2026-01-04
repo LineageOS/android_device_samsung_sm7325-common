@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c5c2db01_93d8e64d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-01-04T13:09:38Z",
+      "side": 1,
+      "message": "We have video_system_specs.json in vendor already with the same file location",
+      "revId": "a1d55f4f95ec784d8eece521999178a8bb304fae",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
