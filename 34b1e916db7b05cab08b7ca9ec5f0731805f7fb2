@@ -34,6 +34,24 @@
       "parentUuid": "b869f1b5_e62e6d76",
       "revId": "34b1e916db7b05cab08b7ca9ec5f0731805f7fb2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a96b8d9_efd052eb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-01-04T19:26:17Z",
+      "side": 1,
+      "message": "python tools were adopted in later commits",
+      "parentUuid": "f8037584_493eafd0",
+      "revId": "34b1e916db7b05cab08b7ca9ec5f0731805f7fb2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
