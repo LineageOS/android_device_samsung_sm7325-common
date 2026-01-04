@@ -16,6 +16,24 @@
       "message": "We currently do not have any modem-less targets. I\u0027m not sure if this would be needed on T733 @bushccat@gmail.com?",
       "revId": "027975ca89db3986f49881c9b3cf524e60188190",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "436f3dae_876f4f10",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-01-04T13:23:55Z",
+      "side": 1,
+      "message": "this will be needed by t733 however I will likely need a seperate vendor.prop due to display issues with some display props that have been changed from stock unless we revert them. But I am still testing some things with display. If I do a seperate vendor prop, then we don\u0027t need to set this in init.",
+      "parentUuid": "b1df4eb8_8d7a877a",
+      "revId": "027975ca89db3986f49881c9b3cf524e60188190",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
