@@ -34,6 +34,24 @@
       "parentUuid": "b1df4eb8_8d7a877a",
       "revId": "027975ca89db3986f49881c9b3cf524e60188190",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee6ead20_35048b3c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-01-05T12:13:27Z",
+      "side": 1,
+      "message": "Also I have to figure out why my baseband is incorrect.\n```\ngts7fewifi:/ # getprop ro.baseband\nmsm\n```",
+      "parentUuid": "436f3dae_876f4f10",
+      "revId": "027975ca89db3986f49881c9b3cf524e60188190",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
