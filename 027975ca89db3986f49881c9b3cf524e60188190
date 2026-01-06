@@ -52,6 +52,24 @@
       "parentUuid": "436f3dae_876f4f10",
       "revId": "027975ca89db3986f49881c9b3cf524e60188190",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b63e2bb6_eb43ad53",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-01-06T11:07:25Z",
+      "side": 1,
+      "message": "found a workaround and fixed the issue with the display vendor props so we can go with this approach",
+      "parentUuid": "ee6ead20_35048b3c",
+      "revId": "027975ca89db3986f49881c9b3cf524e60188190",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
