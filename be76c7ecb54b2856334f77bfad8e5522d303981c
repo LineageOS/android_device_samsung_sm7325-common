@@ -16,6 +16,24 @@
       "message": "A16 Vendor (I believe A15 as well) brought back the camera issue. Aperture crashes when swapping front-rear camera on the a52sxq (gts7fewifi works fine). After the app crashed the swapped camera is active.\nThe libsec-ril patch was applied correctly after checking the assembly code and decompiled using ghidra but the patch may be outdated.\nI couldn\u0027t find other issues with this vendor in my testing on a52sxq and gts7fewifi but more testing is required.\nI also tested A16 G736BXXSAGYL1 for common vendor, same behavior there.",
       "revId": "be76c7ecb54b2856334f77bfad8e5522d303981c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fdeb1894_93aa6e56",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-01-08T14:05:12Z",
+      "side": 1,
+      "message": "Solved by now",
+      "parentUuid": "c6a90770_c4701119",
+      "revId": "be76c7ecb54b2856334f77bfad8e5522d303981c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
