@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3f61a7c_9250af9f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-01-08T17:31:06Z",
+      "side": 1,
+      "message": "I\u0027m pretty sure this shim should go in hardware/samsung. Highly unlikely that only this family could use it",
+      "revId": "646e1fddb9b310c7ba3c61cf4c98719857ff0ed8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
