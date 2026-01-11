@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9f545ae2_29b903f0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-01-11T14:58:27Z",
+      "side": 1,
+      "message": "file mode was changed for\n`init/init.kernel.post_boot.sh`\nwe should chmod -X the sh files",
+      "revId": "4fa6ab044726838777eca9ab2cb534595a7987c5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
