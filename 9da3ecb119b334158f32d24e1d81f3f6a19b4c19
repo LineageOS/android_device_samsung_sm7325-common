@@ -33,6 +33,24 @@
       "message": "Keep in mind that this also requires BPF in the kernel to be updated to 5.10 level",
       "revId": "9da3ecb119b334158f32d24e1d81f3f6a19b4c19",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a014c24_563bdc62",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35721
+      },
+      "writtenOn": "2026-01-16T16:07:01Z",
+      "side": 1,
+      "message": "Yeah, I know that, so I CR -2 to block it and wait for 23.2.",
+      "parentUuid": "29216f57_a1bdc931",
+      "revId": "9da3ecb119b334158f32d24e1d81f3f6a19b4c19",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
