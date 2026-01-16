@@ -16,6 +16,23 @@
       "message": "Only for lineage-23.2",
       "revId": "9da3ecb119b334158f32d24e1d81f3f6a19b4c19",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "29216f57_a1bdc931",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-01-16T16:03:45Z",
+      "side": 1,
+      "message": "Keep in mind that this also requires BPF in the kernel to be updated to 5.10 level",
+      "revId": "9da3ecb119b334158f32d24e1d81f3f6a19b4c19",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
