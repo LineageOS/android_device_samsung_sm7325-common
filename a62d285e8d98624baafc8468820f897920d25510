@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc0d823f_399e1db5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33569
+      },
+      "writtenOn": "2026-01-17T15:04:33Z",
+      "side": 1,
+      "message": "Imo, lets switch to OSS thermal.",
+      "revId": "a62d285e8d98624baafc8468820f897920d25510",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
