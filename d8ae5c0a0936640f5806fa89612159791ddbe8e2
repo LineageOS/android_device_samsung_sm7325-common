@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "849db54a_a2298d1a",
+        "filename": "common.mk",
+        "patchSetId": 9
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 35721
+      },
+      "writtenOn": "2026-01-26T23:27:09Z",
+      "side": 1,
+      "message": "```suggestion\n$(call soong_config_set,samsungCameraVars,extra_ids,54) # ID\u003d54 is macro\n```",
+      "revId": "d8ae5c0a0936640f5806fa89612159791ddbe8e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
