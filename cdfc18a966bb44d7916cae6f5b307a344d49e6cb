@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5216005_f8f1d90c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-01-26T19:05:10Z",
+      "side": 1,
+      "message": "Adding this in extract-files.sh for now just for the sake of having it. Python extract utils adoption comes later",
+      "revId": "cdfc18a966bb44d7916cae6f5b307a344d49e6cb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
