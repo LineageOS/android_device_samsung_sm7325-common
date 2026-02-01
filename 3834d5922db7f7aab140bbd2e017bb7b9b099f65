@@ -33,6 +33,24 @@
       "message": "https://review.lineageos.org/c/LineageOS/android_device_samsung_slsi_sepolicy/+/430686",
       "revId": "3834d5922db7f7aab140bbd2e017bb7b9b099f65",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5aa9ac0_ded1612d",
+        "filename": "sepolicy/vendor/file_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-02-01T14:13:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "869d67e8_0d0e119d",
+      "revId": "3834d5922db7f7aab140bbd2e017bb7b9b099f65",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
