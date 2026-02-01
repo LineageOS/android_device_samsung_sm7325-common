@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a31e8fb_b1f2815e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-02-01T14:14:27Z",
+      "side": 1,
+      "message": "Needed changes have been merged into the kernel",
+      "revId": "4e4bf2f4883e42cf1e5d1a758ab6301baedbe59c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
