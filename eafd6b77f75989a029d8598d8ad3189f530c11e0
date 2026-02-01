@@ -16,6 +16,23 @@
       "message": "This results in the refresh rate being constantly stuck at 120Hz",
       "revId": "eafd6b77f75989a029d8598d8ad3189f530c11e0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6bc2a242_40889dd5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-02-01T16:46:55Z",
+      "side": 1,
+      "message": "Nevermind, was an issue on my end",
+      "revId": "eafd6b77f75989a029d8598d8ad3189f530c11e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
