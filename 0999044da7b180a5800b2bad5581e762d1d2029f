@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a192649_f333de42",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-02-05T23:46:24Z",
+      "side": 1,
+      "message": "I think I\u0027ll just set ro.radio.noril in my devices vendor.prop instead, we can remove the prop from the common, no need to decommonize it",
+      "revId": "0999044da7b180a5800b2bad5581e762d1d2029f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
