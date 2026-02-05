@@ -69,6 +69,30 @@
       },
       "revId": "7ca2747760a36bc2a7935c67c40abd44b1574d61",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e009f266_2c0cc869",
+        "filename": "configs/manifest_yupik.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-02-05T23:44:09Z",
+      "side": 0,
+      "message": "Marked as resolved.",
+      "parentUuid": "c92e8536_f70676d7",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 20
+      },
+      "revId": "7ca2747760a36bc2a7935c67c40abd44b1574d61",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
