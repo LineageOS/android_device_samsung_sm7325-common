@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "46dbd94b_de5390bf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-02-05T23:43:45Z",
+      "side": 1,
+      "message": "fqnames are the better way",
+      "revId": "fc7c514aa550c080a0a94f9b5082efd14b3920ee",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
