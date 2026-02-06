@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7b696ef2_3686cd9f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-02-06T17:44:25Z",
+      "side": 1,
+      "message": "Duplicate of https://review.lineageos.org/c/LineageOS/android_device_samsung_sm7325-common/+/453232\n\nAlso check my comments there. There\u0027s currently no way to get this to work on A-only GKI.",
+      "revId": "06809a2810a757c45926ee94e9cbf2dd8286c9bb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
