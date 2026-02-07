@@ -16,6 +16,23 @@
       "message": "fqnames are the better way",
       "revId": "fc7c514aa550c080a0a94f9b5082efd14b3920ee",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b9caf915_fed24ac0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35591
+      },
+      "writtenOn": "2026-02-07T22:37:24Z",
+      "side": 1,
+      "message": "Agreed with bushcat. You would prefer keeping the fqnames and drop the rest instead.",
+      "revId": "fc7c514aa550c080a0a94f9b5082efd14b3920ee",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
