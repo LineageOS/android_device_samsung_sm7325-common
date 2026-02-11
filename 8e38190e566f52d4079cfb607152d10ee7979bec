@@ -34,6 +34,24 @@
       "parentUuid": "0e739ede_5184a730",
       "revId": "8e38190e566f52d4079cfb607152d10ee7979bec",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7664da43_3fed14a4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-02-11T21:24:10Z",
+      "side": 1,
+      "message": "Actually nevermind. There\u0027s no OSS implementation in hw/samsung.",
+      "parentUuid": "d6f23cf7_9e28830f",
+      "revId": "8e38190e566f52d4079cfb607152d10ee7979bec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
