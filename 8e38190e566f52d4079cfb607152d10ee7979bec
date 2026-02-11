@@ -16,6 +16,24 @@
       "message": "Might drop Samsung thermal HAL in favour of OSS one",
       "revId": "8e38190e566f52d4079cfb607152d10ee7979bec",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d6f23cf7_9e28830f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-02-11T20:53:12Z",
+      "side": 1,
+      "message": "Which one? QTI or the one in hw/samsung repo?",
+      "parentUuid": "0e739ede_5184a730",
+      "revId": "8e38190e566f52d4079cfb607152d10ee7979bec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
