@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c6f949fc_28a015c5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-02-11T20:46:27Z",
+      "side": 1,
+      "message": "I believe this is now part of device_lineage_sepolicy, so this one might not be neeed anymore",
+      "revId": "736db45d626d19349425328aa0ef21fc2ed76d93",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
