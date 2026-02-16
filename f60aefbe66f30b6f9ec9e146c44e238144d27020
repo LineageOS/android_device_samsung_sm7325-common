@@ -52,6 +52,23 @@
       "parentUuid": "aaf096f2_9b3c5a80",
       "revId": "f60aefbe66f30b6f9ec9e146c44e238144d27020",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d53c9f40_30638e28",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-02-16T12:08:55Z",
+      "side": 1,
+      "message": "This flag does nothing since ~22.2",
+      "revId": "f60aefbe66f30b6f9ec9e146c44e238144d27020",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
