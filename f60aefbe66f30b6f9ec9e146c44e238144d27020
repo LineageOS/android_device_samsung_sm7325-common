@@ -16,6 +16,24 @@
       "message": "What about the blobs?",
       "revId": "f60aefbe66f30b6f9ec9e146c44e238144d27020",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aaf096f2_9b3c5a80",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35721
+      },
+      "writtenOn": "2026-02-16T09:54:21Z",
+      "side": 1,
+      "message": "There are already two blobs, libsecaudioinfo and libsamsungVoipResampler, in proprietary-files.txt.",
+      "parentUuid": "306b25ac_5fa8d4d7",
+      "revId": "f60aefbe66f30b6f9ec9e146c44e238144d27020",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
