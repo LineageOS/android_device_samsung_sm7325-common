@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b303be31_231ffa3d",
+        "filename": "configs/framework_compatibility_matrix.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-02-21T19:36:51Z",
+      "side": 0,
+      "message": "Unsure whether this is still needed for a73xq since that still uses the NXP HAL from stock",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 33,
+        "endChar": 10
+      },
+      "revId": "f8673e87404050a082fb1cfa49f9e6c5cd8ce2d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
