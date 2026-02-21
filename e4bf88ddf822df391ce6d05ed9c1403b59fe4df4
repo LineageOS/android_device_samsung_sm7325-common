@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1fff23ac_cc78d351",
+        "filename": "common.mk",
+        "patchSetId": 9
+      },
+      "lineNbr": 349,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-02-21T15:53:00Z",
+      "side": 1,
+      "message": "This is required by lowi-server but not built automatically due to DISABLE_DEPS being set for it.",
+      "range": {
+        "startLine": 349,
+        "startChar": 4,
+        "endLine": 349,
+        "endChar": 19
+      },
+      "revId": "e4bf88ddf822df391ce6d05ed9c1403b59fe4df4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
