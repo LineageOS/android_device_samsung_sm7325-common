@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c43575c5_ad028fde",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 13
+      },
+      "lineNbr": 823,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-02-21T19:19:36Z",
+      "side": 1,
+      "message": "remove this",
+      "range": {
+        "startLine": 823,
+        "startChar": 0,
+        "endLine": 823,
+        "endChar": 1
+      },
+      "revId": "d5e26e3c62f1c0ecb55005b0ee21d0930ad396c1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
