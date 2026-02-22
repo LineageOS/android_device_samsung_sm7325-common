@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6b7e44a6_82116205",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-02-22T13:51:31Z",
+      "side": 1,
+      "message": "needed by vendor/lib64/hw/com.qti.chi.override.so\nwe have to look into the dependency and symbols that are used but I would wait since sm8250-common is also still working on this.",
+      "revId": "7263a1f47c3f9990cc47359090384ec9513b70dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
