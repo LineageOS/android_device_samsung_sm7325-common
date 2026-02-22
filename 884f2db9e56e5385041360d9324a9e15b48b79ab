@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "024e41a0_aa959616",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 10
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-02-22T20:24:10Z",
+      "side": 0,
+      "message": "Not sure if this is good to remove. I recall that it was neccessary on a52sxq to set the board name to the \"earliest\" it got because otherwise it would straight up refuse to boot: https://github.com/LineageOS/android_device_samsung_a52sxq/commit/c773e421cd3d999144d24599bdfc310e44d48595",
+      "range": {
+        "startLine": 78,
+        "startChar": 0,
+        "endLine": 78,
+        "endChar": 45
+      },
+      "revId": "884f2db9e56e5385041360d9324a9e15b48b79ab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
