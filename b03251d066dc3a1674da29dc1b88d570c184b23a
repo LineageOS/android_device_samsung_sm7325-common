@@ -16,6 +16,24 @@
       "message": "If I remember correctly that file is different per device",
       "revId": "b03251d066dc3a1674da29dc1b88d570c184b23a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aabaeda2_b12ea84f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-02-23T11:00:56Z",
+      "side": 1,
+      "message": "the file is identical on all sm7325 device dumps I have from oldest to newest. m52xq, a52sxq, a73xq, gts7fewifi as well as xcoverpro2 and gtact4pro.\nOther sm8350 samsung devices have the file populated like o1q",
+      "parentUuid": "72e7fb3a_7aafd3ae",
+      "revId": "b03251d066dc3a1674da29dc1b88d570c184b23a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
