@@ -22,6 +22,30 @@
       },
       "revId": "884f2db9e56e5385041360d9324a9e15b48b79ab",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ff9ced62_f87194f7",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 10
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-02-24T17:08:10Z",
+      "side": 0,
+      "message": "my a52s booted with this commit without any issues",
+      "parentUuid": "024e41a0_aa959616",
+      "range": {
+        "startLine": 78,
+        "startChar": 0,
+        "endLine": 78,
+        "endChar": 45
+      },
+      "revId": "884f2db9e56e5385041360d9324a9e15b48b79ab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
