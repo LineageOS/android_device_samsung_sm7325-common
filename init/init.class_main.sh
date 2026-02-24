@@ -34,7 +34,7 @@ baseband=`getprop ro.baseband`
 sgltecsfb=`getprop persist.vendor.radio.sglte_csfb`
 datamode=`getprop persist.vendor.data.mode`
 low_ram=`getprop ro.config.low_ram`
-qcrild_status=false
+qcrild_status=true
 
 case "$baseband" in
     "apq" | "sda" | "qcs" )
