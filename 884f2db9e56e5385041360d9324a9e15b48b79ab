@@ -46,6 +46,30 @@
       },
       "revId": "884f2db9e56e5385041360d9324a9e15b48b79ab",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "535e6967_3f1e974c",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 10
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-02-24T17:40:23Z",
+      "side": 0,
+      "message": "Likely because yours isnt on bootloader revision 1. I don\u0027t know if this is still an issue on devices with such an old firmware, just saying that it might be.",
+      "parentUuid": "ff9ced62_f87194f7",
+      "range": {
+        "startLine": 78,
+        "startChar": 0,
+        "endLine": 78,
+        "endChar": 45
+      },
+      "revId": "884f2db9e56e5385041360d9324a9e15b48b79ab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
