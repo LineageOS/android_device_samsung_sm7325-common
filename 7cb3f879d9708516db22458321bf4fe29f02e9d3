@@ -22,6 +22,30 @@
       },
       "revId": "7cb3f879d9708516db22458321bf4fe29f02e9d3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb2e56b0_14308f4d",
+        "filename": "init/init.qcom.rc",
+        "patchSetId": 5
+      },
+      "lineNbr": 585,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-02-25T20:40:12Z",
+      "side": 0,
+      "message": "it\u0027s already present in init.samsung.rc and init ignores it\n`init: ignored duplicate definition of service \u0027factory_ssc\u0027`",
+      "parentUuid": "3e79fedb_dc700a59",
+      "range": {
+        "startLine": 582,
+        "startChar": 0,
+        "endLine": 585,
+        "endChar": 78
+      },
+      "revId": "7cb3f879d9708516db22458321bf4fe29f02e9d3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
