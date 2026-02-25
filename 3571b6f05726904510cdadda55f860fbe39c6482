@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f6b18098_18869bb2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-02-25T16:31:38Z",
+      "side": 1,
+      "message": "Not sure if we need this, we have gralloc.default already. We could switch to gralloc.qcom and remove gralloc.default but I don\u0027t know the advantage",
+      "revId": "3571b6f05726904510cdadda55f860fbe39c6482",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
