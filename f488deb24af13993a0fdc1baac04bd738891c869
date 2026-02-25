@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b78c5139_c3a53aad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-02-25T21:49:38Z",
+      "side": 1,
+      "message": "currently fails to start build. a namespace is likely missing. Also I am not sure we need it, I have to check the camera hal for the bug.\n\n```\nbuild/make/core/main.mk:1074: warning:  device/samsung/a52sxq/lineage_a52sxq.mk includes non-existent modules in PRODUCT_PACKAGES\nOffending entries:\ngralloc.qcom\nbuild/make/core/main.mk:1074: error: Build failed.\n21:42:45 kati failed with: exit status 1\n```",
+      "revId": "f488deb24af13993a0fdc1baac04bd738891c869",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
