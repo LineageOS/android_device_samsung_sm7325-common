@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e79fedb_dc700a59",
+        "filename": "init/init.qcom.rc",
+        "patchSetId": 5
+      },
+      "lineNbr": 585,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-02-25T18:18:53Z",
+      "side": 0,
+      "message": "We use that service",
+      "range": {
+        "startLine": 582,
+        "startChar": 0,
+        "endLine": 585,
+        "endChar": 78
+      },
+      "revId": "7cb3f879d9708516db22458321bf4fe29f02e9d3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
