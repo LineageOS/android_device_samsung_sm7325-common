@@ -76,6 +76,14 @@ genfscon sysfs /devices/platform/soc/a80000.i2c/i2c-34/34-003b/wakeup/          
 genfscon sysfs /devices/platform/soc/soc:i2c@17/i2c-19/19-0021/wakeup/                                      u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/soc:i2c@17/i2c-19/19-0020/wakeup/                                      u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/a94000.i2c/i2c-24/24-004b/wakeup/                                      u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/990000.i2c/i2c-22/22-002a/wakeup/                                      u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/ae90000.qcom,dp_display/wakeup/                                        u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/a80000.i2c/i2c-24/24-0033/wakeup/                                      u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/a94000.i2c/i2c-27/27-0056/wakeup/                                      u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/a84000.i2c/i2c-25/25-0063/power_supply/sm5440-charger/                 u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/soc:i2c@16/i2c-20/20-0020/wakeup/                                      u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/a98000.spi/spi_master/spi1/spi1.1/wakeup/                              u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/a84000.i2c/i2c-25/25-0063/wakeup/                                      u:object_r:sysfs_wakeup:s0
 genfscon sysfs "/devices/platform/soc/soc:qcom,msm-audio-apr/soc:qcom,msm-audio-apr:qcom,q6core-audio/soc:qcom,msm-audio-apr:qcom,q6core-audio:sound/Listen 1 Audio Service/wakeup/"	u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/sensors/                                                                    u:object_r:sysfs_sensors:s0
 genfscon sysfs /devices/virtual/fingerprint/fingerprint                                                     u:object_r:sysfs_fingerprint:s0
@@ -86,15 +94,19 @@ genfscon sysfs /devices/virtual/sec/tsp/ear_detect_enable                       
 genfscon sysfs /devices/virtual/sec/tsp/cmd                                                                 u:object_r:sysfs_touchscreen_writable:s0
 genfscon sysfs /devices/virtual/sec/tsp/prox_power_off                                                      u:object_r:sysfs_touchscreen_writable:s0
 genfscon sysfs /devices/virtual/sec/tsp/input/enabled                                                       u:object_r:sysfs_touchscreen_writable:s0
+genfscon sysfs /devices/virtual/sec/tsp/enabled                                                             u:object_r:sysfs_touchscreen_writable:s0
 genfscon sysfs /devices/virtual/sec/switch                                                                  u:object_r:sysfs_sec_switch:s0
 genfscon sysfs /devices/virtual/sec/switch/afc_disable                                                      u:object_r:sysfs_sec_switch_writable:s0
 genfscon sysfs /devices/virtual/camera/                                                                     u:object_r:sysfs_camera:s0
 genfscon sysfs /devices/virtual/camera/rear/ssrm_camera_info                                                u:object_r:sysfs_camera_writable:s0
 genfscon sysfs /devices/virtual/camera/flash/rear_flash                                                     u:object_r:sysfs_camera_writable:s0
 genfscon sysfs /kernel/mm/vmscan/mem_boost_mode                                                             u:object_r:sysfs_camera_writable:s0
+genfscon sysfs /devices/virtual/audio/amp                                                                   u:object_r:sysfs_thermal:s0
 genfscon sysfs /devices/virtual/sec/sec-ap-thermistor/                                                      u:object_r:sysfs_thermal:s0
 genfscon sysfs /devices/virtual/sec/sec-pa-thermistor/                                                      u:object_r:sysfs_thermal:s0
 genfscon sysfs /devices/virtual/sec/sec-wf-thermistor/                                                      u:object_r:sysfs_thermal:s0
+genfscon sysfs /devices/virtual/sec/sec-mmw-thermistor/                                                     u:object_r:sysfs_thermal:s0
+genfscon sysfs /devices/virtual/sec/sec-mmw1-thermistor/                                                    u:object_r:sysfs_thermal:s0
 genfscon sysfs /devices/platform/soc/17a10040.qcom,wcn6750/                                                 u:object_r:sysfs_wifi_writable:s0
 
 genfscon sysfs /power/                                                                                      u:object_r:sysfs_power_writable:s0
