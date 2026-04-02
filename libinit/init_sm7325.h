@@ -9,6 +9,7 @@ enum device_variant {
     VARIANT_M526B,
     VARIANT_M526BR,
     VARIANT_A736B,
+    VARIANT_T733,
     VARIANT_MAX
 };
 
@@ -42,12 +43,18 @@ static const variant international_models_a73xq = {
     .codename = "a73xq"
 };
 
+static const variant international_models_gts7fewifi = {
+    .model = "SM-T733",
+    .codename = "gts7fewifi"
+};
+
 static const variant *all_variants[VARIANT_MAX] = {
     &international_models_a52sxq,
     &asia_models_a52sxq,
     &international_models_m52xq,
     &america_models_m52xq,
-    &international_models_a73xq
+    &international_models_a73xq,
+    &international_models_gts7fewifi
 };
 
 #endif // INIT_SM7325_H
