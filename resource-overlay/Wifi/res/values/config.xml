@@ -62,7 +62,4 @@
 
     <!-- Indicates that dynamic country code update in AP mode is supported on this device -->
     <bool name="config_wifiSoftApDynamicCountryCodeUpdateSupported">true</bool>
-
-    <!-- Do not translate. Default access point SSID used for tethering -->
-    <string name="wifi_tether_configure_ssid_default" translatable="false">Samsung Galaxy</string>
 </resources>
