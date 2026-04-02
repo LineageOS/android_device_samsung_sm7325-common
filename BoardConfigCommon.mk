@@ -154,6 +154,7 @@ TARGET_USES_ION := true
 BOARD_USES_QCOM_HARDWARE := true
 
 # Prop files
+TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
 TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
 ifneq ($(TARGET_IS_TABLET),true)
