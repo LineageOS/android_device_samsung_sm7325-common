@@ -1,0 +1,19 @@
+# Camera
+ro.camera.notify_nfc=1
+
+# Fingerprint
+ro.vendor.fingerprint.max_enrollments=3
+
+# RIL
+vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so
+persist.vendor.radio.atfwd.start=true
+ro.vendor.use_data_netmgrd=false
+ro.vendor.sec.radio.def_network=9
+persist.vendor.radio.enableadvancedscan=true
+ro.telephony.default_cdma_sub=0
+ro.telephony.default_network=26,26
+ro.radio.noril=no
+
+# Vibrator
+ro.vendor.vibrator_hal.click_duration=80
+ro.vendor.vibrator_hal.tick_duration=40

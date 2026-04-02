@@ -209,7 +209,6 @@ vendor/firmware/evass-lt.mbn
 vendor/firmware/evass-lt.mdt
 vendor/firmware/evass.mbn
 vendor/firmware/evass.mdt
-vendor/firmware/multical.bin
 
 # Charger
 vendor/bin/hvdcp_opti
@@ -472,8 +471,6 @@ vendor/gpu/kbc/unified_kbcs_64.bin
 vendor/gpu/kbc/unified_ksqs.bin
 
 # HotwordEnrollment
-product/priv-app/HotwordEnrollmentOKGoogleEx3HEXAGON/HotwordEnrollmentOKGoogleEx3HEXAGON.apk
-product/priv-app/HotwordEnrollmentXGoogleEx3HEXAGON/HotwordEnrollmentXGoogleEx3HEXAGON.apk
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
@@ -613,7 +610,6 @@ vendor/etc/sec_config
 vendor/etc/init/init.qti.qcv.rc
 
 # RIL
-vendor/bin/hw/rild
 vendor/bin/adpl
 vendor/bin/ipacm-diag
 vendor/bin/tftp_server
@@ -621,33 +617,17 @@ vendor/bin/rmt_storage
 vendor/etc/init/netmgrd.rc
 vendor/etc/data/dsi_config.xml
 vendor/etc/data/netmgr_config.xml
-vendor/etc/locale/plmn_delta_eng.bin
-vendor/etc/plmn_delta_hktw.bin
-vendor/etc/plmn_se13_prebuilt.bin
-vendor/etc/mtu-conf.xml
 vendor/lib/libconfigdb.so
 vendor/lib64/libconfigdb.so
 vendor/lib/libqcmaputils.so
 vendor/lib64/libqcmaputils.so
 vendor/lib64/libengmode_client.so
-vendor/lib64/libsec-ril.so
 vendor/lib/libsecril-client.so
 vendor/lib64/libsecril-client.so
-vendor/lib64/libril_sem.so
-vendor/lib64/libVendorSemTelephonyProps.so
-vendor/lib64/libVendorSemDataProps.so
 vendor/etc/init/dataadpl.rc
 vendor/etc/init/ipacm-diag.rc
 vendor/etc/init/vendor.qti.tftp.rc
 vendor/etc/init/vendor.qti.rmt_storage.rc
-vendor/etc/plmn_delta_usagsm.bin
-vendor/etc/plmn_delta.bin
-vendor/etc/locale/plmn_delta_zh-rCN.bin
-vendor/etc/locale/plmn_delta_zh-rTW.bin
-vendor/etc/locale/plmn_delta_zh-rHK.bin
-vendor/etc/plmn_delta_attaio.bin
-vendor/etc/sec_config_oem
-vendor/etc/pdpcnt-conf.xml
 vendor/lib/libqrtr.so
 vendor/lib64/libqrtr.so
 vendor/lib/libsystem_health_mon.so
@@ -655,9 +635,6 @@ vendor/lib64/libsystem_health_mon.so
 vendor/lib64/libvkmanager_vendor.so
 vendor/lib/libxml.so
 vendor/lib64/libxml.so
-vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so
-vendor/lib64/vendor.samsung.hardware.radio.bridge@2.1.so
-vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so
 
 # Sensors
 vendor/bin/factory.ssc

@@ -14,6 +14,7 @@
 
 #define MODEL_NAME_LEN 5
 #define MODEL_NAME_LEN_M52 6
+#define MODEL_NAME_LEN_T733 4
 
 static void property_override(char const prop[], char const value[]) {
     prop_info *pi;
@@ -39,6 +40,8 @@ void vendor_load_properties()
     std::string bl_model;
     if (bootloader.substr(0, MODEL_NAME_LEN_M52) == "M526BR") {
         bl_model = bootloader.substr(0, MODEL_NAME_LEN_M52);
+    } else if (bootloader.substr(0, MODEL_NAME_LEN_T733) == "T733") {
+        bl_model = bootloader.substr(0, MODEL_NAME_LEN_T733);
     } else {
         bl_model = bootloader.substr(0, MODEL_NAME_LEN);
     }
