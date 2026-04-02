@@ -294,7 +294,6 @@ vendor/etc/gps.conf
 vendor/etc/sap.conf
 vendor/etc/lowi.conf
 vendor/etc/flp.conf
-vendor/etc/izat.conf
 vendor/etc/gnss_antenna_info.conf
 vendor/lib/libgps.utils.so
 vendor/lib64/libgps.utils.so
