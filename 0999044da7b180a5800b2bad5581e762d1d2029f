@@ -16,6 +16,23 @@
       "message": "I think I\u0027ll just set ro.radio.noril in my devices vendor.prop instead, we can remove the prop from the common, no need to decommonize it",
       "revId": "0999044da7b180a5800b2bad5581e762d1d2029f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "72d2af6a_fc0ff110",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-04-03T20:31:52Z",
+      "side": 1,
+      "message": "This property was now split into vendor_phone.prop",
+      "revId": "0999044da7b180a5800b2bad5581e762d1d2029f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
