@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f30581e_e924815b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-04-03T20:19:52Z",
+      "side": 1,
+      "message": "camera hal did not crash on a52sxq without gralloc.default or gralloc.qcom.\nflashlight is still working as well.",
+      "revId": "7e89fe3fb1e98872e6bc74d1f6ac1a52389038ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
