@@ -16,6 +16,24 @@
       "message": "alternatively we can also fix the denials by adding the prop to the sepolicy\n`persist.vendor.bt. u:object_r:vendor_bluetooth_prop:s0`\nsamsung/sm8250-common does this but this is not used in stock oneui sepolicy.",
       "revId": "0339b84eccbb1aa50c14d5fbb42dc696d496fcbb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "31251a48_2396daa5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-04-05T20:16:42Z",
+      "side": 1,
+      "message": "* edit wrong prop in my comment and I meant sm7325-common\n\nalternatively we could add\n`persist.bluetooth. u:object_r:vendor_bluetooth_prop:s0` to the sepolicy.\nbut this is not used in stock oneui sepolicy. And I haven\u0027t tested it",
+      "parentUuid": "a136da4a_1cbbf7f8",
+      "revId": "0339b84eccbb1aa50c14d5fbb42dc696d496fcbb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
