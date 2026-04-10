@@ -16,6 +16,23 @@
       "message": "camera hal did not crash on a52sxq without gralloc.default or gralloc.qcom.\nflashlight is still working as well.",
       "revId": "7e89fe3fb1e98872e6bc74d1f6ac1a52389038ff",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "50658501_6ae20465",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-04-10T12:16:43Z",
+      "side": 1,
+      "message": "The gralloc.qcom target only exists in sm8150 and sm8250 hardware trees; not in the sm8350 one: https://github.com/LineageOS/android_hardware_qcom_display/blob/lineage-23.2-caf-sm8350/gralloc/Android.bp",
+      "revId": "7e89fe3fb1e98872e6bc74d1f6ac1a52389038ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
