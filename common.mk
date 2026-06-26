@@ -170,9 +170,6 @@ PRODUCT_PACKAGES += \
 # Fastboot
 TARGET_BOARD_FASTBOOT_INFO_FILE := $(LOCAL_PATH)/fastboot-info.txt
 
-PRODUCT_PACKAGES += \
-    fastbootd
-
 # Lineage Health
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
