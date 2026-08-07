@@ -1359,4 +1359,11 @@
 
     <!-- Whether the new Auto Selection Network UI should be shown -->
     <bool name="config_enableNewAutoSelectNetworkUI">true</bool>
+
+    <!-- Send STK "SEND SHORT MESSAGE" proactive commands from the framework
+         (CatService.sendStkSms) rather than delegating them to the modem. The
+         modem silently drops the command, so SIM-applet authentication never
+         completes: the dialog renders, but the final confirmation never leaves
+         the device. Required for Mobile-ID to work. -->
+    <bool name="config_stk_sms_send_support">true</bool>
 </resources>
