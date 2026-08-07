@@ -1359,4 +1359,7 @@
 
     <!-- Whether the new Auto Selection Network UI should be shown -->
     <bool name="config_enableNewAutoSelectNetworkUI">true</bool>
+
+    <!-- Required for Mobile-ID to work. -->
+    <bool name="config_stk_sms_send_support">true</bool>
 </resources>
