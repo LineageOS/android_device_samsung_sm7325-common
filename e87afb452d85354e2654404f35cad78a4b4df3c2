@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8669d5ca_f40eab9a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 37721
+      },
+      "writtenOn": "2026-08-07T14:05:07Z",
+      "side": 1,
+      "message": "A/B tested on a52sxq (SM-A528B), same device, same SIM applet, same Mobile-ID\nauthentication flow. The only difference between the two runs is this one\nresource — everything else in the device overlay was byte-identical (verified:\nthe two RRO APKs differ by exactly one resource, 79 vs 78).\n\nWithout config_stk_sms_send_support, the SEND SHORT MESSAGE proactive command\nreaches StkAppService and stops there — the SMS is never dispatched:\n\n    CatService:    SEND_SMS\n    CatService:    Sending CmdMsg: ...CatCmdMessage@... on slotid:0\n    StkAppService: cmdName[SEND_SMS]\n    StkAppService: [handleCmd]SEND_SMS\n    StkAppService: launchEventMessage return\n    (nothing further — no RIL dispatch, SendSMSParams constructed 0 times)\n\nThe dialog renders and accepts the PIN, but authentication never completes.\n\nWith config_stk_sms_send_support\u003dtrue, the framework sends it:\n\n    CatService:  SEND_SMS\n    RILJ         [0416]\u003e SEND_SMS [PHONE0]\n    RILJ         [0416]\u003c SEND_SMS { mMessageRef \u003d ..., mErrorCode \u003d 0, ... }\n    CatService$1: STK SMS sent successfully\n\nAuthentication completes.\n\nThis matches the framework logic: CommandParamsFactory only builds a\nSendSMSParams when the flag is set, and CatService\u0027s `case SEND_SMS:` only\ntakes the sendStkSms() path `if (cmdParams instanceof SendSMSParams)`.\nOtherwise the command is left to the modem, which drops it silently.\n\nMay be worth testing on other Samsung devices — the symptom in\nhttps://gitlab.com/LineageOS/issues/android/-/issues/5289 is reported across\nmodels, but I have only verified this on a52sxq with one SIM applet.\n\n(Logs trimmed to the relevant lines and scrubbed of subscriber identifiers.)",
+      "revId": "e87afb452d85354e2654404f35cad78a4b4df3c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
