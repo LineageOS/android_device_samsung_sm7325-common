@@ -16,6 +16,24 @@
       "message": "I don\u0027t know how suggesting changes works here on gerrit but\n```\nprebuilt_root {\n    name: \"fstab.qcom_ramdisk\",\n    src: \"fstab.qcom\",\n    filename: \"fstab.qcom\",\n    sub_dir: \"first_stage_init\",\n    vendor_ramdisk: true,\n    install_in_root: true,\n}\n```\nShould work fine for this case. I had a similar issue on s5e8825 (I didn\u0027t need to put the fstab in first_stage_init directory, root dir was fine).",
       "revId": "5e86d0b3695005ad6b0b830683d018081fb2a9fe",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "29ba627f_5d3b22e8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-08-08T22:09:27Z",
+      "side": 1,
+      "message": "Unfortunately that doesnt work either. I\u0027ll abandon this for now as there\u0027s currently no solution to this.",
+      "parentUuid": "663c6c38_31727ae2",
+      "revId": "5e86d0b3695005ad6b0b830683d018081fb2a9fe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
