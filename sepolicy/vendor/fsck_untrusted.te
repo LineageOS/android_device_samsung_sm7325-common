@@ -1,3 +1,4 @@
 # /sys/devices/platform/soc/8804000.sdhci/mmc_host/mmc0/mmc0:0001/block/mmcblk0/
+# /sys/devices/platform/soc/8804000.sdhci/mmc_host/mmc1/mmc1:0007/block/mmcblk1/
 allow fsck_untrusted vendor_sysfs_mmc_host:file { read open getattr };
-allow fsck_untrusted vendor_sysfs_mmc_host:dir search;
+allow fsck_untrusted vendor_sysfs_mmc_host:dir { read search };
