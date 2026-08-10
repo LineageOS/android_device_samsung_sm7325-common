@@ -1,5 +1,29 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "29c3f8ed_29f4b810",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 36466
+      },
+      "writtenOn": "2026-08-10T16:09:43Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_device_motorola_sm7325-common/+/450991",
+      "range": {
+        "startLine": 145,
+        "startChar": 0,
+        "endLine": 145,
+        "endChar": 23
+      },
+      "revId": "1e9687e2b47127ef172961f3093db3b52ac11a28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
