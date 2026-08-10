@@ -52,6 +52,23 @@
       "parentUuid": "d6f23cf7_9e28830f",
       "revId": "8e38190e566f52d4079cfb607152d10ee7979bec",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5b18835c_dbf107c3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-08-10T10:27:45Z",
+      "side": 1,
+      "message": "Im not seeing that error message on my devices. Besides that the file is empty, I dont think there\u0027s any need to ship it.",
+      "revId": "8e38190e566f52d4079cfb607152d10ee7979bec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
