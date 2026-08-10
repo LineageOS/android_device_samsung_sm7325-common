@@ -70,6 +70,30 @@
       },
       "revId": "884f2db9e56e5385041360d9324a9e15b48b79ab",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0e85aaba_747f321c",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 10
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-08-10T11:55:12Z",
+      "side": 0,
+      "message": "Checked on my m52xq with BL RP rev 1. Boots fine.",
+      "parentUuid": "535e6967_3f1e974c",
+      "range": {
+        "startLine": 78,
+        "startChar": 0,
+        "endLine": 78,
+        "endChar": 45
+      },
+      "revId": "884f2db9e56e5385041360d9324a9e15b48b79ab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
