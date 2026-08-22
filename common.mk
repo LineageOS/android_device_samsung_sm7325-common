@@ -99,7 +99,11 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libqcompostprocbundle \
     libvolumelistener \
-    libqti_vndfwk_detect.vendor:32
+    libqti_vndfwk_detect.vendor:32 \
+    libsamsungSoundbooster_plus \
+    SoundBoosterStage
+
+$(call soong_config_set,samsungAudioVars,soundbooster_dsp_library,//vendor/samsung/sm7325-common:lib_SoundBooster_ver1050)
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/configs/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
