@@ -1,3 +1,8 @@
+/*
+ * SPDX-FileCopyrightText: The LineageOS Project
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
 #ifndef INIT_SM7325_H
 #define INIT_SM7325_H
 
