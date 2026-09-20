@@ -16,6 +16,24 @@
       "message": "https://review.lineageos.org/c/LineageOS/android_vendor_lineage/+/499713",
       "revId": "0e22756599c64f7bacb5f638e2c7561728020eba",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "358fd04a_8d068d43",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-09-20T14:11:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ef235f2a_fb0242b4",
+      "revId": "0e22756599c64f7bacb5f638e2c7561728020eba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
