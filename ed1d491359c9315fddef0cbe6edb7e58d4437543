@@ -16,6 +16,24 @@
       "message": "This flag was removed in https://review.lineageos.org/c/LineageOS/android_vendor_lineage/+/493072",
       "revId": "ed1d491359c9315fddef0cbe6edb7e58d4437543",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b87fe413_cc9e53a7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-09-20T14:11:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1bae701a_0ff9e7c2",
+      "revId": "ed1d491359c9315fddef0cbe6edb7e58d4437543",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
