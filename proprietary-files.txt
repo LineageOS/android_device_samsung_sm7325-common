@@ -633,8 +633,8 @@ vendor/lib/libqcmaputils.so
 vendor/lib64/libqcmaputils.so
 vendor/lib64/libengmode_client.so
 vendor/lib64/libsec-ril.so|4661ea85cded3f798f0c6be6df164e0609a54a07
-vendor/lib/libsecril-client.so;MODULE_SUFFIX=_vendor
-vendor/lib64/libsecril-client.so;MODULE_SUFFIX=_vendor
+vendor/lib/libsecril-client.so
+vendor/lib64/libsecril-client.so
 vendor/lib64/libril_sem.so
 vendor/lib64/libSemTelephonyProps.so
 vendor/lib64/libSemDataProps.so
