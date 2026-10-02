@@ -134,6 +134,7 @@ PRODUCT_PACKAGES += \
 
 $(call soong_config_set_bool,samsungCameraVars,needs_sec_reserved_field,true)
 $(call soong_config_set,samsungCameraVars,extra_ids,54) # ID=54 is macro
+$(call soong_config_set_bool,samsungCameraVars,needs_sec_unihal_reserved_field,true)
 
 # CAS
 PRODUCT_PACKAGES += \
