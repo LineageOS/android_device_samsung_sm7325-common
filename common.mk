@@ -90,7 +90,7 @@ PRODUCT_COPY_FILES += \
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
-    android.hardware.audio@7.0-impl.samsung-sm7325 \
+    android.hardware.audio@7.0-impl \
     android.hardware.audio.effect@7.0-impl \
     android.hardware.soundtrigger@2.3-impl \
     audio.r_submix.default \
@@ -102,7 +102,8 @@ PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor:32 \
     libsamsungSoundbooster_plus \
     SoundBoosterStage \
-    SamsungDAP
+    SamsungDAP \
+    SamsungCallManager
 
 $(call soong_config_set,samsungAudioVars,soundbooster_dsp_library,//vendor/samsung/sm7325-common:lib_SoundBooster_ver1050)
 
