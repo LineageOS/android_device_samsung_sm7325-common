@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "49c099c5_74b3de45",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36705
+      },
+      "writtenOn": "2026-10-14T12:06:21Z",
+      "side": 1,
+      "message": "sm7325 devices have different screens aka this (this \u003d commits in this chain which add/mod status bar overlays) can\u0027t be common. You also don\u0027t need this many overlays. I got a perfect status bar overlay on m52 with https://github.com/majaahh/android_device_samsung_m52xq/commit/d028de3431aebdc305b6c5859af25e2a01f26ed9 and https://github.com/majaahh/android_device_samsung_sm7325-common/commit/2a3c00d23983fd63b737ebe1e41bffd18ad5c774 after moving those to the m52xq tree (https://github.com/majaahh/android_device_samsung_sm7325-common/commit/cbca27f4082b5e8ff52e3d1487a6a8fd48279305)",
+      "revId": "cd2bf9290b1c3d3be3a456c6350643889fe684ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
