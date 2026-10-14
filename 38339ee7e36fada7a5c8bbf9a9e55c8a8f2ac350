@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ac678cf_33354a87",
+        "filename": "common.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 36705
+      },
+      "writtenOn": "2026-10-14T17:09:51Z",
+      "side": 1,
+      "message": "```suggestion\n    ApertureOverlayCommon \\\n    FlipFlapOverlayCommon \\\n    FrameworksResCommon \\\n    Launcher3OverlayCommon \\\n    LineagePartsOverlayCommon \\\n    LineageSDKResCommon \\\n    LineageSettingsProviderOverlayCommon \\\n    SettingsLibOverlayCommon \\\n    SettingsResCommon \\\n    SystemUIResCommon \\\n    WifiResCommon\n```",
+      "range": {
+        "startLine": 34,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 13
+      },
+      "revId": "38339ee7e36fada7a5c8bbf9a9e55c8a8f2ac350",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
