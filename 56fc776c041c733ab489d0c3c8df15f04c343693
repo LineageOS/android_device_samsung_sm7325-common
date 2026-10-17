@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a2bd342e_a6ed98cb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36596
+      },
+      "writtenOn": "2026-10-17T21:23:15Z",
+      "side": 1,
+      "message": "The flag needs to be updated to `needs_sec_qcom_reserved_field`",
+      "revId": "56fc776c041c733ab489d0c3c8df15f04c343693",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
