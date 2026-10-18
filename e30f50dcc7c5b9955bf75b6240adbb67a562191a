@@ -3,6 +3,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "805099a2_93498bda",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-10-18T13:50:36Z",
+      "side": 1,
+      "message": "remove",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 15
+      },
+      "revId": "e30f50dcc7c5b9955bf75b6240adbb67a562191a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b62be980_91e4c862",
         "filename": "resource-overlay/SystemUI/res/values/dimens.xml",
         "patchSetId": 4
