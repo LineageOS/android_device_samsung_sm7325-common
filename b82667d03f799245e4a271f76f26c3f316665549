@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0bf50206_00227e36",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-10-18T12:56:51Z",
+      "side": 1,
+      "message": "Squash this commit and the others you uploaded into one.\n\nAlso, arent those values specific per device?",
+      "revId": "b82667d03f799245e4a271f76f26c3f316665549",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9ffab237_68aecdd4",
+        "filename": "overlay/frameworks/base/core/res/res/values/dimens.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-10-18T12:56:51Z",
+      "side": 1,
+      "message": "\u003c!--\n     SPDX-FileCopyrightText: The LineageOS Project\n     SPDX-License-Identifier: Apache-2.0\n--\u003e",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 3
+      },
+      "revId": "b82667d03f799245e4a271f76f26c3f316665549",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bdc115bd_3d1fabdc",
+        "filename": "overlay/frameworks/base/core/res/res/values/dimens.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-10-18T12:56:51Z",
+      "side": 1,
+      "message": "remove Whitespace",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 30,
+        "endChar": 4
+      },
+      "revId": "b82667d03f799245e4a271f76f26c3f316665549",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
