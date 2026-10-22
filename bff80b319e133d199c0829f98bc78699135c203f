@@ -45,6 +45,30 @@
       },
       "revId": "bff80b319e133d199c0829f98bc78699135c203f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eb7ceac6_06d5c9a1",
+        "filename": "init/init.class_main.sh",
+        "patchSetId": 9
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-10-22T20:08:01Z",
+      "side": 1,
+      "message": "This was done to support the wifi only tablets and to match codelinaros devicetree.\nSamsung setting the variable to false is pointless as the variables purpose is to stay true or to become false in the cases below.\nIt was some time ago but I think I even tested the script with the change on the a52s to see if the cases would set it to false on the phone but I can verify that again. This commit was picked from sm8250 which didn\u0027t have a change-id https://github.com/LineageOS/android_device_samsung_sm8250-common/commit/4aedd01612eb06531364eb83e332f81262c6b228",
+      "parentUuid": "87968601_c9da88e5",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 2
+      },
+      "revId": "bff80b319e133d199c0829f98bc78699135c203f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
