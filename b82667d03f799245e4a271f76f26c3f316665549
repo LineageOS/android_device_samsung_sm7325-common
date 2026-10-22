@@ -18,6 +18,41 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "29d11a82_ae789631",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35721
+      },
+      "writtenOn": "2026-10-22T16:25:42Z",
+      "side": 1,
+      "message": "Done, see https://review.lineageos.org/c/LineageOS/android_device_samsung_a52sxq/+/509724",
+      "revId": "b82667d03f799245e4a271f76f26c3f316665549",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cadc4a65_b4a3e7da",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35721
+      },
+      "writtenOn": "2026-10-22T16:25:42Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "0bf50206_00227e36",
+      "revId": "b82667d03f799245e4a271f76f26c3f316665549",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9ffab237_68aecdd4",
