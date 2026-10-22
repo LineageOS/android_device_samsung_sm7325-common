@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "87968601_c9da88e5",
+        "filename": "init/init.class_main.sh",
+        "patchSetId": 9
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-10-22T18:17:17Z",
+      "side": 1,
+      "message": "should stay false as we\u0027re not using qcrild. Setting this to true would most likely result in the ril-daemon being stopped and qcrild being started instead (which doesnt exist for us)",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 2
+      },
+      "revId": "bff80b319e133d199c0829f98bc78699135c203f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
