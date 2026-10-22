@@ -22,6 +22,30 @@
       },
       "revId": "6bcce061252aca10357990ae337be23bef45ef0e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cf9f176b_1a6a2a5f",
+        "filename": "init/init.qcom.rc",
+        "patchSetId": 9
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-10-22T20:10:31Z",
+      "side": 0,
+      "message": "as mentioned in the commit message, it is duplicated at https://github.com/LineageOS/android_device_samsung_sm7325-common/blob/6bbeca1bd76ced09f702a57f69e6f8d60b4c84f3/init/init.vendor.sensors.rc#L36",
+      "parentUuid": "6757c858_da902490",
+      "range": {
+        "startLine": 125,
+        "startChar": 1,
+        "endLine": 135,
+        "endChar": 59
+      },
+      "revId": "6bcce061252aca10357990ae337be23bef45ef0e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
