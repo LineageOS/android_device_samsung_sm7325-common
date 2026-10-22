@@ -93,6 +93,30 @@
       },
       "revId": "bff80b319e133d199c0829f98bc78699135c203f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a9c29689_1482f33f",
+        "filename": "init/init.class_main.sh",
+        "patchSetId": 9
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-10-22T21:12:23Z",
+      "side": 1,
+      "message": "$baseband is \"msm\" here, and $modem is \"HI\", so it never actually reaches the part where qcrild_status is set to false as far as I can tell. I haven\u0027t tested it on my phone yet, but I\u0027m pretty sure it would run into the \"stop vendor.ril-daemon\" part instead",
+      "parentUuid": "eb7ceac6_06d5c9a1",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 2
+      },
+      "revId": "bff80b319e133d199c0829f98bc78699135c203f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
