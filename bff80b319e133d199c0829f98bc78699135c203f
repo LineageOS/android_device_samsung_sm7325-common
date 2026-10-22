@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b574449c_811b1dcf",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 9
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-10-22T20:13:50Z",
+      "side": 1,
+      "message": "I would make a verification of the script on my a52s to prove that it will become false right below in the script",
+      "parentUuid": "abb23920_fcd0907e",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 37
+      },
+      "revId": "bff80b319e133d199c0829f98bc78699135c203f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "87968601_c9da88e5",
         "filename": "init/init.class_main.sh",
         "patchSetId": 9
