@@ -3,6 +3,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "abb23920_fcd0907e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 9
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-10-22T18:19:47Z",
+      "side": 1,
+      "message": "Since this is blocking the change for the other devices I will set it to false again for now. If needed we can still set it to true later on.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 37
+      },
+      "revId": "bff80b319e133d199c0829f98bc78699135c203f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "87968601_c9da88e5",
         "filename": "init/init.class_main.sh",
         "patchSetId": 9
