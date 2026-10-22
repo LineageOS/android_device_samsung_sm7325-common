@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f3aa021_03a2a4dd",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-10-22T14:10:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "805099a2_93498bda",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 15
+      },
+      "revId": "e30f50dcc7c5b9955bf75b6240adbb67a562191a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b62be980_91e4c862",
@@ -47,6 +71,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b86d83bf_a0847ca0",
+        "filename": "resource-overlay/SystemUI/res/values/dimens.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-10-22T14:10:44Z",
+      "side": 1,
+      "message": "Open change already exists",
+      "parentUuid": "b62be980_91e4c862",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 52
+      },
+      "revId": "e30f50dcc7c5b9955bf75b6240adbb67a562191a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "16c0630b_4fcd3286",
@@ -60,6 +108,30 @@
       "writtenOn": "2026-10-18T13:37:38Z",
       "side": 1,
       "message": "this already exists in device-specific trees. Should be removed here",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 78
+      },
+      "revId": "e30f50dcc7c5b9955bf75b6240adbb67a562191a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "299387f9_4c976aa3",
+        "filename": "resource-overlay/SystemUI/res/values/dimens.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-10-22T14:10:44Z",
+      "side": 1,
+      "message": "Created separate commit to decommonize this",
+      "parentUuid": "16c0630b_4fcd3286",
       "range": {
         "startLine": 15,
         "startChar": 0,
