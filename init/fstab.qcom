@@ -58,4 +58,6 @@ odm     /odm        ext4	ro	wait,logical,first_stage_mount
 /devices/platform/soc/8804000.sdhci/mmc_host*           auto    auto    defaults    wait,voldmanaged=sdcard:auto,encryptable=userdata
 /devices/platform/soc/*.ssusb/*.dwc3/xhci-hcd.*.auto*   auto    auto    defaults    voldmanaged=usb:auto
 
-# Samsung ODE
+/dev/block/bootdevice/by-name/vbmeta		/vbmeta		emmc	default	recoveryonly
+/dev/block/bootdevice/by-name/vendor_boot	/vendor_boot	emmc	default	recoveryonly
+/dev/block/bootdevice/by-name/dtbo	        /dtbo		emmc    default recoveryonly
