@@ -117,6 +117,30 @@
       },
       "revId": "bff80b319e133d199c0829f98bc78699135c203f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "39b8a70a_291b94dd",
+        "filename": "init/init.class_main.sh",
+        "patchSetId": 9
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-10-23T09:13:38Z",
+      "side": 1,
+      "message": "Sorry, you\u0027re right, seems like it just has no effect at all setting it to true",
+      "parentUuid": "a9c29689_1482f33f",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 2
+      },
+      "revId": "bff80b319e133d199c0829f98bc78699135c203f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
