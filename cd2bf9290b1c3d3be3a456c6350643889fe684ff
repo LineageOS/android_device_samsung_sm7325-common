@@ -22,6 +22,30 @@
       },
       "revId": "cd2bf9290b1c3d3be3a456c6350643889fe684ff",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "912512ab_bac24d87",
+        "filename": "overlay/lineage-sdk/lineage/res/res/values/config.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-10-24T17:31:47Z",
+      "side": 0,
+      "message": "I guess this commit was picked from another non-samsung device where the definition was dropped in favor of the default definition since the fastboot item was added to it in https://github.com/LineageOS/android_lineage-sdk/commit/1371502d7d499b914e970397aa46ab1edb132f98.\n\nThe default config does not contain the restart_download item so we should not remove this definition.\nI noticed that we are missing the restart_fastboot as well.",
+      "parentUuid": "744f8bfb_481d0f0c",
+      "range": {
+        "startLine": 17,
+        "startChar": 1,
+        "endLine": 23,
+        "endChar": 20
+      },
+      "revId": "cd2bf9290b1c3d3be3a456c6350643889fe684ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
