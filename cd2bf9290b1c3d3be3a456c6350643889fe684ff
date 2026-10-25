@@ -46,6 +46,30 @@
       },
       "revId": "cd2bf9290b1c3d3be3a456c6350643889fe684ff",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d28ac9ac_213f2e74",
+        "filename": "overlay/lineage-sdk/lineage/res/res/values/config.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-10-25T14:46:40Z",
+      "side": 0,
+      "message": "Im not sure if the fastboot one is needed here. Will need to check whether that reboots to actual fastboot (which isn\u0027t a thing on these devices), or to fastbootd in recovery.",
+      "parentUuid": "912512ab_bac24d87",
+      "range": {
+        "startLine": 17,
+        "startChar": 1,
+        "endLine": 23,
+        "endChar": 20
+      },
+      "revId": "cd2bf9290b1c3d3be3a456c6350643889fe684ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
