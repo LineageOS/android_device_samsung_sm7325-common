@@ -94,6 +94,30 @@
       },
       "revId": "cd2bf9290b1c3d3be3a456c6350643889fe684ff",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f22d7ca3_2ecfd9d1",
+        "filename": "overlay/lineage-sdk/lineage/res/res/values/config.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-10-26T10:02:20Z",
+      "side": 0,
+      "message": "Dudes, just drop the overlay change. Look at sm8250-common.",
+      "parentUuid": "3ff241a5_84cfdbf0",
+      "range": {
+        "startLine": 17,
+        "startChar": 1,
+        "endLine": 23,
+        "endChar": 20
+      },
+      "revId": "cd2bf9290b1c3d3be3a456c6350643889fe684ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
