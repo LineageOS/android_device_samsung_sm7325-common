@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "da128c16_8f4e492c",
+        "filename": "resource-overlay/common/Frameworks/res/values/config.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-10-26T11:22:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4ae1bdac_78f1bbf1",
+      "range": {
+        "startLine": 12,
+        "startChar": 41,
+        "endLine": 12,
+        "endChar": 60
+      },
+      "revId": "bdb41e3cfe56399b8a5dae12aaf3626bbd52ac2b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4d3053df_e2702f1f",
