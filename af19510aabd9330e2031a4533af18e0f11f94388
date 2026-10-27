@@ -51,6 +51,24 @@
       "parentUuid": "f6002afb_4e996c4e",
       "revId": "af19510aabd9330e2031a4533af18e0f11f94388",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5d18bdb7_eaade6f0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-10-27T16:45:01Z",
+      "side": 1,
+      "message": "the restart_download is not in the default so we have to keep updating and using our config",
+      "parentUuid": "f6002afb_4e996c4e",
+      "revId": "af19510aabd9330e2031a4533af18e0f11f94388",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": [
